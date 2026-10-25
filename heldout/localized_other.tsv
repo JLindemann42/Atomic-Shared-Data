@@ -1,0 +1,24 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/localized_other.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+de-z-1			de	was ist die ordnungszahl von gold	PROPERTY_LOOKUP	atomic_number			
+de-crystal-1			de	welche kristallstruktur hat gold	PROPERTY_LOOKUP	crystal_structure	CRYSTAL_STRUCTURE		
+de-abund-1			de	wie viel gold ist in der erdkruste	PROPERTY_LOOKUP				abundance_earth_crust is unpopulated for gold
+fr-dens-1			fr	quelle est la densité de l'or	PROPERTY_LOOKUP	density			
+fr-boil-1			fr	quel est le point d'ébullition de l'azote	PROPERTY_LOOKUP	boiling_point			
+es-dens-1			es	cuál es la densidad del oro	PROPERTY_LOOKUP	density			
+es-mass-1			es	cuál es la masa atómica del hierro	PROPERTY_LOOKUP	atomic_mass			
+es-crystal-1			es	cuál es la estructura cristalina del oro	PROPERTY_LOOKUP	crystal_structure	CRYSTAL_STRUCTURE		
+es-disc-1			es	quién descubrió el radio	PROPERTY_LOOKUP	discovered_by			
+it-z-1			it	qual è il numero atomico dell'oro	PROPERTY_LOOKUP	atomic_number			
+it-cmp-1			it	confronta oro e argento	COMPARISON				
+it-iso-1			it	quali sono gli isotopi del carbonio	ISOTOPES		ISOTOPE_DECAY		
+pt-mass-1			pt	qual é a massa atômica do ferro	PROPERTY_LOOKUP	atomic_mass			
+af-melt-1			af	wat is die smeltpunt van goud	PROPERTY_LOOKUP	melting_point			
+fil-dens-1			fil	ano ang densidad ng ginto	PROPERTY_LOOKUP	density			
+fil-mass-1			fil	ano ang atomic mass ng bakal	PROPERTY_LOOKUP	atomic_mass			
+ur-sup-1			ur	کون سا عنصر سب سے زیادہ کثیف ہے	SUPERLATIVE	density			
+zh-dens-2			zh	铅的密度	PROPERTY_LOOKUP	density			
+zh-eneg-1			zh	氟的电负性是多少	PROPERTY_LOOKUP	electronegativity			
+zh-agg-1			zh	有多少种元素	AGGREGATE				

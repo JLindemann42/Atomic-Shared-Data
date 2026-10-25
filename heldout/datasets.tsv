@@ -1,0 +1,16 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/datasets.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+ds-const-2			en	what is avogadro's number	DATASET_LOOKUP				constant table
+ds-dict-3			en	what is mass number	DATASET_LOOKUP				dictionary table
+ds-dict-8			en	what is atomic number	DATASET_LOOKUP				dictionary table
+ds-why-1			en	why does atomic radius increase down a group	DATASET_LOOKUP				dictionary table — explanation of a periodic trend
+ds-eq-2			en	formula for kinetic energy	DATASET_LOOKUP				equation table
+ds-poisson-1			en	poisson ratio of basalt	DATASET_LOOKUP				poisson table — reference table, rocks rather than elements
+ds-elec-2			en	reduction potential of copper	DATASET_LOOKUP				electrode table
+ds-unit-2			en	convert pascal to bar	DATASET_LOOKUP				unit table
+ds-alloy-4			en	what is stainless steel	DATASET_LOOKUP				alloy table
+ds-dict-de-1			de	was ist elektronegativität	DATASET_LOOKUP				dictionary table
+ds-const-de-1			de	was ist die avogadro konstante	DATASET_LOOKUP				constant table
+ds-dict-fr-1			fr	qu'est-ce que l'électronégativité	DATASET_LOOKUP				dictionary table

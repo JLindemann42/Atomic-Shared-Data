@@ -1,0 +1,23 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/localized_sv.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+sv-dens-6			sv	hur tät är osmium	PROPERTY_LOOKUP	density			
+sv-melt-1			sv	vad är smältpunkten för guld	PROPERTY_LOOKUP	melting_point			
+sv-melt-2			sv	vad är guldets smältpunkt	PROPERTY_LOOKUP	melting_point			
+sv-melt-5			sv	smältpunkten för koppar	PROPERTY_LOOKUP	melting_point			
+sv-config-2			sv	elektronkonfiguration för järn	PROPERTY_LOOKUP	electron_configuration	ELECTRON_SHELL		
+sv-ion-2			sv	första joniseringsenergin för natrium	PROPERTY_LOOKUP	ionization_energy	IONIZATION_SERIES		
+sv-cond-1			sv	vad är värmeledningsförmågan för guld	PROPERTY_LOOKUP	thermal_conductivity			
+sv-crystal-1			sv	vilken kristallstruktur har guld	PROPERTY_LOOKUP	crystal_structure	CRYSTAL_STRUCTURE		
+sv-oxid-1			sv	vilka oxidationstal har mangan	PROPERTY_LOOKUP	oxidation_states			
+sv-block-1			sv	vilket block tillhör guld	PROPERTY_LOOKUP	block			
+sv-year-1			sv	när upptäcktes radium	PROPERTY_LOOKUP	year_discovered			
+sv-disc-3			sv	vem upptäckte järn	PROPERTY_LOOKUP	discovered_by			no recorded discoverer; the answer must say so in Swedish
+sv-sup-5			sv	tätaste ickemetallen	SUPERLATIVE	density			
+sv-fil-2			sv	vilka är ädelgaserna	FILTER_LIST				definite plural: the form that used to miss
+sv-iso-3			sv	vad är halveringstiden för kol 14	ISOTOPES		ISOTOPE_DECAY		
+sv-iso-4			sv	har guld en stabil isotop	ISOTOPES		ISOTOPE_DECAY		
+sv-cat-1			sv	vilka termiska egenskaper har guld	CATEGORY_LOOKUP				
+sv-nei-2			sv	vilket grundämne kommer före järn	NEIGHBOUR				
+sv-dict-1			sv	vad är elektronegativitet	DATASET_LOOKUP				dictionary table

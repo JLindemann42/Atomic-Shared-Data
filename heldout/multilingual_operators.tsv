@@ -1,0 +1,73 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/multilingual_operators.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+mo-en-sub-sup			en	which halogen has the highest boiling point	SUPERLATIVE	boiling_point			
+mo-en-group			en	which elements are in group 17	FILTER_LIST				
+mo-en-avg-sub			en	what is the average melting point of the alkali metals	AGGREGATE	melting_point			
+mo-en-iso-cmp			en	compare uranium-235 and uranium-238	ISOTOPE_COMPARISON				
+mo-en-iso-count			en	how many isotopes does tin have	ISOTOPES				
+mo-en-before			en	which element comes before iron	NEIGHBOUR				
+mo-en-compound			en	what is the atomic number of iron and what is its melting point	COMPOUND				
+mo-sv-neg			sv	vilka ädelgaser är inte radioaktiva	FILTER_LIST				
+mo-sv-sub-sup			sv	vilken halogen har högst kokpunkt	SUPERLATIVE	boiling_point			
+mo-sv-period			sv	vilka grundämnen finns i period 3	FILTER_LIST				
+mo-sv-formula-pct			sv	vad är den procentuella sammansättningen av Fe2O3	FORMULA_MASS				
+mo-sv-after			sv	vilket grundämne kommer efter guld	NEIGHBOUR				
+mo-de-thr-elem			de	welche elemente sind dichter als gold	FILTER_LIST	density			
+mo-de-neg			de	welche edelgase sind nicht radioaktiv	FILTER_LIST				
+mo-de-group			de	welche elemente sind in gruppe 17	FILTER_LIST				
+mo-de-count-cond			de	wie viele elemente sind radioaktiv	AGGREGATE				
+mo-de-avg-sub			de	was ist der durchschnittliche schmelzpunkt der alkalimetalle	AGGREGATE	melting_point			
+mo-de-iso-cmp			de	vergleiche uran-235 und uran-238	ISOTOPE_COMPARISON				
+mo-de-cat-mech			de	die mechanischen eigenschaften von wolfram	CATEGORY_LOOKUP				
+mo-de-ratio			de	wie viel dichter ist osmium als aluminium	COMPARATIVE	density			
+mo-es-thr-c			es	qué elementos se funden por encima de 2000 celsius	FILTER_LIST	melting_point			
+mo-es-neg			es	qué gases nobles no son radiactivos	FILTER_LIST				
+mo-es-least			es	cuál es el elemento menos denso	SUPERLATIVE	density			
+mo-es-period			es	qué elementos están en el periodo 3	FILTER_LIST				
+mo-es-after			es	qué elemento viene después del oro	NEIGHBOUR				
+mo-fr-sub-sup			fr	quel halogène a le point d'ébullition le plus élevé	SUPERLATIVE	boiling_point			
+mo-fr-same-group			fr	quels éléments sont dans le même groupe que le carbone	FILTER_LIST				
+mo-fr-avg-sub			fr	quel est le point de fusion moyen des métaux alcalins	AGGREGATE	melting_point			
+mo-it-sub-sup			it	quale alogeno ha il punto di ebollizione più alto	SUPERLATIVE	boiling_point			
+mo-it-sub-sup2			it	quale metallo di transizione ha il punto di fusione più alto	SUPERLATIVE	melting_point			
+mo-it-least			it	qual è l'elemento meno denso	SUPERLATIVE	density			
+mo-it-synthetic			it	quali elementi sono sintetici	FILTER_LIST				
+mo-it-count-period			it	quanti elementi ci sono nel periodo 4	AGGREGATE				
+mo-pt-thr-c			pt	quais elementos fundem acima de 2000 celsius	FILTER_LIST	melting_point			
+mo-pt-sub-sup			pt	qual halogênio tem o ponto de ebulição mais alto	SUPERLATIVE	boiling_point			
+mo-pt-rank			pt	qual é o segundo elemento mais denso	SUPERLATIVE	density			
+mo-pt-count-cond			pt	quantos elementos são radioativos	AGGREGATE				
+mo-pt-avg-sub			pt	qual é o ponto de fusão médio dos metais alcalinos	AGGREGATE	melting_point			
+mo-pt-after			pt	qual elemento vem depois do ouro	NEIGHBOUR				
+mo-pt-ion-ord			pt	qual é a primeira energia de ionização do sódio	PROPERTY_LOOKUP	ionization_energy			
+mo-af-thr-elem			af	watter elemente is digter as goud	FILTER_LIST	density			
+mo-af-rank			af	wat is die tweede digste element	SUPERLATIVE	density			
+mo-af-least			af	watter element het die laagste digtheid	SUPERLATIVE	density			
+mo-af-iso-count			af	hoeveel isotope het tin	ISOTOPES				
+mo-af-compound			af	wat is die atoomgetal van yster en wat is sy smeltpunt	COMPOUND				
+mo-fil-thr-lt			fil	aling mga elemento ang kumukulo sa ibaba ng 100 kelvin	FILTER_LIST	boiling_point			
+mo-fil-sub-sup			fil	aling halogen ang may pinakamataas na boiling point	SUPERLATIVE	boiling_point			
+mo-fil-rank			fil	ano ang pangalawang pinakamadensidad na elemento	SUPERLATIVE	density			
+mo-fil-period			fil	aling mga elemento ang nasa periodo 3	FILTER_LIST				
+mo-fil-same-group			fil	aling mga elemento ang nasa parehong grupo ng karbon	FILTER_LIST				
+mo-fil-natural			fil	ano ang pinakamabigat na natural na elemento	SUPERLATIVE	atomic_mass			
+mo-fil-iso-count			fil	ilang isotope mayroon ang lata	ISOTOPES				
+mo-fil-before			fil	aling elemento ang nauna sa bakal	NEIGHBOUR				
+mo-fil-compound			fil	ano ang atomic number ng bakal at ano ang melting point nito	COMPOUND				
+mo-hi-thr-lt			hi	कौन से तत्व 100 केल्विन से नीचे उबलते हैं	FILTER_LIST	boiling_point			
+mo-hi-neg			hi	कौन सी उत्कृष्ट गैसें रेडियोधर्मी नहीं हैं	FILTER_LIST				
+mo-hi-group			hi	कौन से तत्व समूह 17 में हैं	FILTER_LIST				
+mo-hi-iso-count			hi	टिन के कितने समस्थानिक हैं	ISOTOPES				
+mo-hi-cat-mech			hi	टंगस्टन के यांत्रिक गुण	CATEGORY_LOOKUP				
+mo-ur-period			ur	کون سے عناصر دور 3 میں ہیں	FILTER_LIST				
+mo-ur-before			ur	آئرن سے پہلے کون سا عنصر آتا ہے	NEIGHBOUR				
+mo-zh-range			zh	哪些元素的密度在5到10之间	FILTER_LIST	density			
+mo-zh-sub-sup2			zh	哪种过渡金属的熔点最高	SUPERLATIVE	melting_point			
+mo-zh-rank			zh	密度第二大的元素是什么	SUPERLATIVE	density			
+mo-zh-group			zh	哪些元素在第17族	FILTER_LIST				
+mo-zh-period			zh	哪些元素在第3周期	FILTER_LIST				
+mo-zh-iso-cmp			zh	比较铀-235和铀-238	ISOTOPE_COMPARISON				
+mo-zh-before			zh	铁之前是哪个元素	NEIGHBOUR				
+mo-zh-ratio			zh	锇比铝致密多少	COMPARATIVE	density			

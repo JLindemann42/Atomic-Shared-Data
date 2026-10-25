@@ -1,0 +1,12 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/compound.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+cpd-and-2			en	what is the atomic number of iron and what is its melting point	COMPOUND				
+cpd-and-5			en	what is the symbol for tungsten and what is its melting point	COMPOUND				
+cpd-also-1			en	what is the density of gold also what is its melting point	COMPOUND				
+cpd-es-1			es	cuál es la densidad del oro y cuál es su punto de fusión	COMPOUND				
+cpd-no-3			en	which elements melt between 1000 and 2000 kelvin	NOSPLIT				"and" joins two bounds
+cpd-no-4			en	elements with density between 5 and 10	NOSPLIT				
+cpd-no-6			en	what is the difference between gold and silver	NOSPLIT				
+cpd-no-15			en	oxidation states of manganese	NOSPLIT				

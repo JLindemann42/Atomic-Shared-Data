@@ -1,0 +1,55 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/multilingual.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+ml-sv-prop-density			sv	vad är densiteten för guld	PROPERTY_LOOKUP	density			
+ml-sv-prop-melt			sv	smältpunkt för järn	PROPERTY_LOOKUP	melting_point			
+ml-sv-prop-symbol			sv	vad är symbolen för tenn	PROPERTY_LOOKUP	symbol			
+ml-sv-compare			sv	jämför guld och silver	COMPARISON				
+ml-sv-agg-average			sv	vad är den genomsnittliga densiteten för övergångsmetallerna	AGGREGATE	density			
+ml-sv-defer-quiz			sv	ge mig en frågesport				y	
+ml-sv-defer-react			sv	vad händer när natrium reagerar med vatten				y	
+ml-de-prop-symbol			de	was ist das symbol von zinn	PROPERTY_LOOKUP	symbol			
+ml-de-comparative			de	ist gold dichter als blei	COMPARATIVE	density			
+ml-de-formula			de	was ist die molare masse von H2O	FORMULA_MASS				
+ml-de-category			de	thermische eigenschaften von kupfer	CATEGORY_LOOKUP				
+ml-fr-prop-density			fr	quelle est la densité de l'or	PROPERTY_LOOKUP	density			
+ml-fr-prop-symbol			fr	quel est le symbole de l'étain	PROPERTY_LOOKUP	symbol			
+ml-fr-sup-dense			fr	quel est l'élément le plus dense	SUPERLATIVE	density			
+ml-fr-comparative			fr	l'or est-il plus dense que le plomb	COMPARATIVE	density			
+ml-fr-agg-count			fr	combien d'éléments y a-t-il	AGGREGATE				
+ml-fr-threshold			fr	quels éléments fondent au-dessus de 2000 kelvin	FILTER_LIST	melting_point			
+ml-es-sup-melt			es	qué elemento tiene el punto de fusión más alto	SUPERLATIVE	melting_point			
+ml-es-comparative			es	el oro es más denso que el plomo	COMPARATIVE	density			
+ml-es-agg-average			es	cuál es la densidad media de los metales de transición	AGGREGATE	density			
+ml-es-formula			es	cuál es la masa molar de H2O	FORMULA_MASS				
+ml-es-defer-react			es	qué pasa cuando el sodio reacciona con el agua				y	
+ml-es-threshold			es	qué elementos se funden por encima de 2000 kelvin	FILTER_LIST	melting_point			
+ml-es-unit			es	punto de fusión del tungsteno en celsius	PROPERTY_LOOKUP	melting_point			
+ml-it-prop-number			it	numero atomico dell'argento	PROPERTY_LOOKUP	atomic_number			
+ml-it-sup-melt			it	quale elemento ha il punto di fusione più alto	SUPERLATIVE	melting_point			
+ml-it-sup-dense			it	qual è l'elemento più denso	SUPERLATIVE	density			
+ml-it-threshold			it	quali elementi fondono sopra 2000 kelvin	FILTER_LIST	melting_point			
+ml-it-unit			it	punto di fusione del tungsteno in celsius	PROPERTY_LOOKUP	melting_point			
+ml-pt-sup-melt			pt	qual elemento tem o ponto de fusão mais alto	SUPERLATIVE	melting_point			
+ml-pt-filter-noble			pt	quais são os gases nobres	FILTER_LIST				
+ml-pt-comparative			pt	o ouro é mais denso que o chumbo	COMPARATIVE	density			
+ml-pt-agg-average			pt	qual é a densidade média dos metais de transição	AGGREGATE	density			
+ml-pt-defer-react			pt	o que acontece quando o sódio reage com a água				y	
+ml-af-prop-symbol			af	wat is die simbool van tin	PROPERTY_LOOKUP	symbol			
+ml-af-safety			af	is arseen gevaarlik	SAFETY				
+ml-af-defer-react			af	wat gebeur wanneer natrium met water reageer				y	
+ml-af-unit			af	smeltpunt van wolfram in celsius	PROPERTY_LOOKUP	melting_point			
+ml-fil-sup-dense			fil	aling elemento ang pinakamadensidad	SUPERLATIVE	density			
+ml-fil-filter-noble			fil	ano ang mga noble gas	FILTER_LIST				
+ml-fil-safety			fil	delikado ba ang arsenic	SAFETY				
+ml-hi-comparative			hi	क्या सोना सीसे से घना है	COMPARATIVE	density			
+ml-hi-category			hi	तांबे के तापीय गुण	CATEGORY_LOOKUP				
+ml-hi-threshold			hi	कौन से तत्व 2000 केल्विन से ऊपर पिघलते हैं	FILTER_LIST	melting_point			
+ml-ur-formula			ur	H2O کا مولر ماس کیا ہے	FORMULA_MASS				
+ml-ur-nuclide			ur	کاربن-14 میں کتنے نیوٹران ہیں	NUCLIDE_COUNT				
+ml-zh-prop-melt			zh	铁的熔点	PROPERTY_LOOKUP	melting_point			
+ml-zh-sup-melt			zh	哪种元素的熔点最高	SUPERLATIVE	melting_point			
+ml-zh-agg-count			zh	有多少种元素	AGGREGATE				
+ml-zh-defer-quiz			zh	给我出个测验				y	
+ml-zh-unit			zh	钨的熔点用摄氏度	PROPERTY_LOOKUP	melting_point			

@@ -1,0 +1,22 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/conversations_complex.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+cx-interrupt-5	cx-int2	1	en	what is the density of osmium	PROPERTY_LOOKUP	density			
+cx-interrupt-6	cx-int2	2	en	how reactive is it				y	reactivity is not a stored field
+cx-interrupt-7	cx-int2	3	en	and its melting point	PROPERTY_LOOKUP	melting_point			
+cx-units-1	cx-units	1	en	melting point of iron in kelvin	PROPERTY_LOOKUP	melting_point			
+cx-units-2	cx-units	2	en	in celsius	PROPERTY_LOOKUP	melting_point			
+cx-units-3	cx-units	3	en	and copper	PROPERTY_LOOKUP	melting_point			
+cx-units-4	cx-units	4	en	which melts at a lower temperature	COMPARATIVE	melting_point			
+cx-abund-1	cx-abund	1	en	where is gold found	CATEGORY_LOOKUP		ABUNDANCE		
+cx-abund-2	cx-abund	2	en	how much is in sea water	PROPERTY_LOOKUP	abundance_sea_water	ABUNDANCE		
+cx-abund-3	cx-abund	3	en	what about silver	PROPERTY_LOOKUP	abundance_sea_water	ABUNDANCE		
+cx-abund-4	cx-abund	4	en	which is more common	COMPARATIVE	abundance_sea_water			
+cx-sv-8	cx-sv-c	1	sv	vad är densiteten för guld	PROPERTY_LOOKUP	density			
+cx-sv-9	cx-sv-c	2	sv	berätta om guld				y	narrative interruption
+cx-sv-10	cx-sv-c	3	sv	och dess smältpunkt	PROPERTY_LOOKUP	melting_point			
+cx-sv-11	cx-sv-c	4	sv	är bly tätare	COMPARATIVE	density			
+cx-sv-12	cx-sv-d	1	sv	vilka isotoper har uran	ISOTOPES		ISOTOPE_DECAY		
+cx-sv-13	cx-sv-d	2	sv	hur många neutroner har uran 238	NUCLIDE_COUNT				
+cx-sv-14	cx-sv-d	3	sv	är uran radioaktivt	PROPERTY_LOOKUP	radioactive			

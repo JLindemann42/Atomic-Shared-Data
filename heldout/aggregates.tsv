@@ -1,0 +1,8 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/aggregates.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+agg-count-7			en	how many elements are synthetic	AGGREGATE				
+agg-sum-1			en	what is the total atomic mass of the noble gases	AGGREGATE	atomic_mass			
+agg-sv-2			sv	vad är genomsnittlig densitet för övergångsmetaller	AGGREGATE	density			
+agg-de-2			de	durchschnittliche dichte der übergangsmetalle	AGGREGATE	density			

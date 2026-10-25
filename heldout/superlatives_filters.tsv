@@ -1,0 +1,20 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/superlatives_filters.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+sup-dense-3			en	what is the heaviest element by density	SUPERLATIVE	density			
+sup-melt-2			en	what element melts at the lowest temperature	SUPERLATIVE	melting_point			
+sup-cond-1			en	which element conducts heat best	SUPERLATIVE	thermal_conductivity			
+sup-subset-1			en	what is the densest nonmetal	SUPERLATIVE	density			superlative inside a subset
+sup-subset-4			en	which halogen is the most electronegative	SUPERLATIVE	electronegativity			
+fil-list-3			en	which are the halogens	FILTER_LIST				
+fil-list-6			en	which elements are metalloids	FILTER_LIST				
+fil-list-11			en	which elements are synthetic	FILTER_LIST				
+fil-thresh-1			en	which elements are denser than 20	FILTER_LIST	density			
+fil-thresh-4			en	elements with electronegativity greater than 3	FILTER_LIST	electronegativity			
+fil-elemthresh-4			en	which transition metals are denser than iron	FILTER_LIST	density			
+fil-same-3			en	what is in the same group as chlorine	FILTER_LIST				
+nei-1			en	what element comes after gold	NEIGHBOUR				
+sup-de-1			de	welches element ist am dichtesten	SUPERLATIVE	density			
+fil-de-1			de	welche elemente sind radioaktiv	FILTER_LIST				
+sup-fr-1			fr	quel élément est le plus dense	SUPERLATIVE	density			

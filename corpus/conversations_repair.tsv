@@ -23,21 +23,7 @@ cr-en-f4	cr-en-f	4	en	and fluorine	PROPERTY_LOOKUP	density
 cr-en-f5	cr-en-f	5	en	which of the two is denser	COMPARATIVE	density			
 cr-en-f6	cr-en-f	6	en	by how much	COMPARATIVE	density			
 cr-en-f7	cr-en-f	7	en	is fluorine dangerous	SAFETY				
-cr-en-h1	cr-en-h	1	en	what is the melting point of tungsten	PROPERTY_LOOKUP	melting_point			
-cr-en-h2	cr-en-h	2	en	in celsius	PROPERTY_LOOKUP	melting_point			
-cr-en-h3	cr-en-h	3	en	and in fahrenheit	PROPERTY_LOOKUP	melting_point			
-cr-en-h4	cr-en-h	4	en	what about iron	PROPERTY_LOOKUP	melting_point			
-cr-en-h5	cr-en-h	5	en	which of them melts at a higher temperature	COMPARATIVE	melting_point			
-cr-en-h6	cr-en-h	6	en	how many isotopes does iron have	ISOTOPES				
-cr-en-h7	cr-en-h	7	en	what is its atomic number	PROPERTY_LOOKUP	atomic_number			
 # ---- sv ------------------------------------------------------------------------------------------
-cr-sv-f1	cr-sv-f	1	sv	lista halogenerna	FILTER_LIST				
-cr-sv-f2	cr-sv-f	2	sv	vilken av dem har högst smältpunkt	SUPERLATIVE	melting_point			
-cr-sv-f3	cr-sv-f	3	sv	vad är dess densitet	PROPERTY_LOOKUP	density			
-cr-sv-f4	cr-sv-f	4	sv	och fluor	PROPERTY_LOOKUP	density			
-cr-sv-f5	cr-sv-f	5	sv	vilken av de två är tätare	COMPARATIVE	density			
-cr-sv-f6	cr-sv-f	6	sv	hur mycket	COMPARATIVE	density			
-cr-sv-f7	cr-sv-f	7	sv	är fluor farligt	SAFETY				
 cr-sv-h1	cr-sv-h	1	sv	vad är smältpunkten för volfram	PROPERTY_LOOKUP	melting_point			
 cr-sv-h2	cr-sv-h	2	sv	i celsius	PROPERTY_LOOKUP	melting_point			
 cr-sv-h3	cr-sv-h	3	sv	och i fahrenheit	PROPERTY_LOOKUP	melting_point			
@@ -83,13 +69,6 @@ cr-fr-f4	cr-fr-f	4	fr	et le fluor	PROPERTY_LOOKUP	density
 cr-fr-f5	cr-fr-f	5	fr	lequel des deux est plus dense	COMPARATIVE	density			
 cr-fr-f6	cr-fr-f	6	fr	de combien	COMPARATIVE	density			
 cr-fr-f7	cr-fr-f	7	fr	le fluor est-il dangereux	SAFETY				
-cr-fr-h1	cr-fr-h	1	fr	quel est le point de fusion du tungstène	PROPERTY_LOOKUP	melting_point			
-cr-fr-h2	cr-fr-h	2	fr	en celsius	PROPERTY_LOOKUP	melting_point			
-cr-fr-h3	cr-fr-h	3	fr	et en fahrenheit	PROPERTY_LOOKUP	melting_point			
-cr-fr-h4	cr-fr-h	4	fr	et le fer	PROPERTY_LOOKUP	melting_point			
-cr-fr-h5	cr-fr-h	5	fr	lequel des deux fond à plus haute température	COMPARATIVE	melting_point			
-cr-fr-h6	cr-fr-h	6	fr	combien d'isotopes a le fer	ISOTOPES				
-cr-fr-h7	cr-fr-h	7	fr	quel est son numéro atomique	PROPERTY_LOOKUP	atomic_number			
 # ---- it ------------------------------------------------------------------------------------------
 cr-it-f1	cr-it-f	1	it	elenca gli alogeni	FILTER_LIST				
 cr-it-f2	cr-it-f	2	it	quale di essi ha il punto di fusione più alto	SUPERLATIVE	melting_point			
@@ -181,13 +160,6 @@ cr-ur-h5	cr-ur-h	5	ur	ان میں سے کون زیادہ درجہ حرارت پ�
 cr-ur-h6	cr-ur-h	6	ur	آئرن کے کتنے آئسوٹوپ ہیں	ISOTOPES				
 cr-ur-h7	cr-ur-h	7	ur	اس کا جوہری عدد کیا ہے	PROPERTY_LOOKUP	atomic_number			
 # ---- zh ------------------------------------------------------------------------------------------
-cr-zh-f1	cr-zh-f	1	zh	列出卤素	FILTER_LIST				
-cr-zh-f2	cr-zh-f	2	zh	它们中哪个的熔点最高	SUPERLATIVE	melting_point			
-cr-zh-f3	cr-zh-f	3	zh	它的密度是多少	PROPERTY_LOOKUP	density			
-cr-zh-f4	cr-zh-f	4	zh	氟呢	PROPERTY_LOOKUP	density			
-cr-zh-f5	cr-zh-f	5	zh	这两个哪个更致密	COMPARATIVE	density			
-cr-zh-f6	cr-zh-f	6	zh	相差多少	COMPARATIVE	density			
-cr-zh-f7	cr-zh-f	7	zh	氟危险吗	SAFETY				
 cr-zh-h1	cr-zh-h	1	zh	钨的熔点是多少	PROPERTY_LOOKUP	melting_point			
 cr-zh-h2	cr-zh-h	2	zh	用摄氏度	PROPERTY_LOOKUP	melting_point			
 cr-zh-h3	cr-zh-h	3	zh	用华氏度呢	PROPERTY_LOOKUP	melting_point			

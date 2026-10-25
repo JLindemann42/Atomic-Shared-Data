@@ -1,0 +1,14 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/isotopes_nuclides.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+iso-list-5			en	list the isotopes of iron	ISOTOPES		ISOTOPE_DECAY		
+iso-list-6			en	what isotopes does gold have	ISOTOPES		ISOTOPE_DECAY		
+iso-list-7			en	isotopes of caesium	ISOTOPES		ISOTOPE_DECAY		
+iso-half-3			en	how long does plutonium 239 last	ISOTOPES		ISOTOPE_DECAY		
+iso-stable-1			en	does gold have a stable isotope	ISOTOPES		ISOTOPE_DECAY		
+nuc-count-5			en	how many neutrons does iron 56 have	NUCLIDE_COUNT				
+nuc-cmp-1			en	uranium-235 vs uranium-238	ISOTOPE_COMPARISON				
+nuc-cmp-2			en	compare U-235 and U-238	ISOTOPE_COMPARISON				
+nuc-de-1			de	wie viele neutronen hat uran 238	NUCLIDE_COUNT				
+iso-fr-1			fr	quels sont les isotopes du carbone	ISOTOPES		ISOTOPE_DECAY		

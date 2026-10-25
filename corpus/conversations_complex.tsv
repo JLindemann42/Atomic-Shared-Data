@@ -24,9 +24,6 @@ cx-interrupt-1	cx-int	1	en	what is the atomic radius of sodium	PROPERTY_LOOKUP	a
 cx-interrupt-2	cx-int	2	en	why does atomic radius increase down a group	DATASET_LOOKUP				a concept question mid-thread, answered from the dictionary
 cx-interrupt-3	cx-int	3	en	and potassium	PROPERTY_LOOKUP	atomic_radius			the thread survives the detour
 cx-interrupt-4	cx-int	4	en	which is bigger	COMPARATIVE	atomic_radius			
-cx-interrupt-5	cx-int2	1	en	what is the density of osmium	PROPERTY_LOOKUP	density			
-cx-interrupt-6	cx-int2	2	en	how reactive is it				y	reactivity is not a stored field
-cx-interrupt-7	cx-int2	3	en	and its melting point	PROPERTY_LOOKUP	melting_point			
 cx-interrupt-8	cx-int3	1	en	what is the electronegativity of fluorine	PROPERTY_LOOKUP	electronegativity			
 cx-interrupt-9	cx-int3	2	en	quiz me				y	small talk must not consume the thread
 cx-interrupt-10	cx-int3	3	en	and chlorine	PROPERTY_LOOKUP	electronegativity			
@@ -46,18 +43,10 @@ cx-safety-1	cx-safety	1	en	is arsenic dangerous	SAFETY		NFPA_DIAMOND
 cx-safety-2	cx-safety	2	en	what is its atomic number	PROPERTY_LOOKUP	atomic_number			
 cx-safety-3	cx-safety	3	en	and mercury	PROPERTY_LOOKUP	atomic_number			
 cx-safety-4	cx-safety	4	en	is that one dangerous too	SAFETY		NFPA_DIAMOND		
-cx-units-1	cx-units	1	en	melting point of iron in kelvin	PROPERTY_LOOKUP	melting_point			
-cx-units-2	cx-units	2	en	in celsius	PROPERTY_LOOKUP	melting_point			
-cx-units-3	cx-units	3	en	and copper	PROPERTY_LOOKUP	melting_point			
-cx-units-4	cx-units	4	en	which melts at a lower temperature	COMPARATIVE	melting_point			
 cx-cat-1	cx-cat	1	en	tell me about the thermal properties of gold	CATEGORY_LOOKUP				
 cx-cat-2	cx-cat	2	en	what is its thermal conductivity	PROPERTY_LOOKUP	thermal_conductivity			narrowing from the family to one field
 cx-cat-3	cx-cat	3	en	and copper	PROPERTY_LOOKUP	thermal_conductivity			
 cx-cat-4	cx-cat	4	en	which conducts heat better	COMPARATIVE	thermal_conductivity			
-cx-abund-1	cx-abund	1	en	where is gold found	CATEGORY_LOOKUP		ABUNDANCE		
-cx-abund-2	cx-abund	2	en	how much is in sea water	PROPERTY_LOOKUP	abundance_sea_water	ABUNDANCE		
-cx-abund-3	cx-abund	3	en	what about silver	PROPERTY_LOOKUP	abundance_sea_water	ABUNDANCE		
-cx-abund-4	cx-abund	4	en	which is more common	COMPARATIVE	abundance_sea_water			
 cx-calc-1	cx-calc	1	en	what is the molar mass of H2SO4	FORMULA_MASS				
 cx-calc-2	cx-calc	2	en	what is the percentage composition of H2SO4	FORMULA_MASS				
 cx-calc-3	cx-calc	3	en	what is the atomic mass of sulfur	PROPERTY_LOOKUP	atomic_mass			
@@ -88,13 +77,6 @@ cx-sv-4	cx-sv-a	4	sv	vilket grundämne har högsta smältpunkten	SUPERLATIVE	mel
 cx-sv-5	cx-sv-b	1	sv	vilka är ädelgaserna	FILTER_LIST				
 cx-sv-6	cx-sv-b	2	sv	hur många är de	AGGREGATE				
 cx-sv-7	cx-sv-b	3	sv	vilken är tätast	SUPERLATIVE	density			
-cx-sv-8	cx-sv-c	1	sv	vad är densiteten för guld	PROPERTY_LOOKUP	density			
-cx-sv-9	cx-sv-c	2	sv	berätta om guld				y	narrative interruption
-cx-sv-10	cx-sv-c	3	sv	och dess smältpunkt	PROPERTY_LOOKUP	melting_point			
-cx-sv-11	cx-sv-c	4	sv	är bly tätare	COMPARATIVE	density			
-cx-sv-12	cx-sv-d	1	sv	vilka isotoper har uran	ISOTOPES		ISOTOPE_DECAY		
-cx-sv-13	cx-sv-d	2	sv	hur många neutroner har uran 238	NUCLIDE_COUNT				
-cx-sv-14	cx-sv-d	3	sv	är uran radioaktivt	PROPERTY_LOOKUP	radioactive			
 # ---- German long thread -------------------------------------------------------------------------------
 cx-de-1	cx-de-a	1	de	was ist die dichte von gold	PROPERTY_LOOKUP	density			
 cx-de-2	cx-de-a	2	de	und blei	PROPERTY_LOOKUP	density			

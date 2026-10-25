@@ -1,0 +1,79 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/multilingual_wide.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+mw-en-neg			en	what is the electronegativity of oxygen	PROPERTY_LOOKUP	electronegativity			
+mw-en-when			en	when was helium discovered	PROPERTY_LOOKUP	year_discovered			
+mw-en-count-noble			en	how many noble gases are there	AGGREGATE				
+mw-en-isotopes			en	what isotopes does uranium have	ISOTOPES				
+mw-sv-neg			sv	vad är elektronegativiteten för syre	PROPERTY_LOOKUP	electronegativity			
+mw-sv-appear			sv	hur ser svavel ut	PROPERTY_LOOKUP	appearance			
+mw-sv-count-noble			sv	hur många ädelgaser finns det	AGGREGATE				
+mw-sv-agg-sum			sv	vad är den totala atommassan för ädelgaserna	AGGREGATE	atomic_mass			
+mw-sv-comparative			sv	är bly tyngre än järn	COMPARATIVE	atomic_mass			
+mw-de-hardness			de	wie hart ist titan	PROPERTY_LOOKUP	mohs_hardness			
+mw-de-who			de	wer entdeckte helium	PROPERTY_LOOKUP	discovered_by			
+mw-de-group			de	in welcher gruppe ist calcium	PROPERTY_LOOKUP	group_number			
+mw-de-boil			de	was ist der siedepunkt von stickstoff	PROPERTY_LOOKUP	boiling_point			
+mw-de-mass			de	was ist die atommasse von zink	PROPERTY_LOOKUP	atomic_mass			
+mw-de-sup-lowmelt			de	welches element hat den niedrigsten schmelzpunkt	SUPERLATIVE	melting_point			
+mw-de-filter-halogen			de	welche elemente sind halogene	FILTER_LIST				
+mw-de-agg-avg			de	was ist die durchschnittliche atommasse der halogene	AGGREGATE	atomic_mass			
+mw-de-unit-f			de	schmelzpunkt von eisen in fahrenheit	PROPERTY_LOOKUP	melting_point			
+mw-es-thermal			es	cuál es la conductividad térmica del cobre	PROPERTY_LOOKUP	thermal_conductivity			
+mw-es-phase			es	en qué estado físico está el mercurio	PROPERTY_LOOKUP	phase			
+mw-es-when			es	cuándo se descubrió el helio	PROPERTY_LOOKUP	year_discovered			
+mw-es-protons			es	cuántos protones tiene el oro	PROPERTY_LOOKUP	protons			
+mw-es-boil			es	cuál es el punto de ebullición del nitrógeno	PROPERTY_LOOKUP	boiling_point			
+mw-es-mass			es	cuál es la masa atómica del zinc	PROPERTY_LOOKUP	atomic_mass			
+mw-es-agg-sum			es	cuál es la masa atómica total de los gases nobles	AGGREGATE	atomic_mass			
+mw-es-nuclide			es	cuántos neutrones tiene el oxígeno-18	NUCLIDE_COUNT				
+mw-es-safety			es	es el mercurio tóxico	SAFETY				
+mw-es-unit-f			es	punto de fusión del hierro en fahrenheit	PROPERTY_LOOKUP	melting_point			
+mw-fr-neg			fr	quelle est l'électronégativité de l'oxygène	PROPERTY_LOOKUP	electronegativity			
+mw-fr-thermal			fr	quelle est la conductivité thermique du cuivre	PROPERTY_LOOKUP	thermal_conductivity			
+mw-fr-when			fr	quand l'hélium a-t-il été découvert	PROPERTY_LOOKUP	year_discovered			
+mw-fr-sup-lowmelt			fr	quel élément a le point de fusion le plus bas	SUPERLATIVE	melting_point			
+mw-fr-filter-alkali			fr	liste les métaux alcalins	FILTER_LIST				
+mw-fr-filter-gas			fr	quels éléments sont des gaz	FILTER_LIST				
+mw-it-appear			it	che aspetto ha lo zolfo	PROPERTY_LOOKUP	appearance			
+mw-it-who			it	chi ha scoperto l'elio	PROPERTY_LOOKUP	discovered_by			
+mw-it-when			it	quando è stato scoperto l'elio	PROPERTY_LOOKUP	year_discovered			
+mw-it-oxid			it	quali sono gli stati di ossidazione del ferro	PROPERTY_LOOKUP	oxidation_states			
+mw-it-compare3			it	confronta oro argento e rame	COMPARISON				
+mw-it-safety			it	il mercurio è tossico	SAFETY				
+mw-pt-radius			pt	qual é o raio atômico do sódio	PROPERTY_LOOKUP	atomic_radius			
+mw-pt-who			pt	quem descobriu o hélio	PROPERTY_LOOKUP	discovered_by			
+mw-pt-boil			pt	qual é o ponto de ebulição do nitrogênio	PROPERTY_LOOKUP	boiling_point			
+mw-pt-filter-halogen			pt	quais elementos são halogênios	FILTER_LIST				
+mw-pt-filter-gas			pt	quais elementos são gases	FILTER_LIST				
+mw-pt-count-noble			pt	quantos gases nobres existem	AGGREGATE				
+mw-af-neg			af	wat is die elektronegatiwiteit van suurstof	PROPERTY_LOOKUP	electronegativity			
+mw-af-radius			af	wat is die atoomradius van natrium	PROPERTY_LOOKUP	atomic_radius			
+mw-af-appear			af	hoe lyk swael	PROPERTY_LOOKUP	appearance			
+mw-af-mass			af	wat is die atoommassa van sink	PROPERTY_LOOKUP	atomic_mass			
+mw-af-filter-halogen			af	watter elemente is halogene	FILTER_LIST				
+mw-af-filter-gas			af	watter elemente is gasse	FILTER_LIST				
+mw-fil-thermal			fil	ano ang thermal conductivity ng tanso	PROPERTY_LOOKUP	thermal_conductivity			
+mw-fil-when			fil	kailan natuklasan ang helyo	PROPERTY_LOOKUP	year_discovered			
+mw-fil-valence			fil	ilang valence electron mayroon ang asupre	PROPERTY_LOOKUP	valence_electrons			
+mw-fil-agg-sum			fil	ano ang kabuuang atomic mass ng mga noble gas	AGGREGATE	atomic_mass			
+mw-fil-comparative			fil	mas mabigat ba ang tingga kaysa sa bakal	COMPARATIVE	atomic_mass			
+mw-fil-safety			fil	nakakalason ba ang asoge	SAFETY				
+mw-hi-hardness			hi	टाइटेनियम कितना कठोर है	PROPERTY_LOOKUP	mohs_hardness			
+mw-hi-period			hi	सिलिकॉन किस आवर्त में है	PROPERTY_LOOKUP	period			
+mw-hi-sup-boil			hi	किस तत्व का क्वथनांक सबसे अधिक है	SUPERLATIVE	boiling_point			
+mw-hi-filter-halogen			hi	कौन से तत्व हैलोजन हैं	FILTER_LIST				
+mw-hi-agg-sum			hi	उत्कृष्ट गैसों का कुल परमाणु द्रव्यमान क्या है	AGGREGATE	atomic_mass			
+mw-hi-compare3			hi	सोना चांदी और तांबे की तुलना करें	COMPARISON				
+mw-hi-safety			hi	क्या पारा जहरीला है	SAFETY				
+mw-ur-group			ur	کیلشیم کس گروپ میں ہے	PROPERTY_LOOKUP	group_number			
+mw-ur-period			ur	سلیکون کس دور میں ہے	PROPERTY_LOOKUP	period			
+mw-ur-filter-alkali			ur	الکلی دھاتوں کی فہرست دیں	FILTER_LIST				
+mw-ur-comparative			ur	کیا سیسہ آئرن سے بھاری ہے	COMPARATIVE	atomic_mass			
+mw-ur-isotopes			ur	یورینیم کے کون سے آئسوٹوپ ہیں	ISOTOPES				
+mw-ur-unit-f			ur	فارن ہائیٹ میں آئرن کا نقطہ پگھلاؤ	PROPERTY_LOOKUP	melting_point			
+mw-zh-appear			zh	硫是什么样子的	PROPERTY_LOOKUP	appearance			
+mw-zh-group			zh	钙在哪一族	PROPERTY_LOOKUP	group_number			
+mw-zh-boil			zh	氮的沸点是多少	PROPERTY_LOOKUP	boiling_point			
+mw-zh-mass			zh	锌的原子量是多少	PROPERTY_LOOKUP	atomic_mass			

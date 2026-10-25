@@ -1,0 +1,14 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/comparisons.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+cmp-2-3			en	gold vs silver	COMPARISON				
+cmp-2-5			en	compare iron and copper on thermal conductivity	COMPARISON	thermal_conductivity			
+cmp-2-6			en	compare the melting points of tungsten and iron	COMPARISON	melting_point			
+cmp-3-1			en	compare lithium sodium and potassium	COMPARISON				
+cmp-multi-2			en	compare iron and copper on density thermal conductivity and resistivity	COMPARISON	density,thermal_conductivity,resistivity			
+cmp-which-2			en	which is heavier uranium or lead	COMPARATIVE	atomic_mass			
+cmp-which-4			en	which conducts heat better copper or aluminium	COMPARATIVE	thermal_conductivity			
+cmp-uncov-1			en	compare lithium sodium and potassium on reactivity density and applications	COMPARISON	density			density is comparable; the other two aspects must be reported as not comparable
+cmp-sv-2			sv	jämför densiteten för guld och bly	COMPARISON	density			
+cmp-es-1			es	compara el oro y la plata	COMPARISON				

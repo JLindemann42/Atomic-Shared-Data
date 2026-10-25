@@ -1,0 +1,18 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/cards.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+card-shell-1			en	what is the electron configuration of iron	PROPERTY_LOOKUP	electron_configuration	ELECTRON_SHELL		
+card-shell-4			sv	vad är elektronkonfigurationen för järn	PROPERTY_LOOKUP	electron_configuration	ELECTRON_SHELL		
+card-nfpa-1			en	is arsenic dangerous	SAFETY		NFPA_DIAMOND		
+card-nfpa-3			sv	är arsenik farligt	SAFETY		NFPA_DIAMOND		
+card-ion-1			en	what is the first ionization energy of sodium	PROPERTY_LOOKUP	ionization_energy	IONIZATION_SERIES		shell closure right after step 1
+card-ion-3			en	ionization energy of neon	PROPERTY_LOOKUP	ionization_energy	IONIZATION_SERIES		closure after step 8
+card-iso-3			en	isotopes of tin	ISOTOPES		ISOTOPE_DECAY		ten stable isotopes, the widest stable band in the table
+card-abund-1			en	how abundant is gold in the earth's crust	*		ABUNDANCE		no reservoir field resolves, so this reads as the whole-family question
+card-abund-2			en	how much gold is in sea water	PROPERTY_LOOKUP	abundance_sea_water	ABUNDANCE		
+card-abund-3			en	where is iron found	CATEGORY_LOOKUP		ABUNDANCE		
+card-none-5			en	compare gold and silver	COMPARISON		none		two elements: a single-element card would misattribute
+card-none-9			en	what is the average electronegativity of the halogens	AGGREGATE	electronegativity	none		
+card-none-11			en	how many neutrons does uranium 238 have	NUCLIDE_COUNT		none		
+card-none-16			en	what is the mohs hardness of helium	PROPERTY_LOOKUP	mohs_hardness	none		

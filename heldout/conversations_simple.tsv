@@ -1,0 +1,14 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/conversations_simple.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+cs-temp-1	cs-temp	1	en	melting point of copper in celsius	PROPERTY_LOOKUP	melting_point			
+cs-temp-2	cs-temp	2	en	and in fahrenheit	PROPERTY_LOOKUP	melting_point			unit changes, element and field hold
+cs-temp-3	cs-temp	3	en	what about iron	PROPERTY_LOOKUP	melting_point			element changes, unit should hold
+cs-temp-4	cs-temp	4	en	and its boiling point	PROPERTY_LOOKUP	boiling_point			
+cs-water-1	cs-water	1	en	what is the atomic mass of hydrogen	PROPERTY_LOOKUP	atomic_mass			
+cs-water-2	cs-water	2	en	and oxygen	PROPERTY_LOOKUP	atomic_mass			
+cs-water-3	cs-water	3	en	what is the molar mass of H2O	FORMULA_MASS				a calculation after two lookups
+cs-lead-1	cs-lead	1	en	what is the symbol for lead	PROPERTY_LOOKUP	symbol			
+cs-lead-2	cs-lead	2	en	what is its density	PROPERTY_LOOKUP	density			
+cs-lead-3	cs-lead	3	en	is gold denser	COMPARATIVE	density			second element named, first inherited

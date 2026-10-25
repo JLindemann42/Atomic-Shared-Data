@@ -1,0 +1,9 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/conversations_multi.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+mc-de-b1	mc-de-b	1	de	welche elemente sind radioaktiv	FILTER_LIST				
+mc-de-b2	mc-de-b	2	de	wie viele sind es	AGGREGATE				
+mc-de-b3	mc-de-b	3	de	welches ist das schwerste	SUPERLATIVE	atomic_mass			
+mc-de-b4	mc-de-b	4	de	ist es gefährlich	SAFETY				
+mc-de-b5	mc-de-b	5	de	welche isotope hat es	ISOTOPES				

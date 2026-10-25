@@ -57,12 +57,6 @@ cd-sv-e4	cd-sv-e	4	sv	hej				y
 cd-sv-e5	cd-sv-e	5	sv	vad är dess densitet	PROPERTY_LOOKUP	density			
 cd-sv-e6	cd-sv-e	6	sv	är det tyngre än silver	COMPARATIVE	atomic_mass			
 # ---- de ------------------------------------------------------------------------------------------
-cd-de-c1	cd-de-c	1	de	was ist der schmelzpunkt von eisen	PROPERTY_LOOKUP	melting_point			
-cd-de-c2	cd-de-c	2	de	und sein siedepunkt	PROPERTY_LOOKUP	boiling_point			
-cd-de-c3	cd-de-c	3	de	und was ist mit kupfer	PROPERTY_LOOKUP	boiling_point			
-cd-de-c4	cd-de-c	4	de	vergleiche die beiden	COMPARISON				
-cd-de-c5	cd-de-c	5	de	und ihre dichten	COMPARISON	density			
-cd-de-c6	cd-de-c	6	de	ist kupfer gefährlich	SAFETY				
 cd-de-d1	cd-de-d	1	de	welche elemente sind edelgase	FILTER_LIST				
 cd-de-d2	cd-de-d	2	de	wie viele gibt es	AGGREGATE				
 cd-de-d3	cd-de-d	3	de	welches ist das schwerste	SUPERLATIVE	atomic_mass			
@@ -82,12 +76,6 @@ cd-es-c3	cd-es-c	3	es	y el cobre	PROPERTY_LOOKUP	boiling_point
 cd-es-c4	cd-es-c	4	es	compara los dos	COMPARISON				
 cd-es-c5	cd-es-c	5	es	y sus densidades	COMPARISON	density			
 cd-es-c6	cd-es-c	6	es	es peligroso el cobre	SAFETY				
-cd-es-d1	cd-es-d	1	es	qué elementos son gases nobles	FILTER_LIST				
-cd-es-d2	cd-es-d	2	es	cuántos hay	AGGREGATE				
-cd-es-d3	cd-es-d	3	es	cuál es el más pesado	SUPERLATIVE	atomic_mass			
-cd-es-d4	cd-es-d	4	es	cuál es su densidad	PROPERTY_LOOKUP	density			
-cd-es-d5	cd-es-d	5	es	quién lo descubrió	PROPERTY_LOOKUP	discovered_by			
-cd-es-d6	cd-es-d	6	es	cuáles son sus isótopos	ISOTOPES				
 cd-es-e1	cd-es-e	1	es	cuál es el número atómico del oro	PROPERTY_LOOKUP	atomic_number			
 cd-es-e2	cd-es-e	2	es	y su símbolo	PROPERTY_LOOKUP	symbol			
 cd-es-e3	cd-es-e	3	es	en qué grupo está	PROPERTY_LOOKUP	group_number			
@@ -126,12 +114,6 @@ cd-it-d3	cd-it-d	3	it	quale è il più pesante	SUPERLATIVE	atomic_mass
 cd-it-d4	cd-it-d	4	it	qual è la sua densità	PROPERTY_LOOKUP	density			
 cd-it-d5	cd-it-d	5	it	chi lo ha scoperto	PROPERTY_LOOKUP	discovered_by			
 cd-it-d6	cd-it-d	6	it	quali sono i suoi isotopi	ISOTOPES				
-cd-it-e1	cd-it-e	1	it	qual è il numero atomico dell'oro	PROPERTY_LOOKUP	atomic_number			
-cd-it-e2	cd-it-e	2	it	e il suo simbolo	PROPERTY_LOOKUP	symbol			
-cd-it-e3	cd-it-e	3	it	in quale gruppo è	PROPERTY_LOOKUP	group_number			
-cd-it-e4	cd-it-e	4	it	ciao				y	
-cd-it-e5	cd-it-e	5	it	qual è la sua densità	PROPERTY_LOOKUP	density			
-cd-it-e6	cd-it-e	6	it	è più pesante dell'argento	COMPARATIVE	atomic_mass			
 # ---- pt ------------------------------------------------------------------------------------------
 cd-pt-c1	cd-pt-c	1	pt	qual é o ponto de fusão do ferro	PROPERTY_LOOKUP	melting_point			
 cd-pt-c2	cd-pt-c	2	pt	e o seu ponto de ebulição	PROPERTY_LOOKUP	boiling_point			
@@ -209,12 +191,6 @@ cd-hi-e4	cd-hi-e	4	hi	नमस्ते				y
 cd-hi-e5	cd-hi-e	5	hi	इसका घनत्व क्या है	PROPERTY_LOOKUP	density			
 cd-hi-e6	cd-hi-e	6	hi	क्या यह चांदी से भारी है	COMPARATIVE	atomic_mass			
 # ---- ur ------------------------------------------------------------------------------------------
-cd-ur-c1	cd-ur-c	1	ur	آئرن کا نقطہ پگھلاؤ کیا ہے	PROPERTY_LOOKUP	melting_point			
-cd-ur-c2	cd-ur-c	2	ur	اور اس کا نقطہ ابال	PROPERTY_LOOKUP	boiling_point			
-cd-ur-c3	cd-ur-c	3	ur	اور تانبا	PROPERTY_LOOKUP	boiling_point			
-cd-ur-c4	cd-ur-c	4	ur	دونوں کا موازنہ کریں	COMPARISON				
-cd-ur-c5	cd-ur-c	5	ur	اور ان کی کثافت	COMPARISON	density			
-cd-ur-c6	cd-ur-c	6	ur	کیا تانبا خطرناک ہے	SAFETY				
 cd-ur-d1	cd-ur-d	1	ur	کون سے عناصر نیک گیسیں ہیں	FILTER_LIST				
 cd-ur-d2	cd-ur-d	2	ur	کتنے ہیں	AGGREGATE				
 cd-ur-d3	cd-ur-d	3	ur	سب سے بھاری کون سا ہے	SUPERLATIVE	atomic_mass			
@@ -228,12 +204,6 @@ cd-ur-e4	cd-ur-e	4	ur	سلام				y
 cd-ur-e5	cd-ur-e	5	ur	اس کی کثافت کیا ہے	PROPERTY_LOOKUP	density			
 cd-ur-e6	cd-ur-e	6	ur	کیا یہ چاندی سے بھاری ہے	COMPARATIVE	atomic_mass			
 # ---- zh ------------------------------------------------------------------------------------------
-cd-zh-c1	cd-zh-c	1	zh	铁的熔点是多少	PROPERTY_LOOKUP	melting_point			
-cd-zh-c2	cd-zh-c	2	zh	它的沸点呢	PROPERTY_LOOKUP	boiling_point			
-cd-zh-c3	cd-zh-c	3	zh	铜呢	PROPERTY_LOOKUP	boiling_point			
-cd-zh-c4	cd-zh-c	4	zh	比较这两个	COMPARISON				
-cd-zh-c5	cd-zh-c	5	zh	它们的密度呢	COMPARISON	density			
-cd-zh-c6	cd-zh-c	6	zh	铜危险吗	SAFETY				
 cd-zh-d1	cd-zh-d	1	zh	哪些元素是惰性气体	FILTER_LIST				
 cd-zh-d2	cd-zh-d	2	zh	有多少个	AGGREGATE				
 cd-zh-d3	cd-zh-d	3	zh	哪个最重	SUPERLATIVE	atomic_mass			

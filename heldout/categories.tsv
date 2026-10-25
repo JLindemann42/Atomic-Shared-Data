@@ -1,0 +1,9 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/categories.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+cat-thermo-1			en	tell me about the thermal properties of gold	CATEGORY_LOOKUP				
+cat-thermo-3			en	thermodynamic properties of copper	CATEGORY_LOOKUP				
+cat-em-2			en	electrical properties of copper	CATEGORY_LOOKUP				
+cat-ident-1			en	identity of gold	CATEGORY_LOOKUP				
+cat-thermo-de-1			de	thermische eigenschaften von eisen	CATEGORY_LOOKUP				

@@ -1,0 +1,6 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/safety.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+saf-9			en	health hazard of cadmium	SAFETY		NFPA_DIAMOND		
+saf-10			en	is beryllium poisonous	SAFETY		NFPA_DIAMOND		

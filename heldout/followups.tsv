@@ -1,0 +1,14 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/followups.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+fu-ok-5	fu-b	1	en	what is the atomic mass of iron	PROPERTY_LOOKUP	atomic_mass			
+fu-ok-6	fu-b	2	en	and copper	PROPERTY_LOOKUP	atomic_mass			
+fu-ok-7	fu-b	3	en	and nickel	PROPERTY_LOOKUP	atomic_mass			
+fu-ok-8	fu-c	1	sv	vad är guldets densitet	PROPERTY_LOOKUP	density			
+fu-ok-9	fu-c	2	sv	och dess smältpunkt	PROPERTY_LOOKUP	melting_point			the same rule works in Swedish with no Swedish-specific data
+fu-ok-10	fu-c	3	sv	och silver	PROPERTY_LOOKUP	melting_point			
+fu-no-7	fx-d	1	en	what is the melting point of copper	PROPERTY_LOOKUP	melting_point			
+fu-no-8	fx-d	2	en	tell me about copper				y	an overview request is narrative, not the inherited field
+fu-no-11	fx-f	1	en	what is the atomic mass of carbon	PROPERTY_LOOKUP	atomic_mass			
+fu-no-12	fx-f	2	en	what is the biological role of carbon				y	

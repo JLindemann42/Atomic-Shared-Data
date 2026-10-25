@@ -1,0 +1,34 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/conversations_deep.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+cd-de-c1	cd-de-c	1	de	was ist der schmelzpunkt von eisen	PROPERTY_LOOKUP	melting_point			
+cd-de-c2	cd-de-c	2	de	und sein siedepunkt	PROPERTY_LOOKUP	boiling_point			
+cd-de-c3	cd-de-c	3	de	und was ist mit kupfer	PROPERTY_LOOKUP	boiling_point			
+cd-de-c4	cd-de-c	4	de	vergleiche die beiden	COMPARISON				
+cd-de-c5	cd-de-c	5	de	und ihre dichten	COMPARISON	density			
+cd-de-c6	cd-de-c	6	de	ist kupfer gefährlich	SAFETY				
+cd-es-d1	cd-es-d	1	es	qué elementos son gases nobles	FILTER_LIST				
+cd-es-d2	cd-es-d	2	es	cuántos hay	AGGREGATE				
+cd-es-d3	cd-es-d	3	es	cuál es el más pesado	SUPERLATIVE	atomic_mass			
+cd-es-d4	cd-es-d	4	es	cuál es su densidad	PROPERTY_LOOKUP	density			
+cd-es-d5	cd-es-d	5	es	quién lo descubrió	PROPERTY_LOOKUP	discovered_by			
+cd-es-d6	cd-es-d	6	es	cuáles son sus isótopos	ISOTOPES				
+cd-it-e1	cd-it-e	1	it	qual è il numero atomico dell'oro	PROPERTY_LOOKUP	atomic_number			
+cd-it-e2	cd-it-e	2	it	e il suo simbolo	PROPERTY_LOOKUP	symbol			
+cd-it-e3	cd-it-e	3	it	in quale gruppo è	PROPERTY_LOOKUP	group_number			
+cd-it-e4	cd-it-e	4	it	ciao				y	
+cd-it-e5	cd-it-e	5	it	qual è la sua densità	PROPERTY_LOOKUP	density			
+cd-it-e6	cd-it-e	6	it	è più pesante dell'argento	COMPARATIVE	atomic_mass			
+cd-ur-c1	cd-ur-c	1	ur	آئرن کا نقطہ پگھلاؤ کیا ہے	PROPERTY_LOOKUP	melting_point			
+cd-ur-c2	cd-ur-c	2	ur	اور اس کا نقطہ ابال	PROPERTY_LOOKUP	boiling_point			
+cd-ur-c3	cd-ur-c	3	ur	اور تانبا	PROPERTY_LOOKUP	boiling_point			
+cd-ur-c4	cd-ur-c	4	ur	دونوں کا موازنہ کریں	COMPARISON				
+cd-ur-c5	cd-ur-c	5	ur	اور ان کی کثافت	COMPARISON	density			
+cd-ur-c6	cd-ur-c	6	ur	کیا تانبا خطرناک ہے	SAFETY				
+cd-zh-c1	cd-zh-c	1	zh	铁的熔点是多少	PROPERTY_LOOKUP	melting_point			
+cd-zh-c2	cd-zh-c	2	zh	它的沸点呢	PROPERTY_LOOKUP	boiling_point			
+cd-zh-c3	cd-zh-c	3	zh	铜呢	PROPERTY_LOOKUP	boiling_point			
+cd-zh-c4	cd-zh-c	4	zh	比较这两个	COMPARISON				
+cd-zh-c5	cd-zh-c	5	zh	它们的密度呢	COMPARISON	density			
+cd-zh-c6	cd-zh-c	6	zh	铜危险吗	SAFETY				

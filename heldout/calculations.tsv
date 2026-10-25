@@ -1,0 +1,8 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/calculations.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+calc-mass-2			en	molar mass of water H2O	FORMULA_MASS				
+calc-mass-4			en	molar mass of NaCl	FORMULA_MASS				
+calc-comp-1			en	what is the percentage composition of H2SO4	FORMULA_MASS				
+calc-mole-1			en	how many atoms are in 2 moles of carbon	MOLE_CONVERSION				

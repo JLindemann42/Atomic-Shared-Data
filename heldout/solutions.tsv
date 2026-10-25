@@ -1,0 +1,7 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/solutions.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+sol-en-6			en	what volume of 0.5 mol/L contains 0.1 mol	SOLUTION_CALC		none		
+sol-en-8			en	concentration of 5.844 g of NaCl in 100 mL	SOLUTION_CALC		none		
+sol-sv-1			sv	hur många gram NaCl för 250 mL av en 0.5 mol/L lösning	SOLUTION_CALC		none		

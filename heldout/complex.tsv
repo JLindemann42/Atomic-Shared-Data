@@ -1,0 +1,23 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/complex.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+cpx-st-1			en	which transition metals melt above 2000 kelvin	FILTER_LIST	melting_point			
+cpx-st-2			en	which transition metals are denser than 15	FILTER_LIST	density			
+cpx-ss-2			en	which halogen has the highest boiling point	SUPERLATIVE	boiling_point			
+cpx-ord-1			en	what is the second densest transition metal	SUPERLATIVE	density			
+cpx-ord-4			en	which is the fourth densest element	SUPERLATIVE	density			
+cpx-rng-3			en	elements with atomic mass between 100 and 150	FILTER_LIST	atomic_mass			
+cpx-rng-4			en	which elements have density between 19 and 23	FILTER_LIST	density			
+cpx-neg-1			en	which noble gases are not radioactive	FILTER_LIST				
+cpx-neg-3			en	which elements are not metals	FILTER_LIST				
+cpx-agg-2			en	the median melting point of the lanthanides	AGGREGATE	melting_point			
+cpx-agg-7			en	the average electronegativity of the nonmetals	AGGREGATE	electronegativity			
+cpx-drv-5			en	what is the heaviest naturally occurring element	SUPERLATIVE	atomic_mass			must exclude synthetics
+cpx-cmp-1			en	compare gold silver and copper on density and melting point	COMPARISON	density,melting_point			
+cpx-cmp-2			en	compare iron cobalt and nickel on atomic mass	COMPARISON	atomic_mass			
+cpx-cmp-3			en	compare the halogens on electronegativity	FILTER_LIST	electronegativity			no elements named: the family ranked by the field is the answer
+cpx-cmp-5			en	how many times heavier is uranium than carbon	COMPARATIVE	atomic_mass			
+cpx-sv-3			sv	vad är genomsnittlig densitet för övergångsmetallerna	AGGREGATE	density			
+cpx-de-3			de	wie viele elemente sind radioaktiv	AGGREGATE				
+cpx-es-1			es	qué elementos son más densos que el oro	FILTER_LIST	density			

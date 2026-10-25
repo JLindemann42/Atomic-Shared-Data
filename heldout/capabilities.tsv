@@ -1,0 +1,10 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/capabilities.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+cap-sv-1			sv	vad kan du göra				y	
+cap-sv-2			sv	vilka funktioner har du				y	
+cap-sv-4			sv	vad kan du hjälpa mig med				y	
+cap-es-1			es	qué puedes hacer				y	
+cap-af-3			af	hoe gebruik ek dit				y	
+cap-ur-3			ur	اسے کیسے استعمال کریں				y	

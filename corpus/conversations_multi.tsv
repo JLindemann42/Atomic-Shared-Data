@@ -22,11 +22,6 @@ mc-de-a1	mc-de-a	1	de	was ist die dichte von gold	PROPERTY_LOOKUP	density
 mc-de-a2	mc-de-a	2	de	und silber	PROPERTY_LOOKUP	density			
 mc-de-a3	mc-de-a	3	de	welches ist dichter	COMPARATIVE	density			
 mc-de-a4	mc-de-a	4	de	und ihre schmelzpunkte	COMPARISON	melting_point			
-mc-de-b1	mc-de-b	1	de	welche elemente sind radioaktiv	FILTER_LIST				
-mc-de-b2	mc-de-b	2	de	wie viele sind es	AGGREGATE				
-mc-de-b3	mc-de-b	3	de	welches ist das schwerste	SUPERLATIVE	atomic_mass			
-mc-de-b4	mc-de-b	4	de	ist es gefährlich	SAFETY				
-mc-de-b5	mc-de-b	5	de	welche isotope hat es	ISOTOPES				
 # ---- fr ----------------------------------------------------------------------------------------
 mc-fr-a1	mc-fr-a	1	fr	quelle est la densité de l'or	PROPERTY_LOOKUP	density			
 mc-fr-a2	mc-fr-a	2	fr	et l'argent	PROPERTY_LOOKUP	density			

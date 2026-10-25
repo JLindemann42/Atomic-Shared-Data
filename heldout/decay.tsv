@@ -1,0 +1,7 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/decay.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+dec-en-8			en	how much of 8 g of iodine-131 is left after 24 days	DECAY_CALC				
+dec-pt-1			pt	quanto resta de 100 g de carbono-14 após 11460 anos	DECAY_CALC				
+dec-neg-3			en	compare uranium-235 and uranium-238	ISOTOPE_COMPARISON			two nuclides is a comparison	

@@ -9,13 +9,17 @@ carried 121 isotopes, 30 CAS numbers and NFPA ratings that Android never receive
 | Folder | What | Read by |
 |---|---|---|
 | `elements/` | `elements_{lang}.json` for the twelve shipped languages | Android app assets and unit tests; Windows app content and `Atomic.Core.Tests` |
-| `corpus/` | The Ask Atomic acceptance corpus, 31 TSV files | Android `CorpusTest`, Windows corpus tests. Both apps must pass every row. |
+| `corpus/` | The Ask Atomic acceptance corpus, 31 TSV files | Android `CorpusTest`, Windows corpus tests, on every push. Both apps must pass every row. |
+| `heldout/` | About a fifth of the corpus, frozen out of it by `tools/split_heldout.py` | The same tests with the held-out split selected, at release only |
 | `golden/` | Tokenizer golden files, generated from the Kotlin tokenizer | Windows `TokenizerGoldenTest` |
 
 ## Rules
 
 - **Change data here, never in an app.** Edit, commit and push here, then bump the submodule in
   both apps in the same sitting, so neither ships data the other has not been tested against.
+- **Held-out rows are not for tuning.** Do not look at `heldout/` while working on a change, do not
+  move rows back, and never train on them. They exist to measure whether the corpus score
+  generalises. Regression and reported-defect rows are never held out. New rows go to `corpus/`.
 - **The corpus is the gate.** A change that adds behaviour adds rows that fail without it; no change
   may make a row that passed fail.
 - **Line endings** follow `* text=auto`, as in both app repositories: LF in the repository, the

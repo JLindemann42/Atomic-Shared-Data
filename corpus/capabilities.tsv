@@ -17,16 +17,12 @@ cap-en-2			en	what features do you have				y
 cap-en-3			en	how do i use this				y	
 cap-en-4			en	what can i ask you				y	
 # ---- sv ------------------------------------------------------------------------------------------
-cap-sv-1			sv	vad kan du göra				y	
-cap-sv-2			sv	vilka funktioner har du				y	
 cap-sv-3			sv	hur använder jag det här				y	
-cap-sv-4			sv	vad kan du hjälpa mig med				y	
 # ---- de ------------------------------------------------------------------------------------------
 cap-de-1			de	was kannst du machen				y	
 cap-de-2			de	welche funktionen hast du				y	
 cap-de-3			de	wie benutze ich das				y	
 # ---- es ------------------------------------------------------------------------------------------
-cap-es-1			es	qué puedes hacer				y	
 cap-es-2			es	qué funciones tienes				y	
 cap-es-3			es	en qué puedes ayudarme				y	
 # ---- fr ------------------------------------------------------------------------------------------
@@ -44,7 +40,6 @@ cap-pt-3			pt	como usar isto				y
 # ---- af ------------------------------------------------------------------------------------------
 cap-af-1			af	wat kan jy doen				y	
 cap-af-2			af	watter funksies het jy				y	
-cap-af-3			af	hoe gebruik ek dit				y	
 # ---- fil -----------------------------------------------------------------------------------------
 cap-fil-1			fil	ano ang kaya mong gawin				y	
 cap-fil-2			fil	ano ang magagawa mo				y	
@@ -56,7 +51,6 @@ cap-hi-3			hi	इसे कैसे उपयोग करें				y
 # ---- ur ------------------------------------------------------------------------------------------
 cap-ur-1			ur	آپ کیا کر سکتے ہیں				y	
 cap-ur-2			ur	کون سی خصوصیات ہیں				y	
-cap-ur-3			ur	اسے کیسے استعمال کریں				y	
 # ---- zh ------------------------------------------------------------------------------------------
 cap-zh-1			zh	你能做什么				y	
 cap-zh-2			zh	有哪些功能				y	

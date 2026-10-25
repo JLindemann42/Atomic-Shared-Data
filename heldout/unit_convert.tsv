@@ -1,0 +1,10 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/unit_convert.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+uc-en-1			en	convert 500 K to °C	UNIT_CONVERT				
+uc-en-4			en	2 eV in kJ/mol	UNIT_CONVERT				
+uc-en-5			en	convert 250 mL to litres	UNIT_CONVERT				
+uc-de-1			de	rechne 500 K in °C um	UNIT_CONVERT				
+uc-neg-1			en	density of gold in kg/m3	PROPERTY_LOOKUP	density			
+uc-neg-2			en	melting point of gold in fahrenheit	PROPERTY_LOOKUP	melting_point			

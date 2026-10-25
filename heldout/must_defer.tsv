@@ -1,0 +1,34 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/must_defer.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+def-greet-02			en	hello				y	
+def-greet-03			en	hey there				y	
+def-greet-06			sv	hejsan				y	
+def-greet-09			de	guten morgen				y	
+def-greet-13			pt	olá				y	
+def-greet-17			ur	سلام				y	
+def-thanks-04			sv	tack				y	
+def-thanks-08			es	gracias				y	
+def-bye-01			en	bye				y	
+def-quiz-04			en	test me				y	
+def-quiz-11			de	quiz mich				y	
+def-quiz-14			es	hazme una pregunta				y	
+def-fact-01			en	tell me a fun fact				y	
+def-fact-05			sv	berätta en kul fakta				y	
+def-joke-01			en	tell me a joke				y	
+def-affirm-02			en	yeah				y	
+def-negate-03			de	nein				y	
+def-react-01			en	what is the most reactive element				y	reactivity is scored from group and position, not stored
+def-react-02			en	which element is least reactive				y	
+def-react-05			sv	vilket grundämne är mest reaktivt				y	
+def-reaction-05			de	wie reagieren wasserstoff und sauerstoff				y	
+def-similar-04			de	welches element ist ähnlich wie kohlenstoff				y	
+def-overview-05			sv	berätta om guld				y	
+def-usage-03			en	what are the applications of tungsten				y	
+def-usage-08			de	wofür wird titan verwendet				y	
+def-usage-09			de	verwendung von kupfer				y	
+def-usage-10			fr	à quoi sert le titane				y	
+def-bio-02			en	is zinc important for the body				y	
+def-bio-03			sv	vilken biologisk roll har järn				y	
+def-help-03			sv	vad kan du göra				y	

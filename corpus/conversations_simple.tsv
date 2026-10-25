@@ -15,10 +15,6 @@ cs-iron-1	cs-iron	1	en	tell me the atomic number of iron	PROPERTY_LOOKUP	atomic_
 cs-iron-2	cs-iron	2	en	how many neutrons does it usually have	PROPERTY_LOOKUP	common_neutrons			"it" resolves to the focus element
 cs-iron-3	cs-iron	3	en	what about its electron configuration	PROPERTY_LOOKUP	electron_configuration	ELECTRON_SHELL		
 cs-iron-4	cs-iron	4	en	is it radioactive	PROPERTY_LOOKUP	radioactive			
-cs-temp-1	cs-temp	1	en	melting point of copper in celsius	PROPERTY_LOOKUP	melting_point			
-cs-temp-2	cs-temp	2	en	and in fahrenheit	PROPERTY_LOOKUP	melting_point			unit changes, element and field hold
-cs-temp-3	cs-temp	3	en	what about iron	PROPERTY_LOOKUP	melting_point			element changes, unit should hold
-cs-temp-4	cs-temp	4	en	and its boiling point	PROPERTY_LOOKUP	boiling_point			
 cs-noble-1	cs-noble	1	en	list the noble gases	FILTER_LIST				
 cs-noble-2	cs-noble	2	en	how many are there	AGGREGATE				
 cs-noble-3	cs-noble	3	en	which one is densest	SUPERLATIVE	density			the subset should still be in play
@@ -31,9 +27,6 @@ cs-uranium-3	cs-uranium	3	en	how many neutrons does uranium 238 have	NUCLIDE_COU
 cs-dense-1	cs-dense	1	en	what is the densest element	SUPERLATIVE	density			
 cs-dense-2	cs-dense	2	en	and the second densest	SUPERLATIVE	density			
 cs-dense-3	cs-dense	3	en	what is its melting point	PROPERTY_LOOKUP	melting_point			the focus is now the element the list named
-cs-water-1	cs-water	1	en	what is the atomic mass of hydrogen	PROPERTY_LOOKUP	atomic_mass			
-cs-water-2	cs-water	2	en	and oxygen	PROPERTY_LOOKUP	atomic_mass			
-cs-water-3	cs-water	3	en	what is the molar mass of H2O	FORMULA_MASS				a calculation after two lookups
 cs-metal-1	cs-metal	1	en	what is the melting point of tungsten	PROPERTY_LOOKUP	melting_point			
 cs-metal-2	cs-metal	2	en	is that the highest	SUPERLATIVE	melting_point			the eventual question the thread was building to
 cs-crystal-1	cs-crystal	1	en	what is the crystal structure of iron	PROPERTY_LOOKUP	crystal_structure	CRYSTAL_STRUCTURE		
@@ -44,9 +37,6 @@ cs-abund-2	cs-abund	2	en	and silver	PROPERTY_LOOKUP	abundance_sea_water	ABUNDANC
 cs-halogen-1	cs-halogen	1	en	which are the halogens	FILTER_LIST				
 cs-halogen-2	cs-halogen	2	en	what is the most electronegative	SUPERLATIVE	electronegativity			
 cs-halogen-3	cs-halogen	3	en	what is its atomic number	PROPERTY_LOOKUP	atomic_number			
-cs-lead-1	cs-lead	1	en	what is the symbol for lead	PROPERTY_LOOKUP	symbol			
-cs-lead-2	cs-lead	2	en	what is its density	PROPERTY_LOOKUP	density			
-cs-lead-3	cs-lead	3	en	is gold denser	COMPARATIVE	density			second element named, first inherited
 cs-neigh-1	cs-neigh	1	en	what element comes after carbon	NEIGHBOUR				
 cs-neigh-2	cs-neigh	2	en	what is its atomic mass	PROPERTY_LOOKUP	atomic_mass			focus should be the element that was named, not carbon
 # ---- Simple threads that must NOT inherit -------------------------------------------------------

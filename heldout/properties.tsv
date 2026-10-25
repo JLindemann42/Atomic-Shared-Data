@@ -1,0 +1,31 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/properties.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+prop-symbol-2			en	what's tungsten's chemical symbol	PROPERTY_LOOKUP	symbol			
+prop-mass-3			en	atomic weight of chlorine	PROPERTY_LOOKUP	atomic_mass			
+prop-density-4			en	what's the density of aluminium	PROPERTY_LOOKUP	density			
+prop-melt-3			en	melting point of iron in celsius	PROPERTY_LOOKUP	melting_point			unit request on a multi-scale field
+prop-boil-3			en	boiling point of nitrogen in celsius	PROPERTY_LOOKUP	boiling_point			
+prop-config-1			en	what is the electron configuration of gold	PROPERTY_LOOKUP	electron_configuration	ELECTRON_SHELL		
+prop-valence-2			en	valence electrons of chlorine	PROPERTY_LOOKUP	valence_electrons			
+prop-affinity-2			en	electron affinity of chlorine	PROPERTY_LOOKUP	electron_affinity			
+prop-molvol-1			en	what is the molar volume of gold	PROPERTY_LOOKUP	molar_volume			
+prop-fusion-1			en	what is the heat of fusion of gold	PROPERTY_LOOKUP	fusion_heat			
+prop-debye-1			en	what is the debye temperature of gold	PROPERTY_LOOKUP	debye_temperature			
+prop-resist-1			en	what is the resistivity of gold	PROPERTY_LOOKUP	resistivity			
+prop-crystal-2			en	crystal structure of iron	PROPERTY_LOOKUP	crystal_structure	CRYSTAL_STRUCTURE		
+prop-sound-2			en	speed of sound in solid iron	PROPERTY_LOOKUP	speed_of_sound_solid			
+prop-sound-3			en	speed of sound in liquid mercury	PROPERTY_LOOKUP	speed_of_sound_liquid			
+prop-block-2			en	is iron a d block element	PROPERTY_LOOKUP	block			
+prop-series-2			en	what group of elements does argon belong to	PROPERTY_LOOKUP	series			
+prop-period-1			en	what period is gold in	PROPERTY_LOOKUP	period			
+prop-abund-6			en	abundance of silicon in crustal rocks	PROPERTY_LOOKUP	abundance_crustal_rocks	ABUNDANCE		
+prop-abund-8			en	abundance of carbon in the solar system	PROPERTY_LOOKUP	abundance_solar_system	ABUNDANCE		
+prop-abund-9			en	how much nickel is in meteorites	PROPERTY_LOOKUP	abundance_meteorites	ABUNDANCE		
+prop-inherit-4	inh-2	1	en	melting point of iron in celsius	PROPERTY_LOOKUP	melting_point			
+prop-inherit-5	inh-2	2	en	and copper	PROPERTY_LOOKUP	melting_point			unit and field both carry over
+prop-unit-1			en	density of gold in kg/m3	PROPERTY_LOOKUP	density			
+prop-unit-4			en	thermal conductivity of copper in w/(m·k)	PROPERTY_LOOKUP	thermal_conductivity			
+prop-bynum-1			en	what is the density of element 79	PROPERTY_LOOKUP	density			element named by atomic number
+prop-nodata-2			en	what is the curie point of gold	PROPERTY_LOOKUP	curie_point			no value

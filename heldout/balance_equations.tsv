@@ -1,0 +1,10 @@
+# HELD OUT (roadmap 0.5). Scored at release only, never in the everyday gate, and never used
+# for training. Frozen by tools/split_heldout.py from corpus/balance_equations.tsv: do not tune against
+# these rows, and do not move them back.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+bal-en-5			en	balance the reaction N2 + H2 -> NH3	BALANCE_EQUATION		none		
+bal-en-7			en	KMnO4 + HCl -> KCl + MnCl2 + H2O + Cl2	BALANCE_EQUATION		none	six species, exact rationals	
+bal-en-10			en	balance 2H2 + O2 -> 2H2O	BALANCE_EQUATION		none	user coefficients are re-derived	
+bal-en-11			en	Fe + O2 → Fe3O4	BALANCE_EQUATION		none	unicode arrow	
+bal-en-14			en	balance H2 + O2 -> H2	BALANCE_EQUATION		none	one-sided element, answered as such	
+bal-sv-1			sv	balansera Fe + O2 -> Fe2O3	BALANCE_EQUATION		none		
