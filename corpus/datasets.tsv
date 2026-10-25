@@ -3,40 +3,42 @@
 #
 # These rows are also the boundary the deferral guard has to respect from the other side: the
 # dataset fallback must fire for a real reference lookup and stay quiet for "quiz me".
-id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
-ds-const-1			en	what is the mass of an electron	DATASET_LOOKUP				constant table
-ds-const-3			en	value of planck's constant	DATASET_LOOKUP				constant table
-ds-const-4			en	what is the speed of light	DATASET_LOOKUP				constant table
-ds-const-5			en	what is the gas constant	DATASET_LOOKUP				constant table
-ds-const-6			en	elementary charge value	DATASET_LOOKUP				constant table
-ds-dict-1			en	what is electronegativity	DATASET_LOOKUP				dictionary table — definition
-ds-dict-2			en	what is a halogen	DATASET_LOOKUP				dictionary table
-ds-dict-4			en	what is an isotope	DATASET_LOOKUP				dictionary table
-ds-dict-5			en	what is a covalent bond	DATASET_LOOKUP				dictionary table
-ds-dict-6			en	what does oxidation mean	DATASET_LOOKUP				dictionary table
-ds-dict-7			en	define molar mass	DATASET_LOOKUP				dictionary table
-ds-why-2			en	why are noble gases unreactive	DATASET_LOOKUP				dictionary table
-ds-eq-1			en	what is the ideal gas law	DATASET_LOOKUP				equation table
-ds-eq-3			en	what is the nernst equation	DATASET_LOOKUP				equation table
-ds-poisson-2			en	poisson ratio of sandstone	DATASET_LOOKUP				poisson table
-ds-poisson-3			en	poisson ratio of quartz	DATASET_LOOKUP				poisson table — mineral
-ds-geo-1			en	what is the composition of basalt	DATASET_LOOKUP				geology table
-ds-geo-2			en	tell me about quartz	DATASET_LOOKUP				geology table
-ds-ion-1			en	what is the charge of the sulfate ion	DATASET_LOOKUP				ion table
-ds-ion-2			en	ion charge of lithium	*				answered from the element rather than the ion table, which is as good
-ds-ind-1			en	what colour does phenolphthalein turn	DATASET_LOOKUP				indicator table
-ds-ind-2			en	ph range of methyl orange	DATASET_LOOKUP				indicator table
-ds-elec-1			en	standard electrode potential of zinc	DATASET_LOOKUP				electrode table
-ds-sol-1			en	is silver chloride soluble in water	DATASET_LOOKUP				solubility table
-ds-sol-2			en	solubility of sodium chloride	DATASET_LOOKUP				solubility table
-ds-unit-1			en	how many joules in a calorie	DATASET_LOOKUP				unit table — conversion
-ds-alloy-1			en	what is steel made of	DATASET_LOOKUP				alloy table
-ds-alloy-2			en	what is brass	DATASET_LOOKUP				alloy table
-ds-alloy-3			en	what is bronze made of	DATASET_LOOKUP				alloy table
-ds-alloy-5			en	difference between iron and steel	DATASET_LOOKUP				alloy: table — the alloy entry explains how it differs from its base metal
-ds-const-sv-1			sv	vad är elektronens massa	DATASET_LOOKUP				constant table
-ds-dict-sv-1			sv	vad är elektronegativitet	DATASET_LOOKUP				dictionary table
-ds-dict-sv-2			sv	vad är masstal	DATASET_LOOKUP				dictionary table
-ds-dict-sv-3			sv	vad är en isotop	DATASET_LOOKUP				dictionary table
-ds-alloy-sv-1			sv	vad är stål gjort av	DATASET_LOOKUP				alloy table
-ds-dict-es-1			es	qué es la electronegatividad	DATASET_LOOKUP				dictionary table
+# expect_row, expect_value and known_failure are corpus format 2; see the shared README.
+# corpus-format: 2
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
+ds-const-1			en	what is the mass of an electron	DATASET_LOOKUP				constant table	constant/electron-mass	9.10938188e-31	answers from dictionary/pauli-exclusion-principle (roadmap 1.1)
+ds-const-3			en	value of planck's constant	DATASET_LOOKUP				constant table	constant/planck-s-constant	6.62607004e-34	
+ds-const-4			en	what is the speed of light	DATASET_LOOKUP				constant table	constant/speed-of-light	299792458	answers from dictionary/refractive-index (roadmap 1.1)
+ds-const-5			en	what is the gas constant	DATASET_LOOKUP				constant table	constant/gas-constant		answers from dictionary/ideal-gas-law (roadmap 1.1)
+ds-const-6			en	elementary charge value	DATASET_LOOKUP				constant table	constant/elementary-charge	1.602176565e-19	
+ds-dict-1			en	what is electronegativity	DATASET_LOOKUP				dictionary table — definition	dictionary/electronegativity		
+ds-dict-2			en	what is a halogen	DATASET_LOOKUP				dictionary table	dictionary/halogen		
+ds-dict-4			en	what is an isotope	DATASET_LOOKUP				dictionary table	dictionary/isotope		
+ds-dict-5			en	what is a covalent bond				y	dictionary table — no row answers this, so it must decline			answers from dictionary/covalent-radius; no entry defines a covalent bond (roadmap 1.1)
+ds-dict-6			en	what does oxidation mean	DATASET_LOOKUP				dictionary table	dictionary/oxidation		
+ds-dict-7			en	define molar mass	DATASET_LOOKUP				dictionary table	dictionary/molar-mass		
+ds-why-2			en	why are noble gases unreactive	DATASET_LOOKUP				dictionary table	dictionary/noble-gas		
+ds-eq-1			en	what is the ideal gas law	DATASET_LOOKUP				equation table			
+ds-eq-3			en	what is the nernst equation				y	equation table — no row answers this, so it must decline			answers from dictionary/arrhenius-equation; the equation table has no Nernst equation (roadmap 1.1)
+ds-poisson-2			en	poisson ratio of sandstone	DATASET_LOOKUP				poisson table	poisson/sandstone	0.225	
+ds-poisson-3			en	poisson ratio of quartz	DATASET_LOOKUP				poisson table — mineral	poisson/quartz-sio2	0.079	
+ds-geo-1			en	what is the composition of basalt				y	geology table — no row answers this, so it must decline			answers with basalt's Poisson ratio; the geology table lists minerals, not rocks (roadmap 1.1)
+ds-geo-2			en	tell me about quartz	DATASET_LOOKUP				geology table	geology/quartz		answers from poisson/quartz-sio2, the elastic table, not the mineral (roadmap 1.1)
+ds-ion-1			en	what is the charge of the sulfate ion				y	ion table — no row answers this, so it must decline			answers from dictionary/ion; the ion table lists element ions, not sulfate (roadmap 1.1)
+ds-ion-2			en	ion charge of lithium	*				answered from the element rather than the ion table, which is as good			
+ds-ind-1			en	what colour does phenolphthalein turn	DATASET_LOOKUP				indicator table	indicator/phenolphthalein		
+ds-ind-2			en	ph range of methyl orange	DATASET_LOOKUP				indicator table	indicator/methyl-orange		
+ds-elec-1			en	standard electrode potential of zinc	DATASET_LOOKUP				electrode table	electrode/zinc	-0.7618	
+ds-sol-1			en	is silver chloride soluble in water	DATASET_LOOKUP				solubility table	solubility/ag		
+ds-sol-2			en	solubility of sodium chloride	DATASET_LOOKUP				solubility table	solubility/na		
+ds-unit-1			en	how many joules in a calorie	DATASET_LOOKUP				unit table — conversion	unit/energy-calorie	4.184	
+ds-alloy-1			en	what is steel made of	DATASET_LOOKUP				alloy table	alloy/steel		
+ds-alloy-2			en	what is brass	DATASET_LOOKUP				alloy table	alloy/brass		
+ds-alloy-3			en	what is bronze made of	DATASET_LOOKUP				alloy table	alloy/bronze		
+ds-alloy-5			en	difference between iron and steel	DATASET_LOOKUP				alloy: table — the alloy entry explains how it differs from its base metal	alloy/steel		
+ds-const-sv-1			sv	vad är elektronens massa	DATASET_LOOKUP				constant table	constant/electron-mass	9.10938188e-31	
+ds-dict-sv-1			sv	vad är elektronegativitet	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		answers from dictionary/periodic-trend-electronegativity; English gets the definition (roadmap 1.1)
+ds-dict-sv-2			sv	vad är masstal	DATASET_LOOKUP				dictionary table	dictionary/mass-number		
+ds-dict-sv-3			sv	vad är en isotop	DATASET_LOOKUP				dictionary table	dictionary/isotope		
+ds-alloy-sv-1			sv	vad är stål gjort av	DATASET_LOOKUP				alloy table	alloy/steel		
+ds-dict-es-1			es	qué es la electronegatividad	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		answers from dictionary/periodic-trend-electronegativity; English gets the definition (roadmap 1.1)
