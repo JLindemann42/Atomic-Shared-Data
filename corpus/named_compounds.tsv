@@ -1,0 +1,48 @@
+# Compounds named in words rather than written as formulas (roadmap 1.2).
+# "Sodium chloride" used to resolve as sodium plus chlorine, so "density of sodium chloride" was
+# answered with sodium's density and "molar mass of calcium carbonate" as a comparison of calcium
+# and carbon. A compound named in a question now claims its words before elements are looked for:
+# it is answered where the app can say something true about it (formula, molar mass, composition,
+# moles, solubility) and declined where it cannot (the app holds no compound properties).
+# Guard rows at the end keep element questions that merely mention a compound working.
+# expect_row, expect_value and known_failure are corpus format 2; see the shared README.
+# corpus-format: 2
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
+nc-mass-1			en	molar mass of sodium chloride	FORMULA_MASS				NaCl		58.44	
+nc-mass-2			en	molar mass of calcium carbonate	FORMULA_MASS				CaCO3; was a comparison of calcium and carbon		100.09	
+nc-mass-3			en	what is the molar mass of aluminium sulfate	FORMULA_MASS				Al2(SO4)3: two charges balanced, a polyatomic anion in brackets		342.15	
+nc-mass-4			en	molar mass of calcium hydroxide	FORMULA_MASS				Ca(OH)2		74.09	
+nc-mass-5			en	molar mass of ammonium nitrate	FORMULA_MASS				NH4NO3: a cation that is not an element		80.04	
+nc-mass-6			en	molar mass of hydrogen chloride	FORMULA_MASS				HCl		36.46	
+nc-mass-7			en	molar mass of carbon monoxide	FORMULA_MASS				CO, a molecular name rather than cation and anion		28.01	
+nc-mass-sv-1			sv	molmassan för natriumklorid	FORMULA_MASS				Swedish writes cation and anion as one word		58.44	
+nc-mass-de-1			de	molare masse von calciumcarbonat	FORMULA_MASS				German, one word		100.09	
+nc-mass-es-1			es	masa molar del cloruro de sodio	FORMULA_MASS				Spanish: anion, "de", cation		58.44	
+nc-mass-fr-1			fr	masse molaire du chlorure d'argent	FORMULA_MASS				French elides "de" before a vowel		143.32	
+nc-mass-it-1			it	massa molare del solfato di rame	FORMULA_MASS				Italian: copper(II) sulfate		159.61	
+nc-mass-zh-1			zh	氯化钠的摩尔质量	FORMULA_MASS				Chinese: anion prefix then cation, no spaces		58.44	
+nc-comp-1			en	percent composition of sodium chloride	FORMULA_MASS				answered with the composition			
+nc-comp-2			en	what is sodium chloride	FORMULA_MASS				the honest overview of a compound: its formula and what it is made of; answered with the composition			
+nc-comp-3			en	what is the formula of table salt	FORMULA_MASS				answered with the composition			
+nc-comp-4			en	tell me about potassium iodide	FORMULA_MASS				answered with the composition			
+nc-mole-1			en	how many moles in 10 g of sodium chloride	MOLE_CONVERSION				was moles of sodium		0.1711	
+nc-mole-2			en	how many moles are in 50 grams of calcium carbonate	MOLE_CONVERSION						0.4995	
+nc-sol-1			en	is calcium carbonate soluble in water	DATASET_LOOKUP				solubility table, the cation's row	solubility/ca-2		
+nc-sol-2			sv	är silverklorid lösligt i vatten	DATASET_LOOKUP				Swedish; retrieval alone cannot read "silverklorid"	solubility/ag		
+nc-sol-3			de	ist bariumsulfat löslich	DATASET_LOOKUP					solubility/ba-2		
+nc-none-1			en	density of sodium chloride				y	the app holds no compound properties; was sodium's density			
+nc-none-2			en	melting point of silver chloride				y	was silver's melting point			
+nc-none-3			en	boiling point of water				y	was answered from the glossary's "Noble gas"			
+nc-none-4			en	electronegativity of hydrogen chloride				y	was hydrogen's electronegativity			
+nc-none-5			en	density of iron oxide				y	iron has no single charge, so no formula, but it is still a compound			
+nc-none-6			en	density of copper sulfate				y	was copper's density			
+nc-none-7			sv	vad är smältpunkten för natriumklorid				y				
+nc-guard-1			en	compare sodium and chlorine	COMPARISON				two elements, not a compound			
+nc-guard-2			en	density of sodium	PROPERTY_LOOKUP	density			the element itself			
+nc-guard-3			en	how much gold is in sea water	PROPERTY_LOOKUP				an element named beside a compound keeps the question			
+nc-guard-4			en	at what temperature does water's oxygen boil	PROPERTY_LOOKUP	boiling_point			water's oxygen is oxygen			
+nc-guard-5			en	what is the oxidation state of iron	PROPERTY_LOOKUP				"oxidation" is not "oxide"			
+nc-sea-1	nc-sea-a	1	en	how abundant is zinc in the earth's crust	PROPERTY_LOOKUP	abundance_earth_crust						
+nc-sea-2	nc-sea-a	2	en	and in sea water	PROPERTY_LOOKUP	abundance_sea_water			"water" inside the field name "sea water" is not a compound; the thread's zinc is inherited			
+nc-sea-3	nc-sea-b	1	en	how much copper is in the earth's crust	PROPERTY_LOOKUP	abundance_earth_crust						
+nc-sea-4	nc-sea-b	2	en	and how much of it is in sea water	PROPERTY_LOOKUP	abundance_sea_water						
