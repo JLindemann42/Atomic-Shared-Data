@@ -56,6 +56,7 @@ writes with `--write`, and running it twice changes nothing the second time.
 | `tools/split_heldout.py` | Freezes the held-out fifth of the corpus |
 | `tools/normalize_isotope_names.py` | Writes every isotope name as Symbol-MassNumber (`Sb-103`), refusing any that disagrees with `iso_A` |
 | `tools/translate_element_fields.py` | Translates `element_appearance` and `electrical_type` from `tools/translations/*.tsv` |
+| `tools/stopword_candidates.py` | Proposes stopwords per language from the descriptions and the assistant's questions; the reviewed list is `STOPWORDS` in the Android app's `Lexicon.kt` |
 
 `tools/translations/*.tsv` have one English phrase per row and one column per language. To correct a
 translation, edit its cell and re-run the script with `--write`. A phrase with no row is an error,

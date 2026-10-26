@@ -6,25 +6,25 @@
 # expect_row, expect_value and known_failure are corpus format 2; see the shared README.
 # corpus-format: 2
 id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
-ds-const-1			en	what is the mass of an electron	DATASET_LOOKUP				constant table	constant/electron-mass	9.10938188e-31	answers from dictionary/pauli-exclusion-principle (roadmap 1.1)
+ds-const-1			en	what is the mass of an electron	DATASET_LOOKUP				constant table	constant/electron-mass	9.10938188e-31	
 ds-const-3			en	value of planck's constant	DATASET_LOOKUP				constant table	constant/planck-s-constant	6.62607004e-34	
-ds-const-4			en	what is the speed of light	DATASET_LOOKUP				constant table	constant/speed-of-light	299792458	answers from dictionary/refractive-index (roadmap 1.1)
-ds-const-5			en	what is the gas constant	DATASET_LOOKUP				constant table	constant/gas-constant		answers from dictionary/ideal-gas-law (roadmap 1.1)
+ds-const-4			en	what is the speed of light	DATASET_LOOKUP				constant table	constant/speed-of-light	299792458	
+ds-const-5			en	what is the gas constant	DATASET_LOOKUP				constant table	constant/gas-constant		
 ds-const-6			en	elementary charge value	DATASET_LOOKUP				constant table	constant/elementary-charge	1.602176565e-19	
 ds-dict-1			en	what is electronegativity	DATASET_LOOKUP				dictionary table — definition	dictionary/electronegativity		
 ds-dict-2			en	what is a halogen	DATASET_LOOKUP				dictionary table	dictionary/halogen		
 ds-dict-4			en	what is an isotope	DATASET_LOOKUP				dictionary table	dictionary/isotope		
-ds-dict-5			en	what is a covalent bond				y	dictionary table — no row answers this, so it must decline			answers from dictionary/covalent-radius; no entry defines a covalent bond (roadmap 1.1)
+ds-dict-5			en	what is a covalent bond				y	dictionary table — no row answers this, so it must decline			"Hydrogen bond" and "Covalent radius" each hold both words; only phrase evidence could reject them (roadmap 1.1, open)
 ds-dict-6			en	what does oxidation mean	DATASET_LOOKUP				dictionary table	dictionary/oxidation		
 ds-dict-7			en	define molar mass	DATASET_LOOKUP				dictionary table	dictionary/molar-mass		
 ds-why-2			en	why are noble gases unreactive	DATASET_LOOKUP				dictionary table	dictionary/noble-gas		
 ds-eq-1			en	what is the ideal gas law	DATASET_LOOKUP				equation table			
-ds-eq-3			en	what is the nernst equation				y	equation table — no row answers this, so it must decline			answers from dictionary/arrhenius-equation; the equation table has no Nernst equation (roadmap 1.1)
+ds-eq-3			en	what is the nernst equation				y	equation table — no row answers this, so it must decline			
 ds-poisson-2			en	poisson ratio of sandstone	DATASET_LOOKUP				poisson table	poisson/sandstone	0.225	
 ds-poisson-3			en	poisson ratio of quartz	DATASET_LOOKUP				poisson table — mineral	poisson/quartz-sio2	0.079	
-ds-geo-1			en	what is the composition of basalt				y	geology table — no row answers this, so it must decline			answers with basalt's Poisson ratio; the geology table lists minerals, not rocks (roadmap 1.1)
-ds-geo-2			en	tell me about quartz	DATASET_LOOKUP				geology table	geology/quartz		answers from poisson/quartz-sio2, the elastic table, not the mineral (roadmap 1.1)
-ds-ion-1			en	what is the charge of the sulfate ion				y	ion table — no row answers this, so it must decline			answers from dictionary/ion; the ion table lists element ions, not sulfate (roadmap 1.1)
+ds-geo-1			en	what is the composition of basalt				y	geology table — no row answers this, so it must decline			
+ds-geo-2			en	tell me about quartz	DATASET_LOOKUP				geology table	geology/quartz		
+ds-ion-1			en	what is the charge of the sulfate ion				y	ion table — no row answers this, so it must decline			
 ds-ion-2			en	ion charge of lithium	*				answered from the element rather than the ion table, which is as good			
 ds-ind-1			en	what colour does phenolphthalein turn	DATASET_LOOKUP				indicator table	indicator/phenolphthalein		
 ds-ind-2			en	ph range of methyl orange	DATASET_LOOKUP				indicator table	indicator/methyl-orange		
@@ -37,9 +37,28 @@ ds-alloy-1			en	what is steel made of	DATASET_LOOKUP				alloy table	alloy/steel
 ds-alloy-2			en	what is brass	DATASET_LOOKUP				alloy table	alloy/brass		
 ds-alloy-3			en	what is bronze made of	DATASET_LOOKUP				alloy table	alloy/bronze		
 ds-alloy-5			en	difference between iron and steel	DATASET_LOOKUP				alloy: table — the alloy entry explains how it differs from its base metal	alloy/steel		
+ds-const-7			en	what is the mass of a proton	DATASET_LOOKUP				constants table	constant/proton-mass	1.67262158e-27	
+ds-const-8			en	what is the mass of a neutron	DATASET_LOOKUP				constants table	constant/neutron-mass		
+ds-const-9			en	what is the faraday constant	DATASET_LOOKUP				constants table	constant/faraday-constant		
+ds-const-10			en	what is the gravitational constant	DATASET_LOOKUP				constants table	constant/gravitational-constant		
+ds-geo-3			en	tell me about pyrite	DATASET_LOOKUP				geology table: the mineral, not an element	geology/pyrite		
+ds-geo-4			en	tell me about gypsum	DATASET_LOOKUP				geology table	geology/gypsum		
+ds-none-1			en	what is the mass of the moon				y	no table holds it; "mass" alone must not pick a constant			
+ds-none-2			en	what is the charge of a phone battery				y	no table holds it; "charge" alone must not pick a row			
+ds-none-3			en	how fast is the speed of a cheetah				y	"speed" alone must not answer with the speed of light			
+ds-eq-4			en	formula for potential energy	DATASET_LOOKUP				equation table: asked for by "formula"	equation/potential-energy		
+ds-eq-5			en	what is the formula for momentum	DATASET_LOOKUP				equation table: asked for by "formula"	equation/momentum		
+ds-eq-6			en	equation for centripetal force	DATASET_LOOKUP				equation table: asked for by "equation"	equation/centripetal-force		
+ds-unit-3			en	convert meters to inches	DATASET_LOOKUP				unit table: "convert X to Y" with no number names the target unit	unit/length-inch		
+ds-unit-4			en	convert kilograms to pounds	DATASET_LOOKUP				unit table: "convert X to Y"	unit/mass-pound		
+ds-unit-5			en	convert liters to gallons	DATASET_LOOKUP				unit table: "convert X to Y"	unit/volume-gallon		
+ds-const-de-2			de	was ist die faraday konstante	DATASET_LOOKUP				constants table, asked in German: "Konstante" is not in the English table	constant/faraday-constant		
+ds-const-it-1			it	qual è la costante di planck	DATASET_LOOKUP				constants table, asked in Italian	constant/planck-s-constant		
+ds-const-fr-1			fr	quelle est la constante de boltzmann	DATASET_LOOKUP				constants table, asked in French; the table holds the value, the glossary only defines it	constant/boltzmann-constant		
+ds-const-es-1			es	cuál es la constante de faraday	DATASET_LOOKUP				constants table, asked in Spanish	constant/faraday-constant		
 ds-const-sv-1			sv	vad är elektronens massa	DATASET_LOOKUP				constant table	constant/electron-mass	9.10938188e-31	
-ds-dict-sv-1			sv	vad är elektronegativitet	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		answers from dictionary/periodic-trend-electronegativity; English gets the definition (roadmap 1.1)
+ds-dict-sv-1			sv	vad är elektronegativitet	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		the concept path routes it to dictionary/periodic-trend-electronegativity, not retrieval; translated titles would let retrieval find it (roadmap 1.3)
 ds-dict-sv-2			sv	vad är masstal	DATASET_LOOKUP				dictionary table	dictionary/mass-number		
 ds-dict-sv-3			sv	vad är en isotop	DATASET_LOOKUP				dictionary table	dictionary/isotope		
 ds-alloy-sv-1			sv	vad är stål gjort av	DATASET_LOOKUP				alloy table	alloy/steel		
-ds-dict-es-1			es	qué es la electronegatividad	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		answers from dictionary/periodic-trend-electronegativity; English gets the definition (roadmap 1.1)
+ds-dict-es-1			es	qué es la electronegatividad	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		the concept path routes it to dictionary/periodic-trend-electronegativity, not retrieval; translated titles would let retrieval find it (roadmap 1.3)
