@@ -485,20 +485,20 @@ indicator/bromothymol-blue	indicator	bromothymol blue
 indicator/methyl-orange	indicator	methyl orange
 indicator/congo-red	indicator	congo red
 indicator/phenolphthalein	indicator	phenolphthalein
-electrode/thorium	electrode	Thorium
-electrode/praseodymium	electrode	Praseodymium
-electrode/erbium	electrode	Erbium
 electrode/lithium	electrode	Lithium
 electrode/caesium	electrode	Caesium
 electrode/rubidium	electrode	Rubidium
 electrode/potassium	electrode	Potassium
 electrode/barium	electrode	Barium
 electrode/francium	electrode	Francium
-electrode/lanthanum	electrode	Lanthanum
 electrode/strontium	electrode	Strontium
 electrode/calcium	electrode	Calcium
 electrode/sodium	electrode	Sodium
+electrode/lanthanum	electrode	Lanthanum
 electrode/magnesium	electrode	Magnesium
+electrode/praseodymium	electrode	Praseodymium
+electrode/erbium	electrode	Erbium
+electrode/thorium	electrode	Thorium
 electrode/aluminium	electrode	Aluminium
 electrode/manganese	electrode	Manganese
 electrode/zinc	electrode	Zinc
@@ -507,17 +507,18 @@ electrode/iron	electrode	Iron
 electrode/cadmium	electrode	Cadmium
 electrode/cobalt	electrode	Cobalt
 electrode/nickel	electrode	Nickel
-electrode/copper	electrode	Copper
 electrode/tin	electrode	Tin
 electrode/lead	electrode	Lead
 electrode/antimony	electrode	Antimony
 electrode/bismuth	electrode	Bismuth
+electrode/copper	electrode	Copper
 electrode/silver	electrode	Silver
 electrode/mercury	electrode	Mercury
 electrode/platinum	electrode	Platinum
 electrode/chlorine	electrode	Chlorine
 electrode/gold	electrode	Gold
 electrode/fluorine	electrode	Fluorine
+solubility/h	solubility	H^+
 solubility/nh4	solubility	NH4^+
 solubility/li	solubility	Li^+
 solubility/na	solubility	Na^+

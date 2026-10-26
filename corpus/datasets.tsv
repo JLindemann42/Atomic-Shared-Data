@@ -29,6 +29,7 @@ ds-ion-2			en	ion charge of lithium	*				answered from the element rather than t
 ds-ind-1			en	what colour does phenolphthalein turn	DATASET_LOOKUP				indicator table	indicator/phenolphthalein		
 ds-ind-2			en	ph range of methyl orange	DATASET_LOOKUP				indicator table	indicator/methyl-orange		
 ds-elec-1			en	standard electrode potential of zinc	DATASET_LOOKUP				electrode table	electrode/zinc	-0.7618	
+ds-elec-3			en	standard electrode potential of copper	DATASET_LOOKUP				electrode table; Cu2+/Cu is +0.34 V, was -0.159 until roadmap 0.8	electrode/copper	0.3419	
 ds-sol-1			en	is silver chloride soluble in water	DATASET_LOOKUP				solubility table	solubility/ag		
 ds-sol-2			en	solubility of sodium chloride	DATASET_LOOKUP				solubility table	solubility/na		
 ds-unit-1			en	how many joules in a calorie	DATASET_LOOKUP				unit table — conversion	unit/energy-calorie	4.184	
