@@ -1,0 +1,69 @@
+# Which language a message is answered in (roadmap 1.4).
+#
+# Every other file declares the language of each row, so none of them exercises detection: a row in
+# Swedish is planned in Swedish whatever the detector would have said. Here `lang` is what the
+# detector must decide, and expect_intent is the pseudo-intent LANGUAGE. A session starts in English,
+# the app's default, and each turn starts from the language the turn before was answered in, as a
+# conversation does; a turn with no evidence of a language must keep it.
+#
+# Both platforms detected language from element names alone, so a question that names no element
+# carried no signal at all: "hur många ädelgaser finns det" was answered in English.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
+# ---- no element name: the language itself is the only evidence ----------------------------------
+lang-sv-1			sv	hur många ädelgaser finns det	LANGUAGE				
+lang-sv-2			sv	vilken metall har högst densitet	LANGUAGE				
+lang-sv-3			sv	hur manga adelgaser finns det	LANGUAGE				typed without å, ä and ö
+lang-de-1			de	wie viele Edelgase gibt es	LANGUAGE				
+lang-de-2			de	welches Metall hat die höchste Dichte	LANGUAGE				
+lang-es-1			es	cuántos gases nobles hay	LANGUAGE				
+lang-es-2			es	cuál es el metal más denso	LANGUAGE				
+lang-fr-1			fr	combien de gaz nobles y a-t-il	LANGUAGE				
+lang-fr-2			fr	quel est le métal le plus dense	LANGUAGE				
+lang-it-1			it	quanti gas nobili ci sono	LANGUAGE				
+lang-it-2			it	qual è il metallo più denso	LANGUAGE				
+lang-pt-1			pt	quantos gases nobres existem	LANGUAGE				
+lang-pt-2			pt	qual é o metal mais denso	LANGUAGE				
+lang-af-1			af	hoeveel edelgasse is daar	LANGUAGE				
+lang-af-2			af	watter metaal het die hoogste digtheid	LANGUAGE				
+lang-fil-1			fil	ilan ang mga noble gas	LANGUAGE				
+lang-fil-2			fil	ano ang pinakasiksik na metal	LANGUAGE				
+lang-hi-1			hi	कितनी उत्कृष्ट गैसें हैं	LANGUAGE				
+lang-hi-2			hi	सबसे घना धातु कौन सा है	LANGUAGE				
+lang-ur-1			ur	کتنی عظیم گیسیں ہیں	LANGUAGE				
+lang-ur-2			ur	سب سے گھنی دھات کون سی ہے	LANGUAGE				
+lang-zh-1			zh	有多少种稀有气体	LANGUAGE				
+lang-zh-2			zh	密度最大的金属是什么	LANGUAGE				
+# ---- close languages sharing the element's name -------------------------------------------------
+lang-close-1			pt	qual é a densidade do ouro	LANGUAGE				ouro is Portuguese; Spanish and Italian write oro
+lang-close-2			it	qual è la densità dell'oro	LANGUAGE				
+lang-close-3			es	cuál es la densidad del oro	LANGUAGE				
+lang-close-4			af	wat is die digtheid van goud	LANGUAGE				goud is Afrikaans and Dutch, not German
+lang-close-5			de	was ist die Dichte von Gold	LANGUAGE				Gold is German, English and Afrikaans
+# ---- English stays English -----------------------------------------------------------------------
+lang-en-1			en	electron configuration of gold	LANGUAGE				D18: a name shared with German is no evidence for German
+lang-en-2			en	how many noble gases are there	LANGUAGE				
+lang-en-3			en	what is the density of argon	LANGUAGE				
+lang-en-4			en	pH	LANGUAGE				too short to be evidence; keeps the language in play
+# ---- a distinctive element name is still evidence -------------------------------------------------
+lang-name-1			sv	guld	LANGUAGE				only Swedish calls gold guld
+lang-name-2			de	eisen	LANGUAGE				
+# ---- threads: each turn starts from the language the last was answered in ------------------------
+lang-t1-1	lang-t1	1	sv	hur många ädelgaser finns det	LANGUAGE				
+lang-t1-2	lang-t1	2	en	how many noble gases are there	LANGUAGE				an English question after a Swedish one is English (D42 kept Swedish)
+lang-t2-1	lang-t2	1	sv	vad är densiteten för guld	LANGUAGE				
+lang-t2-2	lang-t2	2	sv	ok	LANGUAGE				no evidence, so the thread's language stays
+lang-t2-3	lang-t2	3	sv	42	LANGUAGE				
+lang-t2-4	lang-t2	4	sv	och silver	LANGUAGE				silver is also English; och is not
+lang-t3-1	lang-t3	1	de	wie viele Edelgase gibt es	LANGUAGE				
+lang-t3-2	lang-t3	2	de	gold	LANGUAGE				a shared name keeps German
+lang-t3-3	lang-t3	3	en	what about its boiling point	LANGUAGE				
+lang-t4-1	lang-t4	1	zh	金的密度是多少	LANGUAGE				
+lang-t4-2	lang-t4	2	zh	银呢	LANGUAGE				
+lang-t4-3	lang-t4	3	en	and lead	LANGUAGE				
+lang-t5-1	lang-t5	1	fr	quelle est la masse atomique du fer	LANGUAGE				
+lang-t5-2	lang-t5	2	fr	et du cuivre	LANGUAGE				
+lang-t6-1	lang-t6	1	es	cuál es el punto de fusión del hierro	LANGUAGE				
+lang-t6-2	lang-t6	2	es	y del cobre	LANGUAGE				
+lang-t7-1	lang-t7	1	it	quanti gas nobili ci sono	LANGUAGE				
+lang-t7-2	lang-t7	2	it	grazie	LANGUAGE				
+lang-t7-3	lang-t7	3	it	e il punto di ebollizione dell'argon	LANGUAGE				
