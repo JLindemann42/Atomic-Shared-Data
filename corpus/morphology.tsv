@@ -1,0 +1,55 @@
+# corpus-format: 2
+#
+# Words built from other words (roadmap 1.5).
+#
+# Swedish, German and Afrikaans write a property and what is asked about it as one word:
+# "smältpunktsskillnaden" is the melting-point difference, "Durchschnittsdichte" the average
+# density. Afrikaans makes a superlative with -ste ("hardste") and Filipino with pinaka-
+# ("pinakamatigas", "pinakamababang" with the linker), so the superlative and its property are one
+# word too. Each row below failed: the property was lost, or the statistic was the wrong one, or
+# the superlative was not read at all. The guard rows already passed and must keep passing - a word
+# the lexicon knows whole is never taken apart.
+#
+# expect_value on a superlative is the value of the element at the top of the ranking, which is
+# what pins its direction: the lightest noble gas carries helium's mass, not radon's. On a
+# comparison it is the largest value of the first property compared, which tells a comparison of
+# melting points from the default table that merely includes them. Rows whose top element is a
+# superheavy with a predicted value carry none.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
+# ---- Swedish: the property first, then what is asked about it -----------------------------------
+mo-sv-1			sv	smältpunktsskillnaden mellan järn och koppar	COMPARISON	melting_point			smältpunkt + s + skillnad		1811	
+mo-sv-2			sv	densitetsskillnaden mellan guld och bly	COMPARISON	density			densitet + s + skillnad		19.3	
+mo-sv-3			sv	elektronegativitetsvärdet för fluor	PROPERTY_LOOKUP	electronegativity			elektronegativitet + s + värde		3.98	
+mo-sv-4			sv	smältpunktstemperaturen för järn	PROPERTY_LOOKUP	melting_point			smältpunkt + s + temperatur		1811	
+mo-sv-5			sv	kokpunktsvärdet för kväve	PROPERTY_LOOKUP	boiling_point					77.355	
+mo-sv-6			sv	vilket element har högst kokpunktstemperatur	SUPERLATIVE	boiling_point					6203	
+# ---- Swedish: the statistic first --------------------------------------------------------------
+mo-sv-7			sv	vad är mediandensiteten för alkalimetallerna	AGGREGATE	density			the median, 1.25, not the mean, 1.287: the Italian and Spanish "media" opened "median"		1.25	
+mo-sv-8			sv	medeltätheten för halogenerna	AGGREGATE	density			medel + täthet; täthet is too short for the compound-head rule, and was no alias at all		2.68187	
+mo-sv-g1			sv	medelsmältpunkten för alkalimetallerna	AGGREGATE	melting_point			guard: already worked		342.7407	
+mo-sv-g2			sv	vad är atommassan för guld	PROPERTY_LOOKUP	atomic_mass			guard: atommassa is known whole, never atom + massa		196.967	
+mo-sv-g3			sv	vilken metall har högst täthet	SUPERLATIVE	density			guard			
+# ---- German ------------------------------------------------------------------------------------
+mo-de-1			de	Durchschnittsdichte der Alkalimetalle	AGGREGATE	density			Durchschnitt + s + Dichte		1.28733	
+mo-de-2			de	Mediandichte der Halogene	AGGREGATE	density					3.1028	
+mo-de-3			de	Dichteunterschied zwischen Gold und Blei	COMPARISON	density					19.3	
+mo-de-4			de	Schmelzpunktunterschied zwischen Eisen und Kupfer	COMPARISON	melting_point					1811	
+mo-de-5			de	Schmelztemperatur von Eisen	PROPERTY_LOOKUP	melting_point			the standard term; schmelz is no word of its own, so this is vocabulary		1811	
+mo-de-6			de	welches Element hat die höchste Siedetemperatur	SUPERLATIVE	boiling_point					6203	
+mo-de-g1			de	Durchschnittsatommasse der Halogene	AGGREGATE	atomic_mass			guard: already worked		186.5617	
+# ---- Afrikaans: -ste ---------------------------------------------------------------------------
+mo-af-1			af	watter element is die hardste	SUPERLATIVE	mohs_hardness			hard + ste		9.3	
+mo-af-2			af	watter metaal is die sagste	SUPERLATIVE	mohs_hardness			sag + ste, the least hard; metaal was no metal word either		0.2	
+mo-af-3			af	watter edelgas is die ligste	SUPERLATIVE	atomic_mass			lig + ste, the least heavy		4.0026	
+mo-af-4			af	watter element is die elektronegatiefste	SUPERLATIVE	electronegativity					3.98	
+mo-af-5			af	smeltpuntverskil tussen yster en koper	COMPARISON	melting_point			smeltpunt + verskil		1811	
+mo-af-g1			af	watter metaal is die swaarste	SUPERLATIVE	atomic_mass			guard: listed whole			
+mo-af-g2			af	watter element is die digste	SUPERLATIVE	density			guard: listed whole			
+# ---- Filipino: pinaka- -------------------------------------------------------------------------
+mo-fil-1			fil	aling elemento ang pinakaelectronegative	SUPERLATIVE	electronegativity			worked only with a hyphen		3.98	
+mo-fil-2			fil	ano ang pinakamababang punto ng pagkatunaw	SUPERLATIVE	melting_point			pinakamababa with the linker -ng; punto ng pagkatunaw was no alias either		0.95	
+mo-fil-3			fil	ano ang pinakamatigas na metal	SUPERLATIVE	mohs_hardness			chromium; boron before, because "no " was found inside "ano " and negated the metals		8.5	
+mo-fil-4			fil	ano ang pinakamalambot na metal	SUPERLATIVE	mohs_hardness			the least hard metal, caesium		0.2	
+mo-fil-5			fil	aling metal ang pinakasiksik	SUPERLATIVE	density			siksik is dense			
+mo-fil-g1			fil	aling elemento ang pinaka-electronegative	SUPERLATIVE	electronegativity			guard: the hyphen already worked		3.98	
+mo-fil-g2			fil	ano ang pinakamabigat na noble gas	SUPERLATIVE	atomic_mass			guard: listed whole		294	
