@@ -82,3 +82,17 @@ ds-tr-af-1			af	wat is elektronegatiwiteit	DATASET_LOOKUP				asked in the langua
 ds-tr-zh-1			zh	什么是电负性	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	dictionary/electronegativity		
 ds-tr-zh-2			zh	动能的公式	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	equation/kinetic-energy		
 ds-tr-hi-1			hi	विद्युत ऋणात्मकता क्या है	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	dictionary/electronegativity		
+# ---- one content word must name the whole title ------------------------------------------------
+# A question with one content word was answered from any row whose title held that word. "What is
+# the meaning of life" has one ("meaning" is a stopword), and it is half of "Half-Life". A word must
+# name every word of a title, in one of its wordings; a formula in brackets is notation, not a word.
+ds-one-1			en	what is the meaning of life				y	was answered with the half-life equation			
+ds-one-2			en	what is life				y				
+ds-one-3			en	what is light				y	was answered with the speed of light			
+ds-one-4			en	what is speed				y	was answered with the speed of light			
+ds-one-5			en	what is a law				y	was answered with the law of decay			
+ds-one-6			en	what is a constant				y	was answered with the gas constant			
+ds-one-g1			en	tell me about periclase	DATASET_LOOKUP				guard: the title is "Periclase (MgO)"; the formula is notation	poisson/periclase-mgo		
+ds-one-g2			en	what is energy	DATASET_LOOKUP				guard: names its title whole	dictionary/energy		
+ds-one-g3			en	what is work	DATASET_LOOKUP				guard	equation/work		
+ds-one-g4			en	what is a half-life	DATASET_LOOKUP				guard: both halves named, so two content words			
