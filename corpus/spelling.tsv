@@ -1,0 +1,42 @@
+# corpus-format: 2
+#
+# Misspellings (roadmap 1.6).
+#
+# Fuzzy matching covered element names only, and only for a query of one or two words, so a typo in
+# a property, a family or an element inside a sentence declined the whole question. The speller
+# corrects an unknown word to the one vocabulary word within an edit or two - element names, field
+# names and the operator words - and only when the question would otherwise be declined. Each row
+# below was declined; expect_value pins the element and property the correction must reach.
+#
+# The guards are the other half, and the reason the speller runs only on a decline. "more" is one
+# edit from the French for boron and "sure" from the Swedish for oxygen (D47); conversation is full
+# of words near element names. They must still be declined, and so must a question whose nearest
+# word is a different subject altogether: "tell me about mars" is not "mass".
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
+# ---- English ------------------------------------------------------------------------------------
+sp-en-1			en	what is the denisty of gold	PROPERTY_LOOKUP	density			a transposition		19.3	
+sp-en-2			en	electronegativty of fluorine	PROPERTY_LOOKUP	electronegativity					3.98	
+sp-en-3			en	boiling point of nitrogn	PROPERTY_LOOKUP	boiling_point					77.355	
+sp-en-4			en	density of sliver	PROPERTY_LOOKUP	density			sliver is a word, but not one this question can mean		10.5	
+sp-en-5			en	what is the boiling point of oxigen	PROPERTY_LOOKUP	boiling_point			oxygen and the Spanish oxigeno are both one edit away, and both are oxygen		90.188	
+sp-en-6			en	what is the meltin point of tungsten	PROPERTY_LOOKUP	melting_point					3695	
+sp-en-7			en	what is the electron configuraton of iron	PROPERTY_LOOKUP	electron_configuration						
+sp-en-8			en	what is the densty of mercury	PROPERTY_LOOKUP	density					13.534	
+# ---- other languages ----------------------------------------------------------------------------
+sp-sv-1			sv	smältpunken för järn	PROPERTY_LOOKUP	melting_point					1811	
+sp-sv-2			sv	vad är atommasan för silver	PROPERTY_LOOKUP	atomic_mass			two edits in a long word		107.8682	
+sp-sv-3			sv	vilken ädelgas är tyngts	SUPERLATIVE	atomic_mass			tyngst, transposed		294	
+sp-de-1			de	Schmelzpukt von Eisen	PROPERTY_LOOKUP	melting_point					1811	
+sp-de-2			de	Dichte von Glod	PROPERTY_LOOKUP	density					19.3	
+sp-es-1			es	punto de fusion del hiero	PROPERTY_LOOKUP	melting_point					1811	
+sp-fr-1			fr	densité du plomp	PROPERTY_LOOKUP	density			plomb and the Spanish plomo are both one edit away, and both are lead		10.66	
+sp-it-1			it	densità del fero	PROPERTY_LOOKUP	density			ferro and the French fer are both one edit away, and both are iron		7.87	
+# ---- guards: declined before, declined still ------------------------------------------------------
+sp-g-1			en	more				y	one edit from bore, boron in French (D47)			
+sp-g-2			en	sure				y	one edit from syre, oxygen in Swedish			
+sp-g-3			en	nice				y				
+sp-g-4			en	cool				y				
+sp-g-5			en	what is the weather like				y				
+sp-g-6			en	write me a poem				y				
+sp-g-7			en	what is love				y				
+sp-g-8			en	tell me about mars				y	one edit from mass, which only a dataset row could answer: a guess on a guess			
