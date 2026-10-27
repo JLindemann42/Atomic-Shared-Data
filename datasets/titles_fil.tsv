@@ -1,0 +1,462 @@
+# Reference-table titles in Filipino (roadmap 1.3), by canonical key from golden/dataset_keys.tsv.
+# A title may list other wordings after "|": the first is shown, all are searched.
+# Machine-translated; "reviewed" is y once a native speaker has checked the row.
+# Check with: python tools/dataset_titles.py --check
+key	title	reviewed
+dataset/alloy	Haluang metal | aloy | alloy
+dataset/constant	Konstante | mga konstante
+dataset/dictionary	Glosaryo | termino | kahulugan
+dataset/electrode	Potensyal ng elektrod | pamantayang potensyal | elektrokemikal na serye
+dataset/equation	Pormula | ekwasyon | mga pormula
+dataset/geology	Mineral | mga mineral
+dataset/indicator	pH indicator | indikador | kulay | pagbabago ng kulay
+dataset/ion	Enerhiya ng ionisasyon | ion
+dataset/poisson	Poisson's ratio | ratio ni Poisson
+dataset/solubility	Solubilidad | natutunaw | hindi natutunaw
+dataset/unit	Yunit | mga yunit | pag-convert | conversion
+dictionary/density	Densidad | density
+dictionary/standard-atomic-weight	Pamantayang atomikong timbang
+dictionary/atomic-radius	Radyus ng atomo | atomic radius
+dictionary/electronegativity	Elektronegatibidad | electronegativity
+dictionary/ionization-energy	Enerhiya ng ionisasyon | ionization energy
+dictionary/electron-configuration	Kumpigurasyon ng elektron | electron configuration
+dictionary/enthalpy-of-fusion	Entalpiya ng pagkatunaw
+dictionary/specific-heat-capacity	Tiyak na kapasidad ng init | specific heat
+dictionary/enthalpy-of-vaporization	Entalpiya ng pagsingaw
+dictionary/solubility-chart	Tsart ng solubilidad
+dictionary/superconductivity	Superkonduktibidad
+dictionary/electrical-resistivity	Elektrikal na resistibidad
+dictionary/electrical-conductivity	Elektrikal na konduktibidad
+dictionary/thermodynamic-temperature	Termodinamikong temperatura
+dictionary/absolute-zero	Absolutong sero | absolute zero
+dictionary/acid	Asido
+dictionary/activation-energy	Enerhiya ng aktibasyon
+dictionary/chemical-element	Kemikal na elemento
+dictionary/electron	Elektron
+dictionary/proton	Proton
+dictionary/neutron	Neutron
+dictionary/block-periodic-table	Bloke (periodic table)
+dictionary/period-periodic-table	Peryodo (periodic table)
+dictionary/covalent-radius	Kobalenteng radyus
+dictionary/van-der-waals-radius	Radyus ng van der Waals
+dictionary/dark-matter	Madilim na materya | dark matter
+dictionary/elementary-particle	Elementaryang partikulo
+dictionary/fats	Taba
+dictionary/functional-group	Punksiyonal na grupo
+dictionary/hydrophile	Hidropilo | hydrophilic
+dictionary/hydrophobe	Hidropobo | hydrophobic
+dictionary/isotope	Isotopo
+dictionary/liquid	Likido
+dictionary/macromolecule	Makromolekula
+dictionary/magnetic-field	Magnetikong larangan | magnetic field
+dictionary/gas	Gas
+dictionary/molar-mass	Molar na masa
+dictionary/nuclear-matter	Nukleyar na materya
+dictionary/pressure	Presyon
+dictionary/rust	Kalawang
+dictionary/semiconductors	Semikonduktor
+dictionary/solubility	Solubilidad
+dictionary/spectrometer	Spektrometro
+dictionary/vacuum	Bakyum | vacuum
+dictionary/wavelength	Haba ng alon | wavelength
+dictionary/weight	Timbang
+dictionary/white-noise	Puting ingay | white noise
+dictionary/frequency	Prekuwensiya | dalas
+dictionary/friction	Prikisyon | alitan
+dictionary/efficiency	Episyensiya | kahusayan
+dictionary/impulse	Impulso
+dictionary/intensity	Intensidad
+dictionary/centripetal-force	Sentripetal na puwersa
+dictionary/momentum	Momentum
+dictionary/spectrum	Ispektro | spectrum
+dictionary/electromagnetic-spectrum	Elektromagnetikong ispektro
+dictionary/electric-charge	Elektrikal na karga
+dictionary/matter	Materya
+dictionary/photon	Poton | photon
+dictionary/boson	Boson
+dictionary/fermion	Fermion
+dictionary/quark	Quark
+dictionary/lepton	Lepton
+dictionary/particle-accelerator	Akselerador ng partikulo
+dictionary/electric-field	Elektrikal na larangan | electric field
+dictionary/molecule	Molekula
+dictionary/hydrogen-bond	Hidroheno na bono | hydrogen bond
+dictionary/van-der-waals-force	Puwersa ng van der Waals
+dictionary/ionic-bonding	Ionikong bono
+dictionary/ion	Ion
+dictionary/cation	Katayon
+dictionary/anion	Anyon
+dictionary/energy	Enerhiya
+dictionary/elastic-energy	Elastikong enerhiya
+dictionary/kinetic-energy	Kinetikong enerhiya
+dictionary/potential-energy	Potensyal na enerhiya
+dictionary/mass	Masa
+dictionary/measure	Sukat
+dictionary/function	Punsiyon
+dictionary/differentiable-function	Punsiyong madidiperensiyal
+dictionary/calculus	Kalkulo | calculus
+dictionary/solid-water-distribution-coefficient	Koepisyente ng distribusyon ng solido at tubig
+dictionary/avogadro-constant	Konstante ni Avogadro
+dictionary/planck-constant	Konstante ni Planck
+dictionary/boltzmann-constant	Konstante ni Boltzmann
+dictionary/ideal-gas-law	Batas ng ideyal na gas
+dictionary/entropy	Entropiya
+dictionary/gibbs-free-energy	Malayang enerhiya ni Gibbs
+dictionary/ph	pH
+dictionary/equilibrium-constant	Konstante ng ekilibriyo
+dictionary/catalyst	Katalista
+dictionary/reaction-rate	Bilis ng reaksiyon
+dictionary/arrhenius-equation	Ekwasyon ni Arrhenius
+dictionary/half-life-radioactive-decay	Kalahating-buhay (radyoaktibong pagkabulok) | half-life
+dictionary/fermi-energy	Enerhiya ni Fermi
+dictionary/redox-reaction	Reaksiyong redoks
+dictionary/stoichiometry	Stoikiometriya
+dictionary/mole-amount-of-substance	Mol (dami ng sustansiya)
+dictionary/thermodynamic-equilibrium	Termodinamikong ekilibriyo
+dictionary/first-law-of-thermodynamics	Unang batas ng termodinamika
+dictionary/second-law-of-thermodynamics	Ikalawang batas ng termodinamika
+dictionary/solvent	Solbent | pantunaw
+dictionary/solvation	Solbasyon
+dictionary/oxidation	Oksidasyon
+dictionary/reduction	Redaksiyon
+dictionary/buffer-solution	Buffer na solusyon
+dictionary/compressibility	Kompresibilidad
+dictionary/viscosity	Biskosidad | lapot
+dictionary/refractive-index	Indeks ng repraksiyon
+dictionary/dielectric-constant	Dielektrikong konstante
+dictionary/specific-gravity	Tiyak na grabidad | specific gravity
+dictionary/surface-tension	Tensiyon sa ibabaw | surface tension
+dictionary/phase-diagram	Dayagram ng yugto | phase diagram
+dictionary/latent-heat	Nakatagong init | latent heat
+dictionary/partition-coefficient	Koepisyente ng partisyon
+dictionary/van-t-hoff-factor	Salik ni van 't Hoff
+dictionary/le-chatelier-s-principle	Prinsipyo ni Le Chatelier
+dictionary/born-haber-cycle	Siklo ng Born-Haber
+dictionary/molarity	Molaridad
+dictionary/molality	Molalidad
+dictionary/partial-pressure	Bahagyang presyon | partial pressure
+dictionary/raoult-s-law	Batas ni Raoult
+dictionary/debye-huckel-theory	Teorya ng Debye-Hückel
+dictionary/diffusion	Dipyusyon | diffusion
+dictionary/brownian-motion	Brownian na galaw
+dictionary/ionic-strength	Ionikong lakas
+dictionary/atomic-number	Atomikong bilang | atomic number
+dictionary/mass-number	Bilang ng masa | mass number
+dictionary/atomic-mass	Atomikong masa | atomic mass
+dictionary/valence-electrons	Mga elektron ng balensiya | valence electrons
+dictionary/orbital	Orbital
+dictionary/oxidation-state	Estado ng oksidasyon | oxidation number
+dictionary/oxide	Oksido
+dictionary/alkali-metal	Alkali na metal
+dictionary/alkaline-earth-metal	Alkaline earth na metal
+dictionary/halogen	Halohena
+dictionary/noble-gas	Marangal na gas | noble gas
+dictionary/transition-metal	Transisyong metal
+dictionary/lanthanide	Lantanido
+dictionary/actinide	Aktinido
+dictionary/metallic-character	Metalikong katangian
+dictionary/synthetic-element	Sintetikong elemento
+dictionary/aufbau-principle	Prinsipyong Aufbau
+dictionary/hund-s-rule	Tuntunin ni Hund
+dictionary/pauli-exclusion-principle	Prinsipyo ng eksklusyon ni Pauli
+dictionary/anomalous-electron-configuration	Di-pangkaraniwang kumpigurasyon ng elektron
+dictionary/periodic-trend-atomic-radius	Periodikong trend: radyus ng atomo
+dictionary/periodic-trend-ionization-energy	Periodikong trend: enerhiya ng ionisasyon
+dictionary/periodic-trend-electronegativity	Periodikong trend: elektronegatibidad
+dictionary/periodic-trend-reactivity	Periodikong trend: reaktibidad
+equation/density	Densidad | density
+equation/power-effect	Lakas | power
+equation/intensity	Intensidad
+equation/efficiency	Episyensiya | kahusayan
+equation/frequency	Prekuwensiya | dalas
+equation/angular-velocity	Angular na bilis
+equation/average-velocity	Karaniwang bilis | average velocity
+equation/linear-motion	Linyar na galaw
+equation/average-acceleration	Karaniwang akselerasyon
+equation/instantaneous-velocity-1	Agarang bilis #1
+equation/instantaneous-velocity-2	Agarang bilis #2
+equation/instantaneous-velocity-3	Agarang bilis #3
+equation/instantaneous-velocity-4	Agarang bilis #4
+equation/newtown-s-second-law-force-law	Ikalawang batas ni Newton (batas ng puwersa)
+equation/friction	Prikisyon | alitan
+equation/hookes-law	Batas ni Hooke
+equation/law-of-gravity	Batas ng grabidad
+equation/force-moment	Momento ng puwersa | torque
+equation/impulse	Impulso
+equation/law-of-impulse	Batas ng impulso
+equation/momentum	Momentum
+equation/conservation-of-momentum	Konserbasyon ng momentum
+equation/work	Trabaho | gawain
+equation/potential-energy	Potensyal na enerhiya
+equation/kinetic-energy	Kinetikong enerhiya
+equation/elastic-energy	Elastikong enerhiya
+equation/centripetal-force	Sentripetal na puwersa
+equation/centripetal-acceleration	Sentripetal na akselerasyon
+equation/harmonic-oscillator-1	Harmonikong osilador #1
+equation/harmonic-oscillator-2	Harmonikong osilador #2
+equation/harmonic-oscillator-3	Harmonikong osilador #3
+equation/harmonic-oscillator-4	Harmonikong osilador #4
+equation/simple-pendulum	Simpleng pendulo
+equation/mass-energy-equivalence	Pagkakatumbas ng masa at enerhiya
+equation/thermal-energy	Termal na enerhiya
+equation/latent-energy-fusion	Nakatagong enerhiya (pagkatunaw)
+equation/latent-energy-vaporization	Nakatagong enerhiya (pagsingaw)
+equation/ideal-gas-law	Batas ng ideyal na gas
+equation/pressure	Presyon
+equation/pressure-in-liquids	Presyon sa likido
+equation/lift-force	Puwersang pag-angat | lift
+equation/velocity-factor-propagation-speed	Salik ng bilis (bilis ng pagkalat)
+equation/light-interference-double-slit	Interperensiya ng liwanag (dobleng hiwa)
+equation/law-of-refraction	Batas ng repraksiyon
+equation/emittance	Emitans
+equation/stefan-boltzmanns-law	Batas ni Stefan-Boltzmann
+equation/wiens-displacement-law	Batas ng displacement ni Wien
+equation/coulombs-law	Batas ni Coulomb
+equation/current	Elektrikal na kuryente | current
+equation/electrical-voltage	Boltahe
+equation/ohms-law	Batas ni Ohm
+equation/electrical-effect	Elektrikal na lakas
+equation/electrical-field-strength	Lakas ng elektrikal na larangan
+equation/force-charge-on-particle-in-electric-field	Puwersa sa may-kargang partikulo sa elektrikal na larangan
+equation/equivalent-resistance-series	Katumbas na resistensiya (serye)
+equation/equivalent-resistance-parallel	Katumbas na resistensiya (parallel)
+equation/magnetic-field-around-electrical-conduct	Magnetikong larangan sa paligid ng konduktor
+equation/magnetic-field-in-flat-coil	Magnetikong larangan sa patag na coil
+equation/magnetic-field-in-solenoid	Magnetikong larangan sa solenoid
+equation/power-effect-on-conductor-in-magnetic-field	Puwersa sa konduktor sa magnetikong larangan
+equation/power-effect-on-charged-particle-in-magnetic-field	Puwersa sa may-kargang partikulo sa magnetikong larangan
+equation/magnetic-flow	Magnetikong plaks | magnetic flux
+equation/induced-voltage-moving-conductor	Induced na boltahe (gumagalaw na konduktor)
+equation/induced-voltage-variable-magnetic-flow	Induced na boltahe (nagbabagong magnetikong plaks)
+equation/transformer	Transpormer
+equation/photon-energy	Enerhiya ng poton
+equation/photoelectric-effect	Potoelektrikong epekto
+equation/photon-momentum	Momentum ng poton
+equation/matter-wavelength-de-broglie	Haba ng alon ng materya (de Broglie)
+equation/hydrogen-s-energy-levels-bohrs	Mga antas ng enerhiya ng hidroheno (Bohr)
+equation/law-of-decay	Batas ng pagkabulok
+equation/half-life	Kalahating-buhay | half-life
+equation/activity-1	Aktibidad #1
+equation/activity-2	Aktibidad #2
+equation/absorbed-dose	Nasipsip na dosis
+equation/equivalent-dose	Katumbas na dosis
+equation/energy-in-capacitor	Enerhiya sa kapasitor
+constant/pi	Pi (π)
+constant/tau	Tau (τ)
+constant/euler-s-number	Bilang ni Euler | e
+constant/euler-s-constant	Konstante ni Euler-Mascheroni
+constant/golden-ratio	Gintong proporsyon | golden ratio
+constant/catalan-constant	Konstante ni Catalan
+constant/square-root-of-2	Square root ng 2
+constant/square-root-of-10	Square root ng 10
+constant/speed-of-light	Bilis ng liwanag
+constant/planck-s-constant	Konstante ni Planck
+constant/gravitational-constant	Grabitasyonal na konstante
+constant/avogadro-s-number	Bilang ni Avogadro
+constant/elementary-charge	Elementaryang karga
+constant/electron-mass	Masa ng elektron
+constant/proton-mass	Masa ng proton
+constant/neutron-mass	Masa ng neutron
+constant/atomic-mass-unit	Yunit ng atomikong masa
+constant/boltzmann-constant	Konstante ni Boltzmann
+constant/faraday-constant	Konstante ni Faraday
+constant/bohr-magneton	Magneton ni Bohr
+constant/bohr-radius	Radyus ni Bohr
+constant/acceleration-due-to-gravity	Akselerasyon dahil sa grabidad
+constant/vacuum-permittivity	Permitibidad ng bakyum
+constant/vacuum-permeability	Permeabilidad ng bakyum
+constant/gas-constant	Konstante ng gas
+constant/airport-passenger	Paliparan, pasahero
+constant/apartment-bedroom	Apartment, silid-tulugan
+constant/automobile-service-station-vehicle	Gasolinahan, sasakyan
+constant/automobile-service-station-employee	Gasolinahan, empleyado
+constant/bar-lounge-seat	Bar/lounge, upuan
+constant/bar-lounge-employee	Bar/lounge, empleyado
+constant/boarding-house-person	Boarding house, tao
+constant/conference-center-person	Sentro ng kumperensiya, tao
+constant/department-store-restroom	Department store, palikuran
+constant/department-store-employee	Department store, empleyado
+constant/hotel-guest	Hotel, bisita
+constant/hotel-employee	Hotel, empleyado
+constant/industrial-building-employee	Gusaling industriyal, empleyado
+constant/laundry-self-service-machine	Labahan (self-service), makina
+constant/laundry-self-service-customer	Labahan (self-service), kostumer
+constant/mobile-home-park-mobile-home	Parke ng mobile home, mobile home
+constant/motel-with-kitchen-guest	Motel na may kusina, bisita
+constant/motel-without-kitchen-guest	Motel na walang kusina, bisita
+constant/office-employee	Opisina, empleyado
+constant/public-restroom-user	Pampublikong palikuran, gumagamit
+constant/restaurant-without-bar-customer	Restawran na walang bar, kostumer
+constant/restaurant-with-bar-customer	Restawran na may bar, kostumer
+constant/shopping-center-employee	Shopping center, empleyado
+constant/shopping-center-parking-space	Shopping center, paradahan
+constant/theater-seat	Teatro, upuan
+constant/ks	Ks
+constant/kd	kd
+constant/um	um
+constant/y	Y
+constant/trash-racks	Salaan ng basura | trash racks
+constant/bar-racks-coarse-screens-fine-screens	Bar racks, magaspang na salaan, pinong salaan
+constant/very-fine-screens	Napakapinong salaan
+constant/micro-screens	Mikrosalaan
+poisson/andesite	Andesita
+poisson/basalt	Basalto
+poisson/claystone	Batong luwad | claystone
+poisson/conglomerate	Konglomerado
+poisson/diabase	Diabase
+poisson/diorite	Diorita
+poisson/dolerite	Dolerita
+poisson/dolomite	Dolomita
+poisson/gneiss	Gneiss
+poisson/basalt#2	Basalto
+poisson/granodiorite	Granodiorita
+poisson/greywacke	Greywacke
+poisson/linestone	Apog | limestone
+poisson/marble	Marmol
+poisson/marl	Marl
+poisson/norite	Norita
+poisson/quartzite	Kwartsita
+poisson/rock-salt	Batong asin | rock salt
+poisson/sandstone	Batong buhangin | sandstone
+poisson/shale	Shale
+poisson/silstone	Siltstone
+poisson/tuff	Tuff
+poisson/loose-sand	Maluwag na buhangin
+poisson/medium-dense-sand	Katamtamang siksik na buhangin
+poisson/dense-sand	Siksik na buhangin
+poisson/silty-sand	Buhanging may banlik
+poisson/sand-and-gravel	Buhangin at graba
+poisson/saturated-cohesive-soil	Basang kohesibong lupa
+poisson/cristobalite-sio2	α-Kristobalita (SiO2)
+poisson/diamond-c	Diyamante (C)
+poisson/quartz-sio2	α-Kwarts (SiO2)
+poisson/periclase-mgo	Periklasa (MgO)
+poisson/topaz-al2-f-oh-2sio4	Topaz (Al2(F,OH)2SiO4)
+poisson/graphite-c	Grapito (C)
+poisson/sapphire-al2o3	Sapiro (Al2O3)
+poisson/magnesite-mgco3	Magnesita (MgCO3)
+poisson/halite-nacl	Halita (NaCl)
+poisson/magnetite-fe3o4	Magnetita (Fe3O4)
+poisson/galena-pbs	Galena (PbS)
+poisson/anhydrite-caso4	Anhidrita (CaSO4)
+poisson/rutile-tio2	Rutilo (TiO2)
+poisson/chromite-feocr2o3	Kromita (FeOCr2O3)
+poisson/albite-naalsi3o8	Albita (NaAlSi3O8)
+poisson/fluorite-caf2	Pluorita (CaF2) | fluorite
+poisson/dolomite-camg-co3-2	Dolomita (CaMg(CO3)2)
+poisson/calcite-caco3	Kalsita (CaCO3)
+poisson/sphalerite-zns	Sphalerite (ZnS)
+poisson/uraninite-uo2	Uraninita (UO2)
+poisson/gypsum-caso4-2h2o	Yeso (CaSO4 2H2O) | gypsum
+poisson/zincite-zno	Zincita (ZnO)
+poisson/bunsenite-nio	Bunsenita (NiO)
+poisson/celestite-srso4	Selestina (SrSO4)
+geology/plagioclase	Plagioklase
+geology/graphite	Grapito
+geology/quartz	Kwarts
+geology/olivine	Olibina | olivine
+geology/pyrite	Pirita
+geology/mica	Mika
+geology/biotite	Biotita
+geology/chlorite	Klorita
+geology/talc	Talko
+geology/magnetite	Magnetita
+geology/fluorite	Pluorita | fluorite
+geology/diopside	Diopsido
+geology/chalcopyrite	Kalkopirita
+geology/beryl	Berilo
+geology/garnet	Granate | garnet
+geology/potassium-feldspar	Potasyong feldspar
+geology/hornblende	Hornblende
+geology/epidote	Epidota
+geology/hematite	Hematita
+geology/galena	Galena
+geology/gypsum	Yeso | gypsum
+geology/goethite	Goethita
+geology/apatite	Apatita
+geology/barite	Barita
+geology/dolomite	Dolomita
+indicator/bromothymol-blue	Bromothymol blue
+indicator/methyl-orange	Methyl orange
+indicator/congo-red	Congo red
+indicator/phenolphthalein	Phenolphthalein
+alloy/steel	Asero | bakal
+alloy/stainless-steel	Hindi kinakalawang na asero | stainless steel
+alloy/cast-iron	Bakal na hulmado | cast iron
+alloy/brass	Tanso-sink | brass
+alloy/bronze	Bronse
+alloy/solder	Panghinang | solder
+alloy/pewter	Pewter
+alloy/duralumin	Duralumin
+alloy/ti-6al-4v	Ti-6Al-4V
+alloy/nichrome	Nichrome
+alloy/sterling-silver	Sterling na pilak
+alloy/white-gold	Puting ginto
+alloy/amalgam	Amalgama
+alloy/magnalium	Magnalium
+alloy/inconel	Inconel
+unit/length-meter	Metro
+unit/length-kilometer	Kilometro
+unit/length-centimeter	Sentimetro
+unit/length-millimeter	Milimetro
+unit/length-inch	Pulgada
+unit/length-foot	Talampakan
+unit/length-yard	Yarda
+unit/length-mile	Milya
+unit/mass-kilogram	Kilo | kilogramo
+unit/mass-gram	Gramo
+unit/mass-milligram	Miligramo
+unit/mass-pound	Libra
+unit/mass-ounce	Onsa
+unit/volume-liter	Litro
+unit/volume-milliliter	Mililitro
+unit/volume-cubic-meter	Kubiko metro
+unit/volume-gallon	Galon
+unit/volume-pint	Pinta
+unit/area-square-meter	Metro kuwadrado
+unit/area-square-kilometer	Kilometro kuwadrado
+unit/area-square-centimeter	Sentimetro kuwadrado
+unit/area-square-mile	Milya kuwadrado
+unit/area-acre	Akre
+unit/velocity-meter-second	Metro/segundo
+unit/velocity-kilometer-hour	Kilometro/oras
+unit/velocity-mile-hour	Milya/oras
+unit/velocity-foot-second	Talampakan/segundo
+unit/energy-joule	Joule
+unit/energy-kilojoule	Kilojoule
+unit/energy-calorie	Kaloriya
+unit/energy-kilocalorie	Kilokaloriya
+unit/energy-watt-hour	Watt-oras
+unit/frequency-hertz	Hertz
+unit/frequency-kilohertz	Kilohertz
+unit/frequency-megahertz	Megahertz
+unit/frequency-gigahertz	Gigahertz
+unit/temperature-celsius	Celsius
+unit/temperature-fahrenheit	Fahrenheit
+unit/temperature-kelvin	Kelvin
+unit/time-second	Segundo
+unit/time-millisecond	Milisegundo
+unit/time-minute	Minuto
+unit/time-hour	Oras
+unit/time-day	Araw
+unit/force-newton	Newton
+unit/force-kilonewton	Kilonewton
+unit/force-dyne	Dyne
+unit/force-pound-force	Libra-puwersa
+unit/force-kilogram-force	Kilogramo-puwersa
+unit/power-watt	Watt
+unit/power-kilowatt	Kilowatt
+unit/power-megawatt	Megawatt
+unit/power-horsepower	Lakas-kabayo | horsepower
+unit/voltage-volt	Bolta | volt
+unit/voltage-millivolt	Milibolta | millivolt
+unit/voltage-kilovolt	Kilobolta | kilovolt
+unit/resistance-ohm	Ohm
+unit/resistance-milliohm	Milliohm
+unit/resistance-kiloohm	Kiloohm
+unit/resistance-megaohm	Megaohm
+unit/pressure-pascal	Pascal
+unit/pressure-kilopascal	Kilopascal
+unit/pressure-bar	Bar
+unit/pressure-atmosphere	Atmospera
+unit/pressure-psi	PSI

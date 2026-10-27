@@ -1,0 +1,462 @@
+# Reference-table titles in Chinese (roadmap 1.3), by canonical key from golden/dataset_keys.tsv.
+# A title may list other wordings after "|": the first is shown, all are searched.
+# Machine-translated; "reviewed" is y once a native speaker has checked the row.
+# Check with: python tools/dataset_titles.py --check
+key	title	reviewed
+dataset/alloy	合金
+dataset/constant	常数 | 常量
+dataset/dictionary	词汇表 | 术语 | 定义
+dataset/electrode	电极电势 | 标准电极电势 | 电化学序
+dataset/equation	公式 | 方程
+dataset/geology	矿物
+dataset/indicator	酸碱指示剂 | 指示剂 | 颜色 | 变色
+dataset/ion	电离能 | 离子
+dataset/poisson	泊松比
+dataset/solubility	溶解度 | 可溶 | 不溶
+dataset/unit	单位 | 换算 | 单位换算
+dictionary/density	密度
+dictionary/standard-atomic-weight	标准原子量
+dictionary/atomic-radius	原子半径
+dictionary/electronegativity	电负性
+dictionary/ionization-energy	电离能
+dictionary/electron-configuration	电子排布 | 电子组态
+dictionary/enthalpy-of-fusion	熔化焓 | 熔化热
+dictionary/specific-heat-capacity	比热容
+dictionary/enthalpy-of-vaporization	汽化焓 | 汽化热
+dictionary/solubility-chart	溶解性表
+dictionary/superconductivity	超导性 | 超导
+dictionary/electrical-resistivity	电阻率
+dictionary/electrical-conductivity	电导率
+dictionary/thermodynamic-temperature	热力学温度
+dictionary/absolute-zero	绝对零度
+dictionary/acid	酸
+dictionary/activation-energy	活化能
+dictionary/chemical-element	化学元素
+dictionary/electron	电子
+dictionary/proton	质子
+dictionary/neutron	中子
+dictionary/block-periodic-table	区（元素周期表）
+dictionary/period-periodic-table	周期（元素周期表）
+dictionary/covalent-radius	共价半径
+dictionary/van-der-waals-radius	范德华半径
+dictionary/dark-matter	暗物质
+dictionary/elementary-particle	基本粒子
+dictionary/fats	脂肪
+dictionary/functional-group	官能团
+dictionary/hydrophile	亲水物 | 亲水性
+dictionary/hydrophobe	疏水物 | 疏水性
+dictionary/isotope	同位素
+dictionary/liquid	液体
+dictionary/macromolecule	大分子 | 高分子
+dictionary/magnetic-field	磁场
+dictionary/gas	气体
+dictionary/molar-mass	摩尔质量
+dictionary/nuclear-matter	核物质
+dictionary/pressure	压强 | 压力
+dictionary/rust	铁锈
+dictionary/semiconductors	半导体
+dictionary/solubility	溶解度
+dictionary/spectrometer	光谱仪
+dictionary/vacuum	真空
+dictionary/wavelength	波长
+dictionary/weight	重量 | 重力
+dictionary/white-noise	白噪声
+dictionary/frequency	频率
+dictionary/friction	摩擦 | 摩擦力
+dictionary/efficiency	效率
+dictionary/impulse	冲量
+dictionary/intensity	强度
+dictionary/centripetal-force	向心力
+dictionary/momentum	动量
+dictionary/spectrum	光谱 | 频谱
+dictionary/electromagnetic-spectrum	电磁波谱
+dictionary/electric-charge	电荷
+dictionary/matter	物质
+dictionary/photon	光子
+dictionary/boson	玻色子
+dictionary/fermion	费米子
+dictionary/quark	夸克
+dictionary/lepton	轻子
+dictionary/particle-accelerator	粒子加速器
+dictionary/electric-field	电场
+dictionary/molecule	分子
+dictionary/hydrogen-bond	氢键
+dictionary/van-der-waals-force	范德华力
+dictionary/ionic-bonding	离子键
+dictionary/ion	离子
+dictionary/cation	阳离子
+dictionary/anion	阴离子
+dictionary/energy	能量
+dictionary/elastic-energy	弹性势能
+dictionary/kinetic-energy	动能
+dictionary/potential-energy	势能
+dictionary/mass	质量
+dictionary/measure	测量 | 度量
+dictionary/function	函数
+dictionary/differentiable-function	可微函数
+dictionary/calculus	微积分
+dictionary/solid-water-distribution-coefficient	固水分配系数
+dictionary/avogadro-constant	阿伏伽德罗常数
+dictionary/planck-constant	普朗克常数
+dictionary/boltzmann-constant	玻尔兹曼常数
+dictionary/ideal-gas-law	理想气体定律 | 理想气体状态方程
+dictionary/entropy	熵
+dictionary/gibbs-free-energy	吉布斯自由能
+dictionary/ph	pH
+dictionary/equilibrium-constant	平衡常数
+dictionary/catalyst	催化剂
+dictionary/reaction-rate	反应速率
+dictionary/arrhenius-equation	阿伦尼乌斯方程
+dictionary/half-life-radioactive-decay	半衰期（放射性衰变）
+dictionary/fermi-energy	费米能
+dictionary/redox-reaction	氧化还原反应
+dictionary/stoichiometry	化学计量学
+dictionary/mole-amount-of-substance	摩尔（物质的量）
+dictionary/thermodynamic-equilibrium	热力学平衡
+dictionary/first-law-of-thermodynamics	热力学第一定律
+dictionary/second-law-of-thermodynamics	热力学第二定律
+dictionary/solvent	溶剂
+dictionary/solvation	溶剂化
+dictionary/oxidation	氧化
+dictionary/reduction	还原
+dictionary/buffer-solution	缓冲溶液
+dictionary/compressibility	压缩性 | 压缩系数
+dictionary/viscosity	黏度 | 粘度
+dictionary/refractive-index	折射率
+dictionary/dielectric-constant	介电常数
+dictionary/specific-gravity	比重 | 相对密度
+dictionary/surface-tension	表面张力
+dictionary/phase-diagram	相图
+dictionary/latent-heat	潜热
+dictionary/partition-coefficient	分配系数
+dictionary/van-t-hoff-factor	范特霍夫因子
+dictionary/le-chatelier-s-principle	勒夏特列原理
+dictionary/born-haber-cycle	玻恩-哈伯循环
+dictionary/molarity	物质的量浓度 | 摩尔浓度
+dictionary/molality	质量摩尔浓度
+dictionary/partial-pressure	分压
+dictionary/raoult-s-law	拉乌尔定律
+dictionary/debye-huckel-theory	德拜-休克尔理论
+dictionary/diffusion	扩散
+dictionary/brownian-motion	布朗运动
+dictionary/ionic-strength	离子强度
+dictionary/atomic-number	原子序数
+dictionary/mass-number	质量数
+dictionary/atomic-mass	原子质量
+dictionary/valence-electrons	价电子
+dictionary/orbital	轨道 | 原子轨道
+dictionary/oxidation-state	氧化态 | 化合价
+dictionary/oxide	氧化物
+dictionary/alkali-metal	碱金属
+dictionary/alkaline-earth-metal	碱土金属
+dictionary/halogen	卤素
+dictionary/noble-gas	稀有气体 | 惰性气体
+dictionary/transition-metal	过渡金属
+dictionary/lanthanide	镧系元素
+dictionary/actinide	锕系元素
+dictionary/metallic-character	金属性
+dictionary/synthetic-element	人造元素 | 合成元素
+dictionary/aufbau-principle	构造原理 | 能量最低原理
+dictionary/hund-s-rule	洪特规则
+dictionary/pauli-exclusion-principle	泡利不相容原理
+dictionary/anomalous-electron-configuration	反常电子排布
+dictionary/periodic-trend-atomic-radius	周期性规律：原子半径
+dictionary/periodic-trend-ionization-energy	周期性规律：电离能
+dictionary/periodic-trend-electronegativity	周期性规律：电负性
+dictionary/periodic-trend-reactivity	周期性规律：反应活性
+equation/density	密度
+equation/power-effect	功率
+equation/intensity	强度
+equation/efficiency	效率
+equation/frequency	频率
+equation/angular-velocity	角速度
+equation/average-velocity	平均速度
+equation/linear-motion	直线运动
+equation/average-acceleration	平均加速度
+equation/instantaneous-velocity-1	瞬时速度 #1
+equation/instantaneous-velocity-2	瞬时速度 #2
+equation/instantaneous-velocity-3	瞬时速度 #3
+equation/instantaneous-velocity-4	瞬时速度 #4
+equation/newtown-s-second-law-force-law	牛顿第二定律（力的定律）
+equation/friction	摩擦力
+equation/hookes-law	胡克定律
+equation/law-of-gravity	万有引力定律
+equation/force-moment	力矩
+equation/impulse	冲量
+equation/law-of-impulse	动量定理
+equation/momentum	动量
+equation/conservation-of-momentum	动量守恒
+equation/work	功
+equation/potential-energy	势能
+equation/kinetic-energy	动能
+equation/elastic-energy	弹性势能
+equation/centripetal-force	向心力
+equation/centripetal-acceleration	向心加速度
+equation/harmonic-oscillator-1	谐振子 #1
+equation/harmonic-oscillator-2	谐振子 #2
+equation/harmonic-oscillator-3	谐振子 #3
+equation/harmonic-oscillator-4	谐振子 #4
+equation/simple-pendulum	单摆
+equation/mass-energy-equivalence	质能等价 | 质能方程
+equation/thermal-energy	热能
+equation/latent-energy-fusion	潜热（熔化）
+equation/latent-energy-vaporization	潜热（汽化）
+equation/ideal-gas-law	理想气体定律
+equation/pressure	压强
+equation/pressure-in-liquids	液体压强
+equation/lift-force	升力
+equation/velocity-factor-propagation-speed	速度因子（传播速度）
+equation/light-interference-double-slit	光的干涉（双缝）
+equation/law-of-refraction	折射定律
+equation/emittance	辐射出射度
+equation/stefan-boltzmanns-law	斯特藩-玻尔兹曼定律
+equation/wiens-displacement-law	维恩位移定律
+equation/coulombs-law	库仑定律
+equation/current	电流
+equation/electrical-voltage	电压
+equation/ohms-law	欧姆定律
+equation/electrical-effect	电功率
+equation/electrical-field-strength	电场强度
+equation/force-charge-on-particle-in-electric-field	电场中带电粒子所受的力
+equation/equivalent-resistance-series	等效电阻（串联）
+equation/equivalent-resistance-parallel	等效电阻（并联）
+equation/magnetic-field-around-electrical-conduct	导线周围的磁场
+equation/magnetic-field-in-flat-coil	扁平线圈中的磁场
+equation/magnetic-field-in-solenoid	螺线管中的磁场
+equation/power-effect-on-conductor-in-magnetic-field	磁场中导线所受的力 | 安培力
+equation/power-effect-on-charged-particle-in-magnetic-field	磁场中带电粒子所受的力 | 洛伦兹力
+equation/magnetic-flow	磁通量
+equation/induced-voltage-moving-conductor	感应电压（运动导体）
+equation/induced-voltage-variable-magnetic-flow	感应电压（变化的磁通量）
+equation/transformer	变压器
+equation/photon-energy	光子能量
+equation/photoelectric-effect	光电效应
+equation/photon-momentum	光子动量
+equation/matter-wavelength-de-broglie	物质波波长（德布罗意）
+equation/hydrogen-s-energy-levels-bohrs	氢原子能级（玻尔）
+equation/law-of-decay	衰变定律
+equation/half-life	半衰期
+equation/activity-1	放射性活度 #1
+equation/activity-2	放射性活度 #2
+equation/absorbed-dose	吸收剂量
+equation/equivalent-dose	当量剂量
+equation/energy-in-capacitor	电容器中的能量
+constant/pi	圆周率 (π)
+constant/tau	Tau (τ)
+constant/euler-s-number	自然常数 | 欧拉数 | e
+constant/euler-s-constant	欧拉-马歇罗尼常数
+constant/golden-ratio	黄金比例 | 黄金分割
+constant/catalan-constant	卡塔兰常数
+constant/square-root-of-2	2 的平方根
+constant/square-root-of-10	10 的平方根
+constant/speed-of-light	光速
+constant/planck-s-constant	普朗克常数
+constant/gravitational-constant	万有引力常数
+constant/avogadro-s-number	阿伏伽德罗数
+constant/elementary-charge	元电荷
+constant/electron-mass	电子质量
+constant/proton-mass	质子质量
+constant/neutron-mass	中子质量
+constant/atomic-mass-unit	原子质量单位
+constant/boltzmann-constant	玻尔兹曼常数
+constant/faraday-constant	法拉第常数
+constant/bohr-magneton	玻尔磁子
+constant/bohr-radius	玻尔半径
+constant/acceleration-due-to-gravity	重力加速度
+constant/vacuum-permittivity	真空电容率 | 真空介电常数
+constant/vacuum-permeability	真空磁导率
+constant/gas-constant	气体常数
+constant/airport-passenger	机场，乘客
+constant/apartment-bedroom	公寓，卧室
+constant/automobile-service-station-vehicle	加油站，车辆
+constant/automobile-service-station-employee	加油站，员工
+constant/bar-lounge-seat	酒吧/休息室，座位
+constant/bar-lounge-employee	酒吧/休息室，员工
+constant/boarding-house-person	寄宿公寓，人
+constant/conference-center-person	会议中心，人
+constant/department-store-restroom	百货商店，卫生间
+constant/department-store-employee	百货商店，员工
+constant/hotel-guest	酒店，客人
+constant/hotel-employee	酒店，员工
+constant/industrial-building-employee	工业建筑，员工
+constant/laundry-self-service-machine	自助洗衣店，洗衣机
+constant/laundry-self-service-customer	自助洗衣店，顾客
+constant/mobile-home-park-mobile-home	移动房屋营地，移动房屋
+constant/motel-with-kitchen-guest	带厨房的汽车旅馆，客人
+constant/motel-without-kitchen-guest	无厨房的汽车旅馆，客人
+constant/office-employee	办公室，员工
+constant/public-restroom-user	公共卫生间，使用者
+constant/restaurant-without-bar-customer	无酒吧餐厅，顾客
+constant/restaurant-with-bar-customer	带酒吧餐厅，顾客
+constant/shopping-center-employee	购物中心，员工
+constant/shopping-center-parking-space	购物中心，停车位
+constant/theater-seat	剧院，座位
+constant/ks	Ks
+constant/kd	kd
+constant/um	um
+constant/y	Y
+constant/trash-racks	拦污栅
+constant/bar-racks-coarse-screens-fine-screens	格栅、粗格栅、细格栅
+constant/very-fine-screens	超细格栅
+constant/micro-screens	微滤机 | 微格栅
+poisson/andesite	安山岩
+poisson/basalt	玄武岩
+poisson/claystone	黏土岩
+poisson/conglomerate	砾岩
+poisson/diabase	辉绿岩
+poisson/diorite	闪长岩
+poisson/dolerite	粗玄岩
+poisson/dolomite	白云岩
+poisson/gneiss	片麻岩
+poisson/basalt#2	玄武岩
+poisson/granodiorite	花岗闪长岩
+poisson/greywacke	杂砂岩
+poisson/linestone	石灰岩
+poisson/marble	大理岩 | 大理石
+poisson/marl	泥灰岩
+poisson/norite	苏长岩
+poisson/quartzite	石英岩
+poisson/rock-salt	岩盐
+poisson/sandstone	砂岩
+poisson/shale	页岩
+poisson/silstone	粉砂岩
+poisson/tuff	凝灰岩
+poisson/loose-sand	松砂
+poisson/medium-dense-sand	中密砂
+poisson/dense-sand	密砂
+poisson/silty-sand	粉质砂
+poisson/sand-and-gravel	砂砾
+poisson/saturated-cohesive-soil	饱和黏性土
+poisson/cristobalite-sio2	α-方石英 (SiO2)
+poisson/diamond-c	金刚石 (C)
+poisson/quartz-sio2	α-石英 (SiO2)
+poisson/periclase-mgo	方镁石 (MgO)
+poisson/topaz-al2-f-oh-2sio4	黄玉 (Al2(F,OH)2SiO4)
+poisson/graphite-c	石墨 (C)
+poisson/sapphire-al2o3	蓝宝石 (Al2O3)
+poisson/magnesite-mgco3	菱镁矿 (MgCO3)
+poisson/halite-nacl	石盐 (NaCl)
+poisson/magnetite-fe3o4	磁铁矿 (Fe3O4)
+poisson/galena-pbs	方铅矿 (PbS)
+poisson/anhydrite-caso4	硬石膏 (CaSO4)
+poisson/rutile-tio2	金红石 (TiO2)
+poisson/chromite-feocr2o3	铬铁矿 (FeOCr2O3)
+poisson/albite-naalsi3o8	钠长石 (NaAlSi3O8)
+poisson/fluorite-caf2	萤石 (CaF2)
+poisson/dolomite-camg-co3-2	白云石 (CaMg(CO3)2)
+poisson/calcite-caco3	方解石 (CaCO3)
+poisson/sphalerite-zns	闪锌矿 (ZnS)
+poisson/uraninite-uo2	晶质铀矿 (UO2)
+poisson/gypsum-caso4-2h2o	石膏 (CaSO4 2H2O)
+poisson/zincite-zno	红锌矿 (ZnO)
+poisson/bunsenite-nio	绿镍矿 (NiO)
+poisson/celestite-srso4	天青石 (SrSO4)
+geology/plagioclase	斜长石
+geology/graphite	石墨
+geology/quartz	石英
+geology/olivine	橄榄石
+geology/pyrite	黄铁矿
+geology/mica	云母
+geology/biotite	黑云母
+geology/chlorite	绿泥石
+geology/talc	滑石
+geology/magnetite	磁铁矿
+geology/fluorite	萤石
+geology/diopside	透辉石
+geology/chalcopyrite	黄铜矿
+geology/beryl	绿柱石
+geology/garnet	石榴石
+geology/potassium-feldspar	钾长石
+geology/hornblende	角闪石
+geology/epidote	绿帘石
+geology/hematite	赤铁矿
+geology/galena	方铅矿
+geology/gypsum	石膏
+geology/goethite	针铁矿
+geology/apatite	磷灰石
+geology/barite	重晶石
+geology/dolomite	白云石
+indicator/bromothymol-blue	溴百里酚蓝
+indicator/methyl-orange	甲基橙
+indicator/congo-red	刚果红
+indicator/phenolphthalein	酚酞
+alloy/steel	钢
+alloy/stainless-steel	不锈钢
+alloy/cast-iron	铸铁
+alloy/brass	黄铜
+alloy/bronze	青铜
+alloy/solder	焊料 | 焊锡
+alloy/pewter	白镴
+alloy/duralumin	硬铝
+alloy/ti-6al-4v	Ti-6Al-4V
+alloy/nichrome	镍铬合金
+alloy/sterling-silver	纯银 | 925银
+alloy/white-gold	白金 | K白金
+alloy/amalgam	汞齐
+alloy/magnalium	镁铝合金
+alloy/inconel	因科镍合金 | Inconel
+unit/length-meter	米
+unit/length-kilometer	千米 | 公里
+unit/length-centimeter	厘米
+unit/length-millimeter	毫米
+unit/length-inch	英寸
+unit/length-foot	英尺
+unit/length-yard	码
+unit/length-mile	英里
+unit/mass-kilogram	千克 | 公斤
+unit/mass-gram	克
+unit/mass-milligram	毫克
+unit/mass-pound	磅
+unit/mass-ounce	盎司
+unit/volume-liter	升
+unit/volume-milliliter	毫升
+unit/volume-cubic-meter	立方米
+unit/volume-gallon	加仑
+unit/volume-pint	品脱
+unit/area-square-meter	平方米
+unit/area-square-kilometer	平方千米 | 平方公里
+unit/area-square-centimeter	平方厘米
+unit/area-square-mile	平方英里
+unit/area-acre	英亩
+unit/velocity-meter-second	米/秒
+unit/velocity-kilometer-hour	千米/小时 | 公里/小时
+unit/velocity-mile-hour	英里/小时
+unit/velocity-foot-second	英尺/秒
+unit/energy-joule	焦耳
+unit/energy-kilojoule	千焦
+unit/energy-calorie	卡路里 | 卡
+unit/energy-kilocalorie	千卡 | 大卡
+unit/energy-watt-hour	瓦时
+unit/frequency-hertz	赫兹
+unit/frequency-kilohertz	千赫
+unit/frequency-megahertz	兆赫
+unit/frequency-gigahertz	吉赫
+unit/temperature-celsius	摄氏度
+unit/temperature-fahrenheit	华氏度
+unit/temperature-kelvin	开尔文
+unit/time-second	秒
+unit/time-millisecond	毫秒
+unit/time-minute	分钟
+unit/time-hour	小时
+unit/time-day	天
+unit/force-newton	牛顿
+unit/force-kilonewton	千牛
+unit/force-dyne	达因
+unit/force-pound-force	磅力
+unit/force-kilogram-force	千克力
+unit/power-watt	瓦特
+unit/power-kilowatt	千瓦
+unit/power-megawatt	兆瓦
+unit/power-horsepower	马力
+unit/voltage-volt	伏特
+unit/voltage-millivolt	毫伏
+unit/voltage-kilovolt	千伏
+unit/resistance-ohm	欧姆
+unit/resistance-milliohm	毫欧
+unit/resistance-kiloohm	千欧
+unit/resistance-megaohm	兆欧
+unit/pressure-pascal	帕斯卡
+unit/pressure-kilopascal	千帕
+unit/pressure-bar	巴
+unit/pressure-atmosphere	标准大气压 | 大气压
+unit/pressure-psi	PSI

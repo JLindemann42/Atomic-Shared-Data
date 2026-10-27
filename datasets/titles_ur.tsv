@@ -1,0 +1,462 @@
+# Reference-table titles in Urdu (roadmap 1.3), by canonical key from golden/dataset_keys.tsv.
+# A title may list other wordings after "|": the first is shown, all are searched.
+# Machine-translated; "reviewed" is y once a native speaker has checked the row.
+# Check with: python tools/dataset_titles.py --check
+key	title	reviewed
+dataset/alloy	بھرت | مرکب دھات | الائے
+dataset/constant	مستقل | مستقلات
+dataset/dictionary	فرہنگ | اصطلاح | تعریف
+dataset/electrode	الیکٹروڈ پوٹینشل | معیاری پوٹینشل | برقی کیمیائی سلسلہ
+dataset/equation	فارمولا | مساوات
+dataset/geology	معدنیات | معدن
+dataset/indicator	pH انڈیکیٹر | انڈیکیٹر | نما | رنگ
+dataset/ion	آئنائزیشن توانائی | آئن
+dataset/poisson	پوآسوں تناسب | پوائسن تناسب
+dataset/solubility	حل پذیری | حل پذیر | ناحل پذیر
+dataset/unit	اکائی | اکائیاں | تبدیلی
+dictionary/density	کثافت
+dictionary/standard-atomic-weight	معیاری جوہری وزن
+dictionary/atomic-radius	جوہری رداس | ایٹمی رداس
+dictionary/electronegativity	برقی منفیت | الیکٹرونیگیٹیویٹی
+dictionary/ionization-energy	آئنائزیشن توانائی
+dictionary/electron-configuration	الیکٹرانی تشکیل
+dictionary/enthalpy-of-fusion	پگھلاؤ کی اینتھالپی | حرارتِ پگھلاؤ
+dictionary/specific-heat-capacity	مخصوص حرارتی گنجائش
+dictionary/enthalpy-of-vaporization	تبخیر کی اینتھالپی | حرارتِ تبخیر
+dictionary/solubility-chart	حل پذیری کا جدول
+dictionary/superconductivity	فوق موصلیت
+dictionary/electrical-resistivity	برقی مزاحمیت
+dictionary/electrical-conductivity	برقی موصلیت
+dictionary/thermodynamic-temperature	حرحرکیاتی درجہ حرارت
+dictionary/absolute-zero	مطلق صفر
+dictionary/acid	تیزاب
+dictionary/activation-energy	ایکٹیویشن توانائی
+dictionary/chemical-element	کیمیائی عنصر
+dictionary/electron	الیکٹران
+dictionary/proton	پروٹان
+dictionary/neutron	نیوٹران
+dictionary/block-periodic-table	بلاک (دوری جدول)
+dictionary/period-periodic-table	دور (دوری جدول)
+dictionary/covalent-radius	شریک گرفتی رداس
+dictionary/van-der-waals-radius	وان ڈر والز رداس
+dictionary/dark-matter	تاریک مادہ
+dictionary/elementary-particle	بنیادی ذرہ
+dictionary/fats	چکنائیاں | چربی
+dictionary/functional-group	فعلی گروہ
+dictionary/hydrophile	آب پسند
+dictionary/hydrophobe	آب گریز
+dictionary/isotope	ہم جا | آئسوٹوپ
+dictionary/liquid	مائع
+dictionary/macromolecule	بڑا سالمہ
+dictionary/magnetic-field	مقناطیسی میدان
+dictionary/gas	گیس
+dictionary/molar-mass	مولر کمیت
+dictionary/nuclear-matter	مرکزی مادہ
+dictionary/pressure	دباؤ
+dictionary/rust	زنگ
+dictionary/semiconductors	نیم موصل
+dictionary/solubility	حل پذیری
+dictionary/spectrometer	طیف پیما | سپیکٹرومیٹر
+dictionary/vacuum	خلا
+dictionary/wavelength	طولِ موج
+dictionary/weight	وزن
+dictionary/white-noise	سفید شور
+dictionary/frequency	تعدد
+dictionary/friction	رگڑ
+dictionary/efficiency	کارکردگی
+dictionary/impulse	ضرب | امپلس
+dictionary/intensity	شدت
+dictionary/centripetal-force	مرکز جو قوت
+dictionary/momentum	معیارِ حرکت | مومینٹم
+dictionary/spectrum	طیف
+dictionary/electromagnetic-spectrum	برقناطیسی طیف
+dictionary/electric-charge	برقی بار
+dictionary/matter	مادہ
+dictionary/photon	فوٹان
+dictionary/boson	بوسون
+dictionary/fermion	فرمیون
+dictionary/quark	کوارک
+dictionary/lepton	لیپٹون
+dictionary/particle-accelerator	ذراتی اسراع گر
+dictionary/electric-field	برقی میدان
+dictionary/molecule	سالمہ | مالیکیول
+dictionary/hydrogen-bond	ہائیڈروجن بندھن
+dictionary/van-der-waals-force	وان ڈر والز قوت
+dictionary/ionic-bonding	آئنی بندھن
+dictionary/ion	آئن
+dictionary/cation	مثبت آئن | کیٹائن
+dictionary/anion	منفی آئن | اینائن
+dictionary/energy	توانائی
+dictionary/elastic-energy	لچکدار توانائی
+dictionary/kinetic-energy	حرکی توانائی
+dictionary/potential-energy	مخفی توانائی | پوٹینشل توانائی
+dictionary/mass	کمیت
+dictionary/measure	پیمائش
+dictionary/function	تفاعل
+dictionary/differentiable-function	قابلِ تفرق تفاعل
+dictionary/calculus	احصاء | کیلکولس
+dictionary/solid-water-distribution-coefficient	ٹھوس-پانی تقسیمی ضریب
+dictionary/avogadro-constant	ایووگاڈرو مستقل
+dictionary/planck-constant	پلانک مستقل
+dictionary/boltzmann-constant	بولٹزمین مستقل
+dictionary/ideal-gas-law	مثالی گیس کا قانون
+dictionary/entropy	اینٹروپی
+dictionary/gibbs-free-energy	گبز آزاد توانائی
+dictionary/ph	pH
+dictionary/equilibrium-constant	توازنی مستقل
+dictionary/catalyst	عمل انگیز
+dictionary/reaction-rate	تعامل کی شرح
+dictionary/arrhenius-equation	آرہینیئس مساوات
+dictionary/half-life-radioactive-decay	نصف عمر (تابکار انحطاط)
+dictionary/fermi-energy	فرمی توانائی
+dictionary/redox-reaction	ریڈوکس تعامل | تکسید و تخفیف
+dictionary/stoichiometry	استوکیومیٹری
+dictionary/mole-amount-of-substance	مول (مادے کی مقدار)
+dictionary/thermodynamic-equilibrium	حرحرکیاتی توازن
+dictionary/first-law-of-thermodynamics	حرحرکیات کا پہلا قانون
+dictionary/second-law-of-thermodynamics	حرحرکیات کا دوسرا قانون
+dictionary/solvent	محلل
+dictionary/solvation	محلولیت
+dictionary/oxidation	تکسید
+dictionary/reduction	تخفیف
+dictionary/buffer-solution	بفر محلول
+dictionary/compressibility	انضغاطیت
+dictionary/viscosity	لزوجت
+dictionary/refractive-index	انعطافی اشاریہ
+dictionary/dielectric-constant	ڈائی الیکٹرک مستقل
+dictionary/specific-gravity	اضافی کثافت | مخصوص کشش
+dictionary/surface-tension	سطحی تناؤ
+dictionary/phase-diagram	مرحلہ نقشہ | فیز ڈایاگرام
+dictionary/latent-heat	مخفی حرارت
+dictionary/partition-coefficient	تقسیمی ضریب
+dictionary/van-t-hoff-factor	وانٹ ہوف عامل
+dictionary/le-chatelier-s-principle	لی شیٹلیئر کا اصول
+dictionary/born-haber-cycle	بورن ہیبر چکر
+dictionary/molarity	مولیرٹی
+dictionary/molality	مولالٹی
+dictionary/partial-pressure	جزوی دباؤ
+dictionary/raoult-s-law	راؤلٹ کا قانون
+dictionary/debye-huckel-theory	ڈیبائی ہکل نظریہ
+dictionary/diffusion	نفوذ
+dictionary/brownian-motion	براؤنی حرکت
+dictionary/ionic-strength	آئنی طاقت
+dictionary/atomic-number	جوہری عدد | ایٹمی نمبر
+dictionary/mass-number	کمیتی عدد
+dictionary/atomic-mass	جوہری کمیت
+dictionary/valence-electrons	گرفتی الیکٹران | ویلنس الیکٹران
+dictionary/orbital	مداریہ | آربیٹل
+dictionary/oxidation-state	تکسیدی حالت | تکسیدی عدد
+dictionary/oxide	آکسائیڈ
+dictionary/alkali-metal	القلی دھات
+dictionary/alkaline-earth-metal	القلی ارضی دھات
+dictionary/halogen	ہیلوجن
+dictionary/noble-gas	عظیم گیس | نوبل گیس
+dictionary/transition-metal	عبوری دھات
+dictionary/lanthanide	لینتھنائیڈ
+dictionary/actinide	ایکٹینائیڈ
+dictionary/metallic-character	دھاتی خصوصیت
+dictionary/synthetic-element	مصنوعی عنصر
+dictionary/aufbau-principle	آف باؤ اصول
+dictionary/hund-s-rule	ہنڈ کا اصول
+dictionary/pauli-exclusion-principle	پالی کا اصولِ اخراج
+dictionary/anomalous-electron-configuration	غیر معمولی الیکٹرانی تشکیل
+dictionary/periodic-trend-atomic-radius	دوری رجحان: جوہری رداس
+dictionary/periodic-trend-ionization-energy	دوری رجحان: آئنائزیشن توانائی
+dictionary/periodic-trend-electronegativity	دوری رجحان: برقی منفیت
+dictionary/periodic-trend-reactivity	دوری رجحان: تعامل پذیری
+equation/density	کثافت
+equation/power-effect	طاقت
+equation/intensity	شدت
+equation/efficiency	کارکردگی
+equation/frequency	تعدد
+equation/angular-velocity	زاویائی رفتار
+equation/average-velocity	اوسط رفتار
+equation/linear-motion	خطی حرکت
+equation/average-acceleration	اوسط اسراع
+equation/instantaneous-velocity-1	لمحاتی رفتار #1
+equation/instantaneous-velocity-2	لمحاتی رفتار #2
+equation/instantaneous-velocity-3	لمحاتی رفتار #3
+equation/instantaneous-velocity-4	لمحاتی رفتار #4
+equation/newtown-s-second-law-force-law	نیوٹن کا دوسرا قانون (قوت کا قانون)
+equation/friction	رگڑ
+equation/hookes-law	ہک کا قانون
+equation/law-of-gravity	قانونِ تجاذب
+equation/force-moment	قوت کا معیار اثر | ٹارک
+equation/impulse	ضرب | امپلس
+equation/law-of-impulse	ضرب کا قانون
+equation/momentum	معیارِ حرکت | مومینٹم
+equation/conservation-of-momentum	معیارِ حرکت کی بقا
+equation/work	کام
+equation/potential-energy	مخفی توانائی
+equation/kinetic-energy	حرکی توانائی
+equation/elastic-energy	لچکدار توانائی
+equation/centripetal-force	مرکز جو قوت
+equation/centripetal-acceleration	مرکز جو اسراع
+equation/harmonic-oscillator-1	ہارمونک ارتعاش گر #1
+equation/harmonic-oscillator-2	ہارمونک ارتعاش گر #2
+equation/harmonic-oscillator-3	ہارمونک ارتعاش گر #3
+equation/harmonic-oscillator-4	ہارمونک ارتعاش گر #4
+equation/simple-pendulum	سادہ رقاص | سادہ پینڈولم
+equation/mass-energy-equivalence	کمیت و توانائی کی مساوات
+equation/thermal-energy	حرارتی توانائی
+equation/latent-energy-fusion	مخفی توانائی (پگھلاؤ)
+equation/latent-energy-vaporization	مخفی توانائی (تبخیر)
+equation/ideal-gas-law	مثالی گیس کا قانون
+equation/pressure	دباؤ
+equation/pressure-in-liquids	مائعات میں دباؤ
+equation/lift-force	اٹھانے والی قوت | لفٹ
+equation/velocity-factor-propagation-speed	رفتاری عامل (اشاعتی رفتار)
+equation/light-interference-double-slit	روشنی کی مداخلت (دوہری شگاف)
+equation/law-of-refraction	انعطاف کا قانون
+equation/emittance	اخراجیت
+equation/stefan-boltzmanns-law	سٹیفن بولٹزمین قانون
+equation/wiens-displacement-law	وین کا قانونِ ہٹاؤ
+equation/coulombs-law	کولمب کا قانون
+equation/current	برقی رو
+equation/electrical-voltage	برقی وولٹیج | پوٹینشل فرق
+equation/ohms-law	اوہم کا قانون
+equation/electrical-effect	برقی طاقت
+equation/electrical-field-strength	برقی میدان کی شدت
+equation/force-charge-on-particle-in-electric-field	برقی میدان میں باردار ذرے پر قوت
+equation/equivalent-resistance-series	مساوی مزاحمت (سلسلہ وار)
+equation/equivalent-resistance-parallel	مساوی مزاحمت (متوازی)
+equation/magnetic-field-around-electrical-conduct	موصل کے گرد مقناطیسی میدان
+equation/magnetic-field-in-flat-coil	چپٹے لچھے میں مقناطیسی میدان
+equation/magnetic-field-in-solenoid	سولینائیڈ میں مقناطیسی میدان
+equation/power-effect-on-conductor-in-magnetic-field	مقناطیسی میدان میں موصل پر قوت
+equation/power-effect-on-charged-particle-in-magnetic-field	مقناطیسی میدان میں باردار ذرے پر قوت
+equation/magnetic-flow	مقناطیسی بہاؤ | مقناطیسی فلکس
+equation/induced-voltage-moving-conductor	امالی وولٹیج (متحرک موصل)
+equation/induced-voltage-variable-magnetic-flow	امالی وولٹیج (متغیر مقناطیسی بہاؤ)
+equation/transformer	ٹرانسفارمر
+equation/photon-energy	فوٹان کی توانائی
+equation/photoelectric-effect	ضیائی برقی اثر
+equation/photon-momentum	فوٹان کا معیارِ حرکت
+equation/matter-wavelength-de-broglie	مادی طولِ موج (ڈی بروگلی)
+equation/hydrogen-s-energy-levels-bohrs	ہائیڈروجن کی توانائی کی سطحیں (بوہر)
+equation/law-of-decay	انحطاط کا قانون
+equation/half-life	نصف عمر
+equation/activity-1	سرگرمی #1
+equation/activity-2	سرگرمی #2
+equation/absorbed-dose	جذب شدہ خوراک
+equation/equivalent-dose	مساوی خوراک
+equation/energy-in-capacitor	کپیسیٹر میں توانائی | گنجائش گر میں توانائی
+constant/pi	پائی (π)
+constant/tau	ٹاؤ (τ)
+constant/euler-s-number	اویلر کا عدد | e
+constant/euler-s-constant	اویلر ماسکیرونی مستقل
+constant/golden-ratio	سنہری تناسب
+constant/catalan-constant	کاتالان مستقل
+constant/square-root-of-2	2 کا جذر
+constant/square-root-of-10	10 کا جذر
+constant/speed-of-light	روشنی کی رفتار
+constant/planck-s-constant	پلانک مستقل
+constant/gravitational-constant	تجاذبی مستقل
+constant/avogadro-s-number	ایووگاڈرو عدد
+constant/elementary-charge	بنیادی بار
+constant/electron-mass	الیکٹران کی کمیت
+constant/proton-mass	پروٹان کی کمیت
+constant/neutron-mass	نیوٹران کی کمیت
+constant/atomic-mass-unit	جوہری کمیتی اکائی
+constant/boltzmann-constant	بولٹزمین مستقل
+constant/faraday-constant	فیراڈے مستقل
+constant/bohr-magneton	بوہر میگنیٹون
+constant/bohr-radius	بوہر رداس
+constant/acceleration-due-to-gravity	ثقلی اسراع
+constant/vacuum-permittivity	خلا کی برقی گذرپذیری
+constant/vacuum-permeability	خلا کی مقناطیسی نفوذپذیری
+constant/gas-constant	گیس مستقل
+constant/airport-passenger	ہوائی اڈہ، مسافر
+constant/apartment-bedroom	اپارٹمنٹ، خواب گاہ
+constant/automobile-service-station-vehicle	پیٹرول پمپ، گاڑی
+constant/automobile-service-station-employee	پیٹرول پمپ، ملازم
+constant/bar-lounge-seat	بار/لاؤنج، نشست
+constant/bar-lounge-employee	بار/لاؤنج، ملازم
+constant/boarding-house-person	مہمان خانہ، فرد
+constant/conference-center-person	کانفرنس سینٹر، فرد
+constant/department-store-restroom	ڈیپارٹمنٹ سٹور، بیت الخلا
+constant/department-store-employee	ڈیپارٹمنٹ سٹور، ملازم
+constant/hotel-guest	ہوٹل، مہمان
+constant/hotel-employee	ہوٹل، ملازم
+constant/industrial-building-employee	صنعتی عمارت، ملازم
+constant/laundry-self-service-machine	لانڈری (خود خدمت)، مشین
+constant/laundry-self-service-customer	لانڈری (خود خدمت)، گاہک
+constant/mobile-home-park-mobile-home	موبائل ہوم پارک، موبائل ہوم
+constant/motel-with-kitchen-guest	باورچی خانے والا موٹل، مہمان
+constant/motel-without-kitchen-guest	بغیر باورچی خانے کا موٹل، مہمان
+constant/office-employee	دفتر، ملازم
+constant/public-restroom-user	عوامی بیت الخلا، صارف
+constant/restaurant-without-bar-customer	بغیر بار کا ریستوران، گاہک
+constant/restaurant-with-bar-customer	بار والا ریستوران، گاہک
+constant/shopping-center-employee	شاپنگ سینٹر، ملازم
+constant/shopping-center-parking-space	شاپنگ سینٹر، پارکنگ کی جگہ
+constant/theater-seat	تھیٹر، نشست
+constant/ks	Ks
+constant/kd	kd
+constant/um	um
+constant/y	Y
+constant/trash-racks	کچرا جالیاں
+constant/bar-racks-coarse-screens-fine-screens	سلاخ دار جالیاں، موٹی چھلنیاں، باریک چھلنیاں
+constant/very-fine-screens	انتہائی باریک چھلنیاں
+constant/micro-screens	خردبینی چھلنیاں
+poisson/andesite	اینڈیسائٹ
+poisson/basalt	بیسالٹ
+poisson/claystone	چکنی مٹی کا پتھر
+poisson/conglomerate	کانگلومریٹ
+poisson/diabase	ڈایابیس
+poisson/diorite	ڈایورائٹ
+poisson/dolerite	ڈولیرائٹ
+poisson/dolomite	ڈولومائٹ
+poisson/gneiss	نائس
+poisson/basalt#2	بیسالٹ
+poisson/granodiorite	گرینوڈایورائٹ
+poisson/greywacke	گرے ویک
+poisson/linestone	چونے کا پتھر
+poisson/marble	سنگ مرمر
+poisson/marl	مارل
+poisson/norite	نورائٹ
+poisson/quartzite	کوارٹزائٹ
+poisson/rock-salt	سیندھا نمک | چٹانی نمک
+poisson/sandstone	ریتلا پتھر
+poisson/shale	شیل
+poisson/silstone	سلٹ سٹون
+poisson/tuff	ٹف
+poisson/loose-sand	ڈھیلی ریت
+poisson/medium-dense-sand	درمیانی گھنی ریت
+poisson/dense-sand	گھنی ریت
+poisson/silty-sand	گادی ریت
+poisson/sand-and-gravel	ریت اور بجری
+poisson/saturated-cohesive-soil	سیر شدہ چسپاں مٹی
+poisson/cristobalite-sio2	α-کرسٹوبلائٹ (SiO2)
+poisson/diamond-c	ہیرا (C)
+poisson/quartz-sio2	α-کوارٹز (SiO2)
+poisson/periclase-mgo	پیریکلیز (MgO)
+poisson/topaz-al2-f-oh-2sio4	پکھراج (Al2(F,OH)2SiO4)
+poisson/graphite-c	گریفائٹ (C)
+poisson/sapphire-al2o3	نیلم (Al2O3)
+poisson/magnesite-mgco3	میگنیسائٹ (MgCO3)
+poisson/halite-nacl	ہیلائٹ (NaCl)
+poisson/magnetite-fe3o4	میگنیٹائٹ (Fe3O4)
+poisson/galena-pbs	گیلینا (PbS)
+poisson/anhydrite-caso4	اینہائیڈرائٹ (CaSO4)
+poisson/rutile-tio2	روٹائل (TiO2)
+poisson/chromite-feocr2o3	کرومائٹ (FeOCr2O3)
+poisson/albite-naalsi3o8	البائٹ (NaAlSi3O8)
+poisson/fluorite-caf2	فلورائٹ (CaF2)
+poisson/dolomite-camg-co3-2	ڈولومائٹ (CaMg(CO3)2)
+poisson/calcite-caco3	کیلسائٹ (CaCO3)
+poisson/sphalerite-zns	سفیلیرائٹ (ZnS)
+poisson/uraninite-uo2	یورینینائٹ (UO2)
+poisson/gypsum-caso4-2h2o	جپسم (CaSO4 2H2O)
+poisson/zincite-zno	زنکائٹ (ZnO)
+poisson/bunsenite-nio	بنسنائٹ (NiO)
+poisson/celestite-srso4	سیلیسٹائٹ (SrSO4)
+geology/plagioclase	پلیجیوکلیز
+geology/graphite	گریفائٹ
+geology/quartz	کوارٹز
+geology/olivine	اولیوین
+geology/pyrite	پائرائٹ
+geology/mica	ابرق | مائیکا
+geology/biotite	بائیوٹائٹ
+geology/chlorite	کلورائٹ
+geology/talc	ٹالک | سنگ صابن
+geology/magnetite	میگنیٹائٹ
+geology/fluorite	فلورائٹ
+geology/diopside	ڈائیوپسائیڈ
+geology/chalcopyrite	کیلکوپائرائٹ
+geology/beryl	زبرجد | بیرل
+geology/garnet	گارنیٹ | یاقوت
+geology/potassium-feldspar	پوٹاشیم فیلڈسپار
+geology/hornblende	ہارن بلینڈ
+geology/epidote	ایپیڈوٹ
+geology/hematite	ہیماٹائٹ
+geology/galena	گیلینا
+geology/gypsum	جپسم
+geology/goethite	گوئتھائٹ
+geology/apatite	اپاٹائٹ
+geology/barite	بیرائٹ
+geology/dolomite	ڈولومائٹ
+indicator/bromothymol-blue	بروموتھائمول بلیو
+indicator/methyl-orange	میتھائل اورنج
+indicator/congo-red	کانگو ریڈ
+indicator/phenolphthalein	فینالفتھلین
+alloy/steel	فولاد | سٹیل
+alloy/stainless-steel	زنگ سے پاک فولاد | سٹینلیس سٹیل
+alloy/cast-iron	ڈھلواں لوہا
+alloy/brass	پیتل
+alloy/bronze	کانسی
+alloy/solder	ٹانکا | سولڈر
+alloy/pewter	پیوٹر
+alloy/duralumin	ڈیورالومن
+alloy/ti-6al-4v	Ti-6Al-4V
+alloy/nichrome	نائیکروم
+alloy/sterling-silver	سٹرلنگ چاندی
+alloy/white-gold	سفید سونا
+alloy/amalgam	آمیزہ | املگم
+alloy/magnalium	میگنالیم
+alloy/inconel	انکونیل
+unit/length-meter	میٹر
+unit/length-kilometer	کلومیٹر
+unit/length-centimeter	سینٹی میٹر
+unit/length-millimeter	ملی میٹر
+unit/length-inch	انچ
+unit/length-foot	فٹ
+unit/length-yard	گز
+unit/length-mile	میل
+unit/mass-kilogram	کلوگرام
+unit/mass-gram	گرام
+unit/mass-milligram	ملی گرام
+unit/mass-pound	پاؤنڈ
+unit/mass-ounce	اونس
+unit/volume-liter	لیٹر
+unit/volume-milliliter	ملی لیٹر
+unit/volume-cubic-meter	مکعب میٹر
+unit/volume-gallon	گیلن
+unit/volume-pint	پنٹ
+unit/area-square-meter	مربع میٹر
+unit/area-square-kilometer	مربع کلومیٹر
+unit/area-square-centimeter	مربع سینٹی میٹر
+unit/area-square-mile	مربع میل
+unit/area-acre	ایکڑ
+unit/velocity-meter-second	میٹر/سیکنڈ
+unit/velocity-kilometer-hour	کلومیٹر/گھنٹہ
+unit/velocity-mile-hour	میل/گھنٹہ
+unit/velocity-foot-second	فٹ/سیکنڈ
+unit/energy-joule	جول
+unit/energy-kilojoule	کلوجول
+unit/energy-calorie	کیلوری
+unit/energy-kilocalorie	کلو کیلوری
+unit/energy-watt-hour	واٹ گھنٹہ
+unit/frequency-hertz	ہرٹز
+unit/frequency-kilohertz	کلوہرٹز
+unit/frequency-megahertz	میگاہرٹز
+unit/frequency-gigahertz	گیگاہرٹز
+unit/temperature-celsius	سیلسیس
+unit/temperature-fahrenheit	فارن ہائیٹ
+unit/temperature-kelvin	کیلون
+unit/time-second	سیکنڈ
+unit/time-millisecond	ملی سیکنڈ
+unit/time-minute	منٹ
+unit/time-hour	گھنٹہ
+unit/time-day	دن
+unit/force-newton	نیوٹن
+unit/force-kilonewton	کلونیوٹن
+unit/force-dyne	ڈائن
+unit/force-pound-force	پاؤنڈ قوت
+unit/force-kilogram-force	کلوگرام قوت
+unit/power-watt	واٹ
+unit/power-kilowatt	کلوواٹ
+unit/power-megawatt	میگاواٹ
+unit/power-horsepower	ہارس پاور
+unit/voltage-volt	وولٹ
+unit/voltage-millivolt	ملی وولٹ
+unit/voltage-kilovolt	کلووولٹ
+unit/resistance-ohm	اوہم
+unit/resistance-milliohm	ملی اوہم
+unit/resistance-kiloohm	کلو اوہم
+unit/resistance-megaohm	میگا اوہم
+unit/pressure-pascal	پاسکل
+unit/pressure-kilopascal	کلو پاسکل
+unit/pressure-bar	بار
+unit/pressure-atmosphere	کرۂ ہوائی | ایٹماسفیئر
+unit/pressure-psi	PSI

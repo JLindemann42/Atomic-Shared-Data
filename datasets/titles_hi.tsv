@@ -1,0 +1,462 @@
+# Reference-table titles in Hindi (roadmap 1.3), by canonical key from golden/dataset_keys.tsv.
+# A title may list other wordings after "|": the first is shown, all are searched.
+# Machine-translated; "reviewed" is y once a native speaker has checked the row.
+# Check with: python tools/dataset_titles.py --check
+key	title	reviewed
+dataset/alloy	मिश्रधातु | मिश्र धातु
+dataset/constant	स्थिरांक
+dataset/dictionary	शब्दावली | परिभाषा
+dataset/electrode	इलेक्ट्रोड विभव | मानक विभव | विद्युत रासायनिक श्रेणी
+dataset/equation	सूत्र | समीकरण
+dataset/geology	खनिज
+dataset/indicator	pH सूचक | सूचक | रंग
+dataset/ion	आयनन ऊर्जा | आयन
+dataset/poisson	प्वासों अनुपात | पॉइसन अनुपात
+dataset/solubility	विलेयता | घुलनशीलता | घुलनशील | अघुलनशील
+dataset/unit	इकाई | मात्रक | रूपांतरण
+dictionary/density	घनत्व
+dictionary/standard-atomic-weight	मानक परमाणु भार
+dictionary/atomic-radius	परमाणु त्रिज्या
+dictionary/electronegativity	विद्युत ऋणात्मकता
+dictionary/ionization-energy	आयनन ऊर्जा
+dictionary/electron-configuration	इलेक्ट्रॉनिक विन्यास | इलेक्ट्रॉन विन्यास
+dictionary/enthalpy-of-fusion	गलन एन्थैल्पी | गलन ऊष्मा
+dictionary/specific-heat-capacity	विशिष्ट ऊष्मा धारिता
+dictionary/enthalpy-of-vaporization	वाष्पन एन्थैल्पी | वाष्पन ऊष्मा
+dictionary/solubility-chart	विलेयता सारणी
+dictionary/superconductivity	अतिचालकता
+dictionary/electrical-resistivity	विद्युत प्रतिरोधकता
+dictionary/electrical-conductivity	विद्युत चालकता
+dictionary/thermodynamic-temperature	ऊष्मागतिक ताप
+dictionary/absolute-zero	परम शून्य
+dictionary/acid	अम्ल
+dictionary/activation-energy	सक्रियण ऊर्जा
+dictionary/chemical-element	रासायनिक तत्व
+dictionary/electron	इलेक्ट्रॉन
+dictionary/proton	प्रोटॉन
+dictionary/neutron	न्यूट्रॉन
+dictionary/block-periodic-table	ब्लॉक (आवर्त सारणी)
+dictionary/period-periodic-table	आवर्त (आवर्त सारणी)
+dictionary/covalent-radius	सहसंयोजक त्रिज्या
+dictionary/van-der-waals-radius	वान्डर वाल्स त्रिज्या
+dictionary/dark-matter	डार्क मैटर | अदृश्य द्रव्य
+dictionary/elementary-particle	मूल कण
+dictionary/fats	वसा
+dictionary/functional-group	क्रियात्मक समूह
+dictionary/hydrophile	जलरागी
+dictionary/hydrophobe	जलविरागी
+dictionary/isotope	समस्थानिक
+dictionary/liquid	द्रव
+dictionary/macromolecule	वृहदणु
+dictionary/magnetic-field	चुंबकीय क्षेत्र
+dictionary/gas	गैस
+dictionary/molar-mass	मोलर द्रव्यमान
+dictionary/nuclear-matter	नाभिकीय द्रव्य
+dictionary/pressure	दाब
+dictionary/rust	जंग
+dictionary/semiconductors	अर्धचालक
+dictionary/solubility	विलेयता | घुलनशीलता
+dictionary/spectrometer	स्पेक्ट्रोमीटर
+dictionary/vacuum	निर्वात
+dictionary/wavelength	तरंगदैर्घ्य
+dictionary/weight	भार
+dictionary/white-noise	श्वेत रव | व्हाइट नॉइज़
+dictionary/frequency	आवृत्ति
+dictionary/friction	घर्षण
+dictionary/efficiency	दक्षता
+dictionary/impulse	आवेग
+dictionary/intensity	तीव्रता
+dictionary/centripetal-force	अभिकेंद्र बल
+dictionary/momentum	संवेग
+dictionary/spectrum	स्पेक्ट्रम
+dictionary/electromagnetic-spectrum	विद्युत चुंबकीय स्पेक्ट्रम
+dictionary/electric-charge	विद्युत आवेश
+dictionary/matter	द्रव्य | पदार्थ
+dictionary/photon	फोटॉन
+dictionary/boson	बोसॉन
+dictionary/fermion	फर्मिऑन
+dictionary/quark	क्वार्क
+dictionary/lepton	लेप्टॉन
+dictionary/particle-accelerator	कण त्वरक
+dictionary/electric-field	विद्युत क्षेत्र
+dictionary/molecule	अणु
+dictionary/hydrogen-bond	हाइड्रोजन आबंध
+dictionary/van-der-waals-force	वान्डर वाल्स बल
+dictionary/ionic-bonding	आयनिक आबंध
+dictionary/ion	आयन
+dictionary/cation	धनायन
+dictionary/anion	ऋणायन
+dictionary/energy	ऊर्जा
+dictionary/elastic-energy	प्रत्यास्थ ऊर्जा
+dictionary/kinetic-energy	गतिज ऊर्जा
+dictionary/potential-energy	स्थितिज ऊर्जा
+dictionary/mass	द्रव्यमान
+dictionary/measure	माप
+dictionary/function	फलन
+dictionary/differentiable-function	अवकलनीय फलन
+dictionary/calculus	कलन
+dictionary/solid-water-distribution-coefficient	ठोस-जल वितरण गुणांक
+dictionary/avogadro-constant	आवोगाद्रो स्थिरांक
+dictionary/planck-constant	प्लांक स्थिरांक
+dictionary/boltzmann-constant	बोल्ट्ज़मान स्थिरांक
+dictionary/ideal-gas-law	आदर्श गैस नियम
+dictionary/entropy	एन्ट्रॉपी
+dictionary/gibbs-free-energy	गिब्स मुक्त ऊर्जा
+dictionary/ph	pH
+dictionary/equilibrium-constant	साम्य स्थिरांक
+dictionary/catalyst	उत्प्रेरक
+dictionary/reaction-rate	अभिक्रिया वेग | अभिक्रिया की दर
+dictionary/arrhenius-equation	आरेनियस समीकरण
+dictionary/half-life-radioactive-decay	अर्ध-आयु (रेडियोधर्मी क्षय)
+dictionary/fermi-energy	फर्मी ऊर्जा
+dictionary/redox-reaction	रेडॉक्स अभिक्रिया | उपचयन-अपचयन अभिक्रिया
+dictionary/stoichiometry	स्टॉइकियोमेट्री | रससमीकरणमिति
+dictionary/mole-amount-of-substance	मोल (पदार्थ की मात्रा)
+dictionary/thermodynamic-equilibrium	ऊष्मागतिक साम्य
+dictionary/first-law-of-thermodynamics	ऊष्मागतिकी का प्रथम नियम
+dictionary/second-law-of-thermodynamics	ऊष्मागतिकी का द्वितीय नियम
+dictionary/solvent	विलायक
+dictionary/solvation	विलायकन
+dictionary/oxidation	उपचयन | ऑक्सीकरण
+dictionary/reduction	अपचयन
+dictionary/buffer-solution	बफर विलयन
+dictionary/compressibility	संपीड्यता
+dictionary/viscosity	श्यानता
+dictionary/refractive-index	अपवर्तनांक
+dictionary/dielectric-constant	परावैद्युत स्थिरांक
+dictionary/specific-gravity	आपेक्षिक घनत्व | विशिष्ट गुरुत्व
+dictionary/surface-tension	पृष्ठ तनाव
+dictionary/phase-diagram	प्रावस्था आरेख
+dictionary/latent-heat	गुप्त ऊष्मा
+dictionary/partition-coefficient	वितरण गुणांक
+dictionary/van-t-hoff-factor	वान्ट हॉफ गुणक
+dictionary/le-chatelier-s-principle	ले शातेलिए का सिद्धांत
+dictionary/born-haber-cycle	बॉर्न-हाबर चक्र
+dictionary/molarity	मोलरता
+dictionary/molality	मोललता
+dictionary/partial-pressure	आंशिक दाब
+dictionary/raoult-s-law	राउल्ट का नियम
+dictionary/debye-huckel-theory	डेबाई-हकल सिद्धांत
+dictionary/diffusion	विसरण
+dictionary/brownian-motion	ब्राउनी गति
+dictionary/ionic-strength	आयनिक सामर्थ्य
+dictionary/atomic-number	परमाणु क्रमांक
+dictionary/mass-number	द्रव्यमान संख्या
+dictionary/atomic-mass	परमाणु द्रव्यमान
+dictionary/valence-electrons	संयोजकता इलेक्ट्रॉन
+dictionary/orbital	कक्षक
+dictionary/oxidation-state	ऑक्सीकरण अवस्था | ऑक्सीकरण संख्या
+dictionary/oxide	ऑक्साइड
+dictionary/alkali-metal	क्षार धातु
+dictionary/alkaline-earth-metal	क्षारीय मृदा धातु
+dictionary/halogen	हैलोजन
+dictionary/noble-gas	उत्कृष्ट गैस
+dictionary/transition-metal	संक्रमण धातु
+dictionary/lanthanide	लैंथेनाइड
+dictionary/actinide	ऐक्टिनाइड
+dictionary/metallic-character	धात्विक गुण
+dictionary/synthetic-element	संश्लिष्ट तत्व
+dictionary/aufbau-principle	ऑफबाऊ सिद्धांत
+dictionary/hund-s-rule	हुंड का नियम
+dictionary/pauli-exclusion-principle	पाउली अपवर्जन सिद्धांत
+dictionary/anomalous-electron-configuration	असामान्य इलेक्ट्रॉनिक विन्यास
+dictionary/periodic-trend-atomic-radius	आवर्ती प्रवृत्ति: परमाणु त्रिज्या
+dictionary/periodic-trend-ionization-energy	आवर्ती प्रवृत्ति: आयनन ऊर्जा
+dictionary/periodic-trend-electronegativity	आवर्ती प्रवृत्ति: विद्युत ऋणात्मकता
+dictionary/periodic-trend-reactivity	आवर्ती प्रवृत्ति: अभिक्रियाशीलता
+equation/density	घनत्व
+equation/power-effect	शक्ति
+equation/intensity	तीव्रता
+equation/efficiency	दक्षता
+equation/frequency	आवृत्ति
+equation/angular-velocity	कोणीय वेग
+equation/average-velocity	औसत वेग
+equation/linear-motion	रैखिक गति
+equation/average-acceleration	औसत त्वरण
+equation/instantaneous-velocity-1	तात्क्षणिक वेग #1
+equation/instantaneous-velocity-2	तात्क्षणिक वेग #2
+equation/instantaneous-velocity-3	तात्क्षणिक वेग #3
+equation/instantaneous-velocity-4	तात्क्षणिक वेग #4
+equation/newtown-s-second-law-force-law	न्यूटन का गति का द्वितीय नियम (बल नियम)
+equation/friction	घर्षण
+equation/hookes-law	हुक का नियम
+equation/law-of-gravity	गुरुत्वाकर्षण का नियम
+equation/force-moment	बल आघूर्ण
+equation/impulse	आवेग
+equation/law-of-impulse	आवेग का नियम
+equation/momentum	संवेग
+equation/conservation-of-momentum	संवेग संरक्षण
+equation/work	कार्य
+equation/potential-energy	स्थितिज ऊर्जा
+equation/kinetic-energy	गतिज ऊर्जा
+equation/elastic-energy	प्रत्यास्थ ऊर्जा
+equation/centripetal-force	अभिकेंद्र बल
+equation/centripetal-acceleration	अभिकेंद्र त्वरण
+equation/harmonic-oscillator-1	आवर्ती दोलित्र #1
+equation/harmonic-oscillator-2	आवर्ती दोलित्र #2
+equation/harmonic-oscillator-3	आवर्ती दोलित्र #3
+equation/harmonic-oscillator-4	आवर्ती दोलित्र #4
+equation/simple-pendulum	सरल लोलक
+equation/mass-energy-equivalence	द्रव्यमान-ऊर्जा तुल्यता
+equation/thermal-energy	ऊष्मीय ऊर्जा
+equation/latent-energy-fusion	गुप्त ऊर्जा (गलन)
+equation/latent-energy-vaporization	गुप्त ऊर्जा (वाष्पन)
+equation/ideal-gas-law	आदर्श गैस नियम
+equation/pressure	दाब
+equation/pressure-in-liquids	द्रवों में दाब
+equation/lift-force	उत्थापक बल
+equation/velocity-factor-propagation-speed	वेग गुणक (संचरण वेग)
+equation/light-interference-double-slit	प्रकाश व्यतिकरण (द्वि-झिरी)
+equation/law-of-refraction	अपवर्तन का नियम
+equation/emittance	उत्सर्जकता
+equation/stefan-boltzmanns-law	स्टीफन-बोल्ट्ज़मान नियम
+equation/wiens-displacement-law	वीन का विस्थापन नियम
+equation/coulombs-law	कूलॉम का नियम
+equation/current	विद्युत धारा
+equation/electrical-voltage	विद्युत वोल्टता | विभवांतर
+equation/ohms-law	ओम का नियम
+equation/electrical-effect	विद्युत शक्ति
+equation/electrical-field-strength	विद्युत क्षेत्र की तीव्रता
+equation/force-charge-on-particle-in-electric-field	विद्युत क्षेत्र में आवेशित कण पर बल
+equation/equivalent-resistance-series	तुल्य प्रतिरोध (श्रेणी)
+equation/equivalent-resistance-parallel	तुल्य प्रतिरोध (समांतर)
+equation/magnetic-field-around-electrical-conduct	चालक के चारों ओर चुंबकीय क्षेत्र
+equation/magnetic-field-in-flat-coil	चपटी कुंडली में चुंबकीय क्षेत्र
+equation/magnetic-field-in-solenoid	परिनालिका में चुंबकीय क्षेत्र
+equation/power-effect-on-conductor-in-magnetic-field	चुंबकीय क्षेत्र में चालक पर बल
+equation/power-effect-on-charged-particle-in-magnetic-field	चुंबकीय क्षेत्र में आवेशित कण पर बल
+equation/magnetic-flow	चुंबकीय फ्लक्स
+equation/induced-voltage-moving-conductor	प्रेरित वोल्टता (गतिशील चालक)
+equation/induced-voltage-variable-magnetic-flow	प्रेरित वोल्टता (परिवर्ती चुंबकीय फ्लक्स)
+equation/transformer	ट्रांसफॉर्मर | परिणामित्र
+equation/photon-energy	फोटॉन ऊर्जा
+equation/photoelectric-effect	प्रकाश विद्युत प्रभाव
+equation/photon-momentum	फोटॉन संवेग
+equation/matter-wavelength-de-broglie	द्रव्य तरंगदैर्घ्य (दे ब्रॉग्ली)
+equation/hydrogen-s-energy-levels-bohrs	हाइड्रोजन के ऊर्जा स्तर (बोर)
+equation/law-of-decay	क्षय का नियम
+equation/half-life	अर्ध-आयु
+equation/activity-1	सक्रियता #1
+equation/activity-2	सक्रियता #2
+equation/absorbed-dose	अवशोषित मात्रा
+equation/equivalent-dose	तुल्य मात्रा
+equation/energy-in-capacitor	संधारित्र में ऊर्जा
+constant/pi	पाई (π)
+constant/tau	टाउ (τ)
+constant/euler-s-number	ऑयलर संख्या | e
+constant/euler-s-constant	ऑयलर-मैस्करोनी स्थिरांक
+constant/golden-ratio	स्वर्ण अनुपात
+constant/catalan-constant	कैटलन स्थिरांक
+constant/square-root-of-2	2 का वर्गमूल
+constant/square-root-of-10	10 का वर्गमूल
+constant/speed-of-light	प्रकाश की चाल
+constant/planck-s-constant	प्लांक स्थिरांक
+constant/gravitational-constant	गुरुत्वाकर्षण स्थिरांक
+constant/avogadro-s-number	आवोगाद्रो संख्या
+constant/elementary-charge	मूल आवेश
+constant/electron-mass	इलेक्ट्रॉन का द्रव्यमान
+constant/proton-mass	प्रोटॉन का द्रव्यमान
+constant/neutron-mass	न्यूट्रॉन का द्रव्यमान
+constant/atomic-mass-unit	परमाणु द्रव्यमान इकाई
+constant/boltzmann-constant	बोल्ट्ज़मान स्थिरांक
+constant/faraday-constant	फैराडे स्थिरांक
+constant/bohr-magneton	बोर मैग्नेटॉन
+constant/bohr-radius	बोर त्रिज्या
+constant/acceleration-due-to-gravity	गुरुत्वीय त्वरण
+constant/vacuum-permittivity	निर्वात की विद्युतशीलता
+constant/vacuum-permeability	निर्वात की चुंबकशीलता
+constant/gas-constant	गैस स्थिरांक
+constant/airport-passenger	हवाई अड्डा, यात्री
+constant/apartment-bedroom	अपार्टमेंट, शयनकक्ष
+constant/automobile-service-station-vehicle	पेट्रोल पंप, वाहन
+constant/automobile-service-station-employee	पेट्रोल पंप, कर्मचारी
+constant/bar-lounge-seat	बार/लाउंज, सीट
+constant/bar-lounge-employee	बार/लाउंज, कर्मचारी
+constant/boarding-house-person	अतिथि गृह, व्यक्ति
+constant/conference-center-person	सम्मेलन केंद्र, व्यक्ति
+constant/department-store-restroom	डिपार्टमेंट स्टोर, शौचालय
+constant/department-store-employee	डिपार्टमेंट स्टोर, कर्मचारी
+constant/hotel-guest	होटल, अतिथि
+constant/hotel-employee	होटल, कर्मचारी
+constant/industrial-building-employee	औद्योगिक भवन, कर्मचारी
+constant/laundry-self-service-machine	लॉन्ड्री (स्वयं सेवा), मशीन
+constant/laundry-self-service-customer	लॉन्ड्री (स्वयं सेवा), ग्राहक
+constant/mobile-home-park-mobile-home	मोबाइल होम पार्क, मोबाइल होम
+constant/motel-with-kitchen-guest	रसोई सहित मोटल, अतिथि
+constant/motel-without-kitchen-guest	रसोई रहित मोटल, अतिथि
+constant/office-employee	कार्यालय, कर्मचारी
+constant/public-restroom-user	सार्वजनिक शौचालय, उपयोगकर्ता
+constant/restaurant-without-bar-customer	बार रहित रेस्तराँ, ग्राहक
+constant/restaurant-with-bar-customer	बार सहित रेस्तराँ, ग्राहक
+constant/shopping-center-employee	शॉपिंग सेंटर, कर्मचारी
+constant/shopping-center-parking-space	शॉपिंग सेंटर, पार्किंग स्थान
+constant/theater-seat	थिएटर, सीट
+constant/ks	Ks
+constant/kd	kd
+constant/um	um
+constant/y	Y
+constant/trash-racks	कचरा जाली
+constant/bar-racks-coarse-screens-fine-screens	छड़ जाली, मोटी छलनी, महीन छलनी
+constant/very-fine-screens	अति महीन छलनी
+constant/micro-screens	सूक्ष्म छलनी
+poisson/andesite	एंडेसाइट
+poisson/basalt	बेसाल्ट
+poisson/claystone	मृत्तिका शैल | क्लेस्टोन
+poisson/conglomerate	संगुटिकाश्म | कॉन्ग्लोमरेट
+poisson/diabase	डायाबेस
+poisson/diorite	डायोराइट
+poisson/dolerite	डोलेराइट
+poisson/dolomite	डोलोमाइट
+poisson/gneiss	नाइस
+poisson/basalt#2	बेसाल्ट
+poisson/granodiorite	ग्रैनोडायोराइट
+poisson/greywacke	ग्रेवैक
+poisson/linestone	चूना पत्थर
+poisson/marble	संगमरमर
+poisson/marl	मार्ल
+poisson/norite	नोराइट
+poisson/quartzite	क्वार्टज़ाइट
+poisson/rock-salt	सेंधा नमक
+poisson/sandstone	बलुआ पत्थर
+poisson/shale	शेल
+poisson/silstone	सिल्टस्टोन
+poisson/tuff	टफ
+poisson/loose-sand	ढीली रेत
+poisson/medium-dense-sand	मध्यम घनी रेत
+poisson/dense-sand	घनी रेत
+poisson/silty-sand	गादयुक्त रेत
+poisson/sand-and-gravel	रेत और बजरी
+poisson/saturated-cohesive-soil	संतृप्त संसंजक मृदा
+poisson/cristobalite-sio2	α-क्रिस्टोबलाइट (SiO2)
+poisson/diamond-c	हीरा (C)
+poisson/quartz-sio2	α-क्वार्ट्ज़ (SiO2)
+poisson/periclase-mgo	पेरीक्लेज़ (MgO)
+poisson/topaz-al2-f-oh-2sio4	पुखराज (Al2(F,OH)2SiO4)
+poisson/graphite-c	ग्रेफाइट (C)
+poisson/sapphire-al2o3	नीलम (Al2O3)
+poisson/magnesite-mgco3	मैग्नेसाइट (MgCO3)
+poisson/halite-nacl	हैलाइट (NaCl)
+poisson/magnetite-fe3o4	मैग्नेटाइट (Fe3O4)
+poisson/galena-pbs	गैलेना (PbS)
+poisson/anhydrite-caso4	एनहाइड्राइट (CaSO4)
+poisson/rutile-tio2	रूटाइल (TiO2)
+poisson/chromite-feocr2o3	क्रोमाइट (FeOCr2O3)
+poisson/albite-naalsi3o8	एल्बाइट (NaAlSi3O8)
+poisson/fluorite-caf2	फ्लोराइट (CaF2)
+poisson/dolomite-camg-co3-2	डोलोमाइट (CaMg(CO3)2)
+poisson/calcite-caco3	कैल्साइट (CaCO3)
+poisson/sphalerite-zns	स्फेलेराइट (ZnS)
+poisson/uraninite-uo2	यूरेनिनाइट (UO2)
+poisson/gypsum-caso4-2h2o	जिप्सम (CaSO4 2H2O)
+poisson/zincite-zno	ज़िंकाइट (ZnO)
+poisson/bunsenite-nio	बुनसेनाइट (NiO)
+poisson/celestite-srso4	सेलेस्टाइट (SrSO4)
+geology/plagioclase	प्लेजियोक्लेज़
+geology/graphite	ग्रेफाइट
+geology/quartz	क्वार्ट्ज़ | स्फटिक
+geology/olivine	ओलिवीन
+geology/pyrite	पाइराइट
+geology/mica	अभ्रक
+geology/biotite	बायोटाइट
+geology/chlorite	क्लोराइट
+geology/talc	टैल्क | सेलखड़ी
+geology/magnetite	मैग्नेटाइट
+geology/fluorite	फ्लोराइट
+geology/diopside	डायोप्साइड
+geology/chalcopyrite	कैल्कोपाइराइट
+geology/beryl	बेरिल
+geology/garnet	गार्नेट | तामड़ा
+geology/potassium-feldspar	पोटैशियम फेल्डस्पार
+geology/hornblende	हॉर्नब्लेंड
+geology/epidote	एपिडोट
+geology/hematite	हेमेटाइट
+geology/galena	गैलेना
+geology/gypsum	जिप्सम
+geology/goethite	गोएथाइट
+geology/apatite	एपेटाइट
+geology/barite	बैराइट
+geology/dolomite	डोलोमाइट
+indicator/bromothymol-blue	ब्रोमोथाइमॉल ब्लू
+indicator/methyl-orange	मेथिल ऑरेंज
+indicator/congo-red	कांगो रेड
+indicator/phenolphthalein	फीनॉल्फ्थेलिन
+alloy/steel	इस्पात | स्टील
+alloy/stainless-steel	स्टेनलेस स्टील | जंगरोधी इस्पात
+alloy/cast-iron	ढलवाँ लोहा
+alloy/brass	पीतल
+alloy/bronze	कांसा
+alloy/solder	टांका | सोल्डर
+alloy/pewter	प्यूटर
+alloy/duralumin	ड्यूरालुमिन
+alloy/ti-6al-4v	Ti-6Al-4V
+alloy/nichrome	नाइक्रोम
+alloy/sterling-silver	स्टर्लिंग चांदी
+alloy/white-gold	सफ़ेद सोना
+alloy/amalgam	अमलगम | पारद मिश्रधातु
+alloy/magnalium	मैग्नेलियम
+alloy/inconel	इनकोनेल
+unit/length-meter	मीटर
+unit/length-kilometer	किलोमीटर
+unit/length-centimeter	सेंटीमीटर
+unit/length-millimeter	मिलीमीटर
+unit/length-inch	इंच
+unit/length-foot	फुट
+unit/length-yard	गज
+unit/length-mile	मील
+unit/mass-kilogram	किलोग्राम
+unit/mass-gram	ग्राम
+unit/mass-milligram	मिलीग्राम
+unit/mass-pound	पाउंड
+unit/mass-ounce	औंस
+unit/volume-liter	लीटर
+unit/volume-milliliter	मिलीलीटर
+unit/volume-cubic-meter	घन मीटर
+unit/volume-gallon	गैलन
+unit/volume-pint	पिंट
+unit/area-square-meter	वर्ग मीटर
+unit/area-square-kilometer	वर्ग किलोमीटर
+unit/area-square-centimeter	वर्ग सेंटीमीटर
+unit/area-square-mile	वर्ग मील
+unit/area-acre	एकड़
+unit/velocity-meter-second	मीटर/सेकंड
+unit/velocity-kilometer-hour	किलोमीटर/घंटा
+unit/velocity-mile-hour	मील/घंटा
+unit/velocity-foot-second	फुट/सेकंड
+unit/energy-joule	जूल
+unit/energy-kilojoule	किलोजूल
+unit/energy-calorie	कैलोरी
+unit/energy-kilocalorie	किलोकैलोरी
+unit/energy-watt-hour	वाट-घंटा
+unit/frequency-hertz	हर्ट्ज़
+unit/frequency-kilohertz	किलोहर्ट्ज़
+unit/frequency-megahertz	मेगाहर्ट्ज़
+unit/frequency-gigahertz	गीगाहर्ट्ज़
+unit/temperature-celsius	सेल्सियस
+unit/temperature-fahrenheit	फ़ारेनहाइट
+unit/temperature-kelvin	केल्विन
+unit/time-second	सेकंड
+unit/time-millisecond	मिलीसेकंड
+unit/time-minute	मिनट
+unit/time-hour	घंटा
+unit/time-day	दिन
+unit/force-newton	न्यूटन
+unit/force-kilonewton	किलोन्यूटन
+unit/force-dyne	डाइन
+unit/force-pound-force	पाउंड-बल
+unit/force-kilogram-force	किलोग्राम-बल
+unit/power-watt	वाट
+unit/power-kilowatt	किलोवाट
+unit/power-megawatt	मेगावाट
+unit/power-horsepower	अश्वशक्ति | हॉर्सपावर
+unit/voltage-volt	वोल्ट
+unit/voltage-millivolt	मिलीवोल्ट
+unit/voltage-kilovolt	किलोवोल्ट
+unit/resistance-ohm	ओम
+unit/resistance-milliohm	मिलीओम
+unit/resistance-kiloohm	किलोओम
+unit/resistance-megaohm	मेगाओम
+unit/pressure-pascal	पास्कल
+unit/pressure-kilopascal	किलोपास्कल
+unit/pressure-bar	बार
+unit/pressure-atmosphere	वायुमंडल | एटमॉस्फियर
+unit/pressure-psi	PSI

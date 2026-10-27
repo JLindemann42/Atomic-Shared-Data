@@ -1,0 +1,462 @@
+# Reference-table titles in Swedish (roadmap 1.3), by canonical key from golden/dataset_keys.tsv.
+# A title may list other wordings after "|": the first is shown, all are searched.
+# Machine-translated; "reviewed" is y once a native speaker has checked the row.
+# Check with: python tools/dataset_titles.py --check
+key	title	reviewed
+dataset/alloy	Legering | legeringar	
+dataset/constant	Konstant | konstanter	
+dataset/dictionary	Ordlista | begrepp	
+dataset/electrode	Elektrodpotential | reduktionspotential | spänningsserien	
+dataset/equation	Formel | ekvation | formler	
+dataset/geology	Mineral | mineraler	
+dataset/indicator	pH-indikator | indikator | färg | färgomslag	
+dataset/ion	Joniseringsenergi | jon	
+dataset/poisson	Poissons tal | tvärkontraktionstal	
+dataset/solubility	Löslighet | lösligt | olösligt	
+dataset/unit	Enhet | enheter | omvandling	
+dictionary/density	Densitet
+dictionary/standard-atomic-weight	Standardatomvikt
+dictionary/atomic-radius	Atomradie
+dictionary/electronegativity	Elektronegativitet
+dictionary/ionization-energy	Joniseringsenergi
+dictionary/electron-configuration	Elektronkonfiguration
+dictionary/enthalpy-of-fusion	Smältentalpi | smältvärme
+dictionary/specific-heat-capacity	Specifik värmekapacitet
+dictionary/enthalpy-of-vaporization	Ångbildningsentalpi | ångbildningsvärme
+dictionary/solubility-chart	Löslighetstabell
+dictionary/superconductivity	Supraledning
+dictionary/electrical-resistivity	Elektrisk resistivitet
+dictionary/electrical-conductivity	Elektrisk konduktivitet | elektrisk ledningsförmåga
+dictionary/thermodynamic-temperature	Termodynamisk temperatur
+dictionary/absolute-zero	Absoluta nollpunkten
+dictionary/acid	Syra
+dictionary/activation-energy	Aktiveringsenergi
+dictionary/chemical-element	Grundämne | kemiskt grundämne
+dictionary/electron	Elektron
+dictionary/proton	Proton
+dictionary/neutron	Neutron
+dictionary/block-periodic-table	Block (periodiska systemet)
+dictionary/period-periodic-table	Period (periodiska systemet)
+dictionary/covalent-radius	Kovalent radie
+dictionary/van-der-waals-radius	Van der Waals-radie
+dictionary/dark-matter	Mörk materia
+dictionary/elementary-particle	Elementarpartikel
+dictionary/fats	Fetter
+dictionary/functional-group	Funktionell grupp
+dictionary/hydrophile	Hydrofil
+dictionary/hydrophobe	Hydrofob
+dictionary/isotope	Isotop
+dictionary/liquid	Vätska
+dictionary/macromolecule	Makromolekyl
+dictionary/magnetic-field	Magnetfält
+dictionary/gas	Gas
+dictionary/molar-mass	Molmassa | molär massa
+dictionary/nuclear-matter	Kärnmateria
+dictionary/pressure	Tryck
+dictionary/rust	Rost
+dictionary/semiconductors	Halvledare
+dictionary/solubility	Löslighet
+dictionary/spectrometer	Spektrometer
+dictionary/vacuum	Vakuum
+dictionary/wavelength	Våglängd
+dictionary/weight	Tyngd | vikt
+dictionary/white-noise	Vitt brus
+dictionary/frequency	Frekvens
+dictionary/friction	Friktion
+dictionary/efficiency	Verkningsgrad
+dictionary/impulse	Impuls
+dictionary/intensity	Intensitet
+dictionary/centripetal-force	Centripetalkraft
+dictionary/momentum	Rörelsemängd
+dictionary/spectrum	Spektrum
+dictionary/electromagnetic-spectrum	Elektromagnetiska spektrumet
+dictionary/electric-charge	Elektrisk laddning
+dictionary/matter	Materia
+dictionary/photon	Foton
+dictionary/boson	Boson
+dictionary/fermion	Fermion
+dictionary/quark	Kvark
+dictionary/lepton	Lepton
+dictionary/particle-accelerator	Partikelaccelerator
+dictionary/electric-field	Elektriskt fält
+dictionary/molecule	Molekyl
+dictionary/hydrogen-bond	Vätebindning
+dictionary/van-der-waals-force	Van der Waals-kraft
+dictionary/ionic-bonding	Jonbindning
+dictionary/ion	Jon
+dictionary/cation	Katjon
+dictionary/anion	Anjon
+dictionary/energy	Energi
+dictionary/elastic-energy	Elastisk energi
+dictionary/kinetic-energy	Kinetisk energi | rörelseenergi
+dictionary/potential-energy	Potentiell energi | lägesenergi
+dictionary/mass	Massa
+dictionary/measure	Mått
+dictionary/function	Funktion
+dictionary/differentiable-function	Deriverbar funktion
+dictionary/calculus	Analys | infinitesimalkalkyl
+dictionary/solid-water-distribution-coefficient	Fördelningskoefficient fast fas–vatten
+dictionary/avogadro-constant	Avogadros konstant
+dictionary/planck-constant	Plancks konstant
+dictionary/boltzmann-constant	Boltzmanns konstant
+dictionary/ideal-gas-law	Allmänna gaslagen | ideala gaslagen
+dictionary/entropy	Entropi
+dictionary/gibbs-free-energy	Gibbs fria energi
+dictionary/ph	pH
+dictionary/equilibrium-constant	Jämviktskonstant
+dictionary/catalyst	Katalysator
+dictionary/reaction-rate	Reaktionshastighet
+dictionary/arrhenius-equation	Arrheniusekvationen
+dictionary/half-life-radioactive-decay	Halveringstid (radioaktivt sönderfall)
+dictionary/fermi-energy	Fermienergi
+dictionary/redox-reaction	Redoxreaktion
+dictionary/stoichiometry	Stökiometri
+dictionary/mole-amount-of-substance	Mol (substansmängd)
+dictionary/thermodynamic-equilibrium	Termodynamisk jämvikt
+dictionary/first-law-of-thermodynamics	Termodynamikens första huvudsats
+dictionary/second-law-of-thermodynamics	Termodynamikens andra huvudsats
+dictionary/solvent	Lösningsmedel
+dictionary/solvation	Solvatisering
+dictionary/oxidation	Oxidation
+dictionary/reduction	Reduktion
+dictionary/buffer-solution	Buffertlösning
+dictionary/compressibility	Kompressibilitet
+dictionary/viscosity	Viskositet
+dictionary/refractive-index	Brytningsindex
+dictionary/dielectric-constant	Dielektricitetskonstant
+dictionary/specific-gravity	Relativ densitet
+dictionary/surface-tension	Ytspänning
+dictionary/phase-diagram	Fasdiagram
+dictionary/latent-heat	Latent värme
+dictionary/partition-coefficient	Fördelningskoefficient
+dictionary/van-t-hoff-factor	van 't Hoff-faktor
+dictionary/le-chatelier-s-principle	Le Chateliers princip
+dictionary/born-haber-cycle	Born–Haber-cykeln
+dictionary/molarity	Molaritet
+dictionary/molality	Molalitet
+dictionary/partial-pressure	Partialtryck
+dictionary/raoult-s-law	Raoults lag
+dictionary/debye-huckel-theory	Debye–Hückel-teorin
+dictionary/diffusion	Diffusion
+dictionary/brownian-motion	Brownsk rörelse
+dictionary/ionic-strength	Jonstyrka
+dictionary/atomic-number	Atomnummer
+dictionary/mass-number	Masstal
+dictionary/atomic-mass	Atommassa
+dictionary/valence-electrons	Valenselektroner
+dictionary/orbital	Orbital
+dictionary/oxidation-state	Oxidationstal
+dictionary/oxide	Oxid
+dictionary/alkali-metal	Alkalimetall
+dictionary/alkaline-earth-metal	Alkalisk jordartsmetall
+dictionary/halogen	Halogen
+dictionary/noble-gas	Ädelgas
+dictionary/transition-metal	Övergångsmetall
+dictionary/lanthanide	Lantanid
+dictionary/actinide	Aktinid
+dictionary/metallic-character	Metallisk karaktär
+dictionary/synthetic-element	Syntetiskt grundämne
+dictionary/aufbau-principle	Uppbyggnadsprincipen
+dictionary/hund-s-rule	Hunds regel
+dictionary/pauli-exclusion-principle	Paulis uteslutningsprincip
+dictionary/anomalous-electron-configuration	Avvikande elektronkonfiguration
+dictionary/periodic-trend-atomic-radius	Periodisk trend: atomradie
+dictionary/periodic-trend-ionization-energy	Periodisk trend: joniseringsenergi
+dictionary/periodic-trend-electronegativity	Periodisk trend: elektronegativitet
+dictionary/periodic-trend-reactivity	Periodisk trend: reaktivitet
+equation/density	Densitet
+equation/power-effect	Effekt
+equation/intensity	Intensitet
+equation/efficiency	Verkningsgrad
+equation/frequency	Frekvens
+equation/angular-velocity	Vinkelhastighet
+equation/average-velocity	Medelhastighet
+equation/linear-motion	Rätlinjig rörelse
+equation/average-acceleration	Medelacceleration
+equation/instantaneous-velocity-1	Momentanhastighet #1
+equation/instantaneous-velocity-2	Momentanhastighet #2
+equation/instantaneous-velocity-3	Momentanhastighet #3
+equation/instantaneous-velocity-4	Momentanhastighet #4
+equation/newtown-s-second-law-force-law	Newtons andra lag (kraftlagen)
+equation/friction	Friktion
+equation/hookes-law	Hookes lag
+equation/law-of-gravity	Gravitationslagen
+equation/force-moment	Kraftmoment
+equation/impulse	Impuls
+equation/law-of-impulse	Impulslagen
+equation/momentum	Rörelsemängd
+equation/conservation-of-momentum	Rörelsemängdens bevarande
+equation/work	Arbete
+equation/potential-energy	Potentiell energi | lägesenergi
+equation/kinetic-energy	Kinetisk energi | rörelseenergi
+equation/elastic-energy	Elastisk energi
+equation/centripetal-force	Centripetalkraft
+equation/centripetal-acceleration	Centripetalacceleration
+equation/harmonic-oscillator-1	Harmonisk oscillator #1
+equation/harmonic-oscillator-2	Harmonisk oscillator #2
+equation/harmonic-oscillator-3	Harmonisk oscillator #3
+equation/harmonic-oscillator-4	Harmonisk oscillator #4
+equation/simple-pendulum	Matematisk pendel
+equation/mass-energy-equivalence	Ekvivalens mellan massa och energi
+equation/thermal-energy	Värmeenergi
+equation/latent-energy-fusion	Latent energi (smältning)
+equation/latent-energy-vaporization	Latent energi (förångning)
+equation/ideal-gas-law	Allmänna gaslagen | ideala gaslagen
+equation/pressure	Tryck
+equation/pressure-in-liquids	Tryck i vätskor
+equation/lift-force	Lyftkraft
+equation/velocity-factor-propagation-speed	Hastighetsfaktor (utbredningshastighet)
+equation/light-interference-double-slit	Ljusinterferens (dubbelspalt)
+equation/law-of-refraction	Brytningslagen
+equation/emittance	Emittans | utstrålning
+equation/stefan-boltzmanns-law	Stefan–Boltzmanns lag
+equation/wiens-displacement-law	Wiens förskjutningslag
+equation/coulombs-law	Coulombs lag
+equation/current	Ström | elektrisk ström
+equation/electrical-voltage	Elektrisk spänning
+equation/ohms-law	Ohms lag
+equation/electrical-effect	Elektrisk effekt
+equation/electrical-field-strength	Elektrisk fältstyrka
+equation/force-charge-on-particle-in-electric-field	Kraft på laddad partikel i elektriskt fält
+equation/equivalent-resistance-series	Ersättningsresistans (serie)
+equation/equivalent-resistance-parallel	Ersättningsresistans (parallell)
+equation/magnetic-field-around-electrical-conduct	Magnetfält kring elektrisk ledare
+equation/magnetic-field-in-flat-coil	Magnetfält i platt spole
+equation/magnetic-field-in-solenoid	Magnetfält i solenoid
+equation/power-effect-on-conductor-in-magnetic-field	Kraft på ledare i magnetfält
+equation/power-effect-on-charged-particle-in-magnetic-field	Kraft på laddad partikel i magnetfält
+equation/magnetic-flow	Magnetiskt flöde
+equation/induced-voltage-moving-conductor	Inducerad spänning (rörlig ledare)
+equation/induced-voltage-variable-magnetic-flow	Inducerad spänning (varierande magnetiskt flöde)
+equation/transformer	Transformator
+equation/photon-energy	Fotonenergi
+equation/photoelectric-effect	Fotoelektrisk effekt
+equation/photon-momentum	Fotonens rörelsemängd
+equation/matter-wavelength-de-broglie	Materievåglängd (de Broglie)
+equation/hydrogen-s-energy-levels-bohrs	Väteatomens energinivåer (Bohr)
+equation/law-of-decay	Sönderfallslagen
+equation/half-life	Halveringstid
+equation/activity-1	Aktivitet #1
+equation/activity-2	Aktivitet #2
+equation/absorbed-dose	Absorberad dos
+equation/equivalent-dose	Ekvivalent dos
+equation/energy-in-capacitor	Energi i kondensator
+constant/pi	Pi (π)
+constant/tau	Tau (τ)
+constant/euler-s-number	Eulers tal
+constant/euler-s-constant	Eulers konstant
+constant/golden-ratio	Gyllene snittet
+constant/catalan-constant	Catalans konstant
+constant/square-root-of-2	Kvadratroten ur 2
+constant/square-root-of-10	Kvadratroten ur 10
+constant/speed-of-light	Ljusets hastighet | ljushastigheten
+constant/planck-s-constant	Plancks konstant
+constant/gravitational-constant	Gravitationskonstanten | gravitationskonstant
+constant/avogadro-s-number	Avogadros tal
+constant/elementary-charge	Elementarladdningen | elementarladdning
+constant/electron-mass	Elektronens massa | elektronmassa
+constant/proton-mass	Protonens massa | protonmassa
+constant/neutron-mass	Neutronens massa | neutronmassa
+constant/atomic-mass-unit	Atommassenhet
+constant/boltzmann-constant	Boltzmanns konstant
+constant/faraday-constant	Faradays konstant
+constant/bohr-magneton	Bohrmagneton
+constant/bohr-radius	Bohrradien
+constant/acceleration-due-to-gravity	Tyngdaccelerationen
+constant/vacuum-permittivity	Permittiviteten i vakuum | elektriska konstanten
+constant/vacuum-permeability	Permeabiliteten i vakuum | magnetiska konstanten
+constant/gas-constant	Allmänna gaskonstanten | gaskonstanten
+constant/airport-passenger	Flygplats, passagerare
+constant/apartment-bedroom	Lägenhet, sovrum
+constant/automobile-service-station-vehicle	Bensinstation, fordon
+constant/automobile-service-station-employee	Bensinstation, anställd
+constant/bar-lounge-seat	Bar/lounge, sittplats
+constant/bar-lounge-employee	Bar/lounge, anställd
+constant/boarding-house-person	Pensionat, person
+constant/conference-center-person	Konferenscenter, person
+constant/department-store-restroom	Varuhus, toalett
+constant/department-store-employee	Varuhus, anställd
+constant/hotel-guest	Hotell, gäst
+constant/hotel-employee	Hotell, anställd
+constant/industrial-building-employee	Industribyggnad, anställd
+constant/laundry-self-service-machine	Tvättinrättning (självbetjäning), maskin
+constant/laundry-self-service-customer	Tvättinrättning (självbetjäning), kund
+constant/mobile-home-park-mobile-home	Husvagnsområde, husvagn
+constant/motel-with-kitchen-guest	Motell med kök, gäst
+constant/motel-without-kitchen-guest	Motell utan kök, gäst
+constant/office-employee	Kontor, anställd
+constant/public-restroom-user	Offentlig toalett, användare
+constant/restaurant-without-bar-customer	Restaurang utan bar, kund
+constant/restaurant-with-bar-customer	Restaurang med bar, kund
+constant/shopping-center-employee	Köpcentrum, anställd
+constant/shopping-center-parking-space	Köpcentrum, parkeringsplats
+constant/theater-seat	Teater, sittplats
+constant/ks	Ks
+constant/kd	kd
+constant/um	um
+constant/y	Y
+constant/trash-racks	Grovgaller
+constant/bar-racks-coarse-screens-fine-screens	Stånggaller, grovgaller, fingaller
+constant/very-fine-screens	Mycket fina galler
+constant/micro-screens	Mikrosilar
+poisson/andesite	Andesit
+poisson/basalt	Basalt
+poisson/claystone	Lersten
+poisson/conglomerate	Konglomerat
+poisson/diabase	Diabas
+poisson/diorite	Diorit
+poisson/dolerite	Dolerit
+poisson/dolomite	Dolomit
+poisson/gneiss	Gnejs
+poisson/basalt#2	Basalt
+poisson/granodiorite	Granodiorit
+poisson/greywacke	Gråvacka
+poisson/linestone	Kalksten
+poisson/marble	Marmor
+poisson/marl	Märgel
+poisson/norite	Norit
+poisson/quartzite	Kvartsit
+poisson/rock-salt	Bergsalt
+poisson/sandstone	Sandsten
+poisson/shale	Skiffer | lerskiffer
+poisson/silstone	Siltsten
+poisson/tuff	Tuff
+poisson/loose-sand	Lös sand
+poisson/medium-dense-sand	Medeltät sand
+poisson/dense-sand	Tät sand
+poisson/silty-sand	Siltig sand
+poisson/sand-and-gravel	Sand och grus
+poisson/saturated-cohesive-soil	Vattenmättad kohesionsjord
+poisson/cristobalite-sio2	α-Kristobalit (SiO2)
+poisson/diamond-c	Diamant (C)
+poisson/quartz-sio2	α-Kvarts (SiO2)
+poisson/periclase-mgo	Periklas (MgO)
+poisson/topaz-al2-f-oh-2sio4	Topas (Al2(F,OH)2SiO4)
+poisson/graphite-c	Grafit (C)
+poisson/sapphire-al2o3	Safir (Al2O3)
+poisson/magnesite-mgco3	Magnesit (MgCO3)
+poisson/halite-nacl	Halit (NaCl)
+poisson/magnetite-fe3o4	Magnetit (Fe3O4)
+poisson/galena-pbs	Blyglans (PbS) | galenit
+poisson/anhydrite-caso4	Anhydrit (CaSO4)
+poisson/rutile-tio2	Rutil (TiO2)
+poisson/chromite-feocr2o3	Kromit (FeOCr2O3)
+poisson/albite-naalsi3o8	Albit (NaAlSi3O8)
+poisson/fluorite-caf2	Fluorit (CaF2) | flusspat
+poisson/dolomite-camg-co3-2	Dolomit (CaMg(CO3)2)
+poisson/calcite-caco3	Kalcit (CaCO3)
+poisson/sphalerite-zns	Zinkblände (ZnS) | sfalerit
+poisson/uraninite-uo2	Uraninit (UO2)
+poisson/gypsum-caso4-2h2o	Gips (CaSO4 2H2O)
+poisson/zincite-zno	Zinkit (ZnO)
+poisson/bunsenite-nio	Bunsenit (NiO)
+poisson/celestite-srso4	Celestin (SrSO4)
+geology/plagioclase	Plagioklas
+geology/graphite	Grafit
+geology/quartz	Kvarts
+geology/olivine	Olivin
+geology/pyrite	Pyrit | svavelkis
+geology/mica	Glimmer
+geology/biotite	Biotit
+geology/chlorite	Klorit
+geology/talc	Talk
+geology/magnetite	Magnetit
+geology/fluorite	Fluorit | flusspat
+geology/diopside	Diopsid
+geology/chalcopyrite	Kopparkis | kalkopyrit
+geology/beryl	Beryll
+geology/garnet	Granat
+geology/potassium-feldspar	Kalifältspat
+geology/hornblende	Hornblände
+geology/epidote	Epidot
+geology/hematite	Hematit
+geology/galena	Blyglans | galenit
+geology/gypsum	Gips
+geology/goethite	Goethit
+geology/apatite	Apatit
+geology/barite	Baryt | tungspat
+geology/dolomite	Dolomit
+indicator/bromothymol-blue	Bromtymolblått
+indicator/methyl-orange	Metylorange
+indicator/congo-red	Kongorött
+indicator/phenolphthalein	Fenolftalein
+alloy/steel	Stål
+alloy/stainless-steel	Rostfritt stål
+alloy/cast-iron	Gjutjärn
+alloy/brass	Mässing
+alloy/bronze	Brons
+alloy/solder	Lod | lödtenn
+alloy/pewter	Tenn | tennlegering
+alloy/duralumin	Duraluminium
+alloy/ti-6al-4v	Ti-6Al-4V
+alloy/nichrome	Nikrom
+alloy/sterling-silver	Sterlingsilver
+alloy/white-gold	Vitguld
+alloy/amalgam	Amalgam
+alloy/magnalium	Magnalium
+alloy/inconel	Inconel
+unit/length-meter	Meter
+unit/length-kilometer	Kilometer
+unit/length-centimeter	Centimeter
+unit/length-millimeter	Millimeter
+unit/length-inch	Tum
+unit/length-foot	Fot
+unit/length-yard	Yard
+unit/length-mile	Engelsk mil
+unit/mass-kilogram	Kilogram
+unit/mass-gram	Gram
+unit/mass-milligram	Milligram
+unit/mass-pound	Pund
+unit/mass-ounce	Uns
+unit/volume-liter	Liter
+unit/volume-milliliter	Milliliter
+unit/volume-cubic-meter	Kubikmeter
+unit/volume-gallon	Gallon
+unit/volume-pint	Pint
+unit/area-square-meter	Kvadratmeter
+unit/area-square-kilometer	Kvadratkilometer
+unit/area-square-centimeter	Kvadratcentimeter
+unit/area-square-mile	Engelsk kvadratmil
+unit/area-acre	Acre
+unit/velocity-meter-second	Meter/sekund
+unit/velocity-kilometer-hour	Kilometer/timme
+unit/velocity-mile-hour	Engelsk mil/timme
+unit/velocity-foot-second	Fot/sekund
+unit/energy-joule	Joule
+unit/energy-kilojoule	Kilojoule
+unit/energy-calorie	Kalori
+unit/energy-kilocalorie	Kilokalori
+unit/energy-watt-hour	Wattimme
+unit/frequency-hertz	Hertz
+unit/frequency-kilohertz	Kilohertz
+unit/frequency-megahertz	Megahertz
+unit/frequency-gigahertz	Gigahertz
+unit/temperature-celsius	Celsius
+unit/temperature-fahrenheit	Fahrenheit
+unit/temperature-kelvin	Kelvin
+unit/time-second	Sekund
+unit/time-millisecond	Millisekund
+unit/time-minute	Minut
+unit/time-hour	Timme
+unit/time-day	Dygn | dag
+unit/force-newton	Newton
+unit/force-kilonewton	Kilonewton
+unit/force-dyne	Dyn
+unit/force-pound-force	Pound-force
+unit/force-kilogram-force	Kilopond | kilogramkraft
+unit/power-watt	Watt
+unit/power-kilowatt	Kilowatt
+unit/power-megawatt	Megawatt
+unit/power-horsepower	Hästkraft
+unit/voltage-volt	Volt
+unit/voltage-millivolt	Millivolt
+unit/voltage-kilovolt	Kilovolt
+unit/resistance-ohm	Ohm
+unit/resistance-milliohm	Milliohm
+unit/resistance-kiloohm	Kiloohm
+unit/resistance-megaohm	Megaohm
+unit/pressure-pascal	Pascal
+unit/pressure-kilopascal	Kilopascal
+unit/pressure-bar	Bar
+unit/pressure-atmosphere	Atmosfär
+unit/pressure-psi	PSI

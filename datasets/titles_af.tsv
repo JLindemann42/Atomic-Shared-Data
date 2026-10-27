@@ -1,0 +1,462 @@
+# Reference-table titles in Afrikaans (roadmap 1.3), by canonical key from golden/dataset_keys.tsv.
+# A title may list other wordings after "|": the first is shown, all are searched.
+# Machine-translated; "reviewed" is y once a native speaker has checked the row.
+# Check with: python tools/dataset_titles.py --check
+key	title	reviewed
+dataset/alloy	Allooi | allooie | legering
+dataset/constant	Konstante | konstantes
+dataset/dictionary	Woordelys | term
+dataset/electrode	Elektrodepotensiaal | standaardpotensiaal | elektrochemiese reeks
+dataset/equation	Formule | vergelyking | formules
+dataset/geology	Mineraal | minerale
+dataset/indicator	pH-indikator | indikator | kleur | kleurverandering
+dataset/ion	Ionisasie-energie | ioon
+dataset/poisson	Poisson-verhouding | Poisson se verhouding
+dataset/solubility	Oplosbaarheid | oplosbaar | onoplosbaar
+dataset/unit	Eenheid | eenhede | omskakeling
+dictionary/density	Digtheid
+dictionary/standard-atomic-weight	Standaard atoomgewig
+dictionary/atomic-radius	Atoomradius
+dictionary/electronegativity	Elektronegatiwiteit
+dictionary/ionization-energy	Ionisasie-energie
+dictionary/electron-configuration	Elektronkonfigurasie
+dictionary/enthalpy-of-fusion	Smeltentalpie | smeltwarmte
+dictionary/specific-heat-capacity	Spesifieke warmtekapasiteit
+dictionary/enthalpy-of-vaporization	Verdampingsentalpie | verdampingswarmte
+dictionary/solubility-chart	Oplosbaarheidstabel
+dictionary/superconductivity	Supergeleiding
+dictionary/electrical-resistivity	Elektriese resistiwiteit | soortlike weerstand
+dictionary/electrical-conductivity	Elektriese geleidingsvermoë
+dictionary/thermodynamic-temperature	Termodinamiese temperatuur
+dictionary/absolute-zero	Absolute nulpunt
+dictionary/acid	Suur
+dictionary/activation-energy	Aktiveringsenergie
+dictionary/chemical-element	Chemiese element
+dictionary/electron	Elektron
+dictionary/proton	Proton
+dictionary/neutron	Neutron
+dictionary/block-periodic-table	Blok (periodieke tabel)
+dictionary/period-periodic-table	Periode (periodieke tabel)
+dictionary/covalent-radius	Kovalente radius
+dictionary/van-der-waals-radius	Van der Waals-radius
+dictionary/dark-matter	Donker materie
+dictionary/elementary-particle	Elementêre deeltjie
+dictionary/fats	Vette
+dictionary/functional-group	Funksionele groep
+dictionary/hydrophile	Hidrofiel
+dictionary/hydrophobe	Hidrofoob
+dictionary/isotope	Isotoop
+dictionary/liquid	Vloeistof
+dictionary/macromolecule	Makromolekule
+dictionary/magnetic-field	Magneetveld
+dictionary/gas	Gas
+dictionary/molar-mass	Molêre massa
+dictionary/nuclear-matter	Kernmaterie
+dictionary/pressure	Druk
+dictionary/rust	Roes
+dictionary/semiconductors	Halfgeleiers
+dictionary/solubility	Oplosbaarheid
+dictionary/spectrometer	Spektrometer
+dictionary/vacuum	Vakuum
+dictionary/wavelength	Golflengte
+dictionary/weight	Gewig
+dictionary/white-noise	Witruis
+dictionary/frequency	Frekwensie
+dictionary/friction	Wrywing
+dictionary/efficiency	Doeltreffendheid | rendement
+dictionary/impulse	Impuls
+dictionary/intensity	Intensiteit
+dictionary/centripetal-force	Sentripetale krag
+dictionary/momentum	Momentum
+dictionary/spectrum	Spektrum
+dictionary/electromagnetic-spectrum	Elektromagnetiese spektrum
+dictionary/electric-charge	Elektriese lading
+dictionary/matter	Materie
+dictionary/photon	Foton
+dictionary/boson	Boson
+dictionary/fermion	Fermion
+dictionary/quark	Kwark
+dictionary/lepton	Lepton
+dictionary/particle-accelerator	Deeltjieversneller
+dictionary/electric-field	Elektriese veld
+dictionary/molecule	Molekule
+dictionary/hydrogen-bond	Waterstofbinding
+dictionary/van-der-waals-force	Van der Waals-krag
+dictionary/ionic-bonding	Ioniese binding
+dictionary/ion	Ioon
+dictionary/cation	Katioon
+dictionary/anion	Anioon
+dictionary/energy	Energie
+dictionary/elastic-energy	Elastiese energie
+dictionary/kinetic-energy	Kinetiese energie
+dictionary/potential-energy	Potensiële energie
+dictionary/mass	Massa
+dictionary/measure	Maat
+dictionary/function	Funksie
+dictionary/differentiable-function	Differensieerbare funksie
+dictionary/calculus	Calculus | differensiaal- en integraalrekening
+dictionary/solid-water-distribution-coefficient	Vaste stof-water verdelingskoëffisiënt
+dictionary/avogadro-constant	Avogadro-konstante
+dictionary/planck-constant	Planck-konstante
+dictionary/boltzmann-constant	Boltzmann-konstante
+dictionary/ideal-gas-law	Ideale gaswet
+dictionary/entropy	Entropie
+dictionary/gibbs-free-energy	Gibbs-vrye energie
+dictionary/ph	pH
+dictionary/equilibrium-constant	Ewewigskonstante
+dictionary/catalyst	Katalisator
+dictionary/reaction-rate	Reaksietempo
+dictionary/arrhenius-equation	Arrhenius-vergelyking
+dictionary/half-life-radioactive-decay	Halfleeftyd (radioaktiewe verval)
+dictionary/fermi-energy	Fermi-energie
+dictionary/redox-reaction	Redoksreaksie
+dictionary/stoichiometry	Stoïgiometrie
+dictionary/mole-amount-of-substance	Mol (hoeveelheid stof)
+dictionary/thermodynamic-equilibrium	Termodinamiese ewewig
+dictionary/first-law-of-thermodynamics	Eerste wet van termodinamika
+dictionary/second-law-of-thermodynamics	Tweede wet van termodinamika
+dictionary/solvent	Oplosmiddel
+dictionary/solvation	Solvasie
+dictionary/oxidation	Oksidasie
+dictionary/reduction	Reduksie
+dictionary/buffer-solution	Bufferoplossing
+dictionary/compressibility	Saamdrukbaarheid
+dictionary/viscosity	Viskositeit
+dictionary/refractive-index	Brekingsindeks
+dictionary/dielectric-constant	Diëlektriese konstante
+dictionary/specific-gravity	Relatiewe digtheid | soortlike gewig
+dictionary/surface-tension	Oppervlakspanning
+dictionary/phase-diagram	Fasediagram
+dictionary/latent-heat	Latente warmte
+dictionary/partition-coefficient	Verdelingskoëffisiënt
+dictionary/van-t-hoff-factor	Van 't Hoff-faktor
+dictionary/le-chatelier-s-principle	Le Chatelier se beginsel
+dictionary/born-haber-cycle	Born-Haber-siklus
+dictionary/molarity	Molariteit | konsentrasie
+dictionary/molality	Molaliteit
+dictionary/partial-pressure	Parsiële druk
+dictionary/raoult-s-law	Raoult se wet
+dictionary/debye-huckel-theory	Debye-Hückel-teorie
+dictionary/diffusion	Diffusie
+dictionary/brownian-motion	Brown-beweging
+dictionary/ionic-strength	Ioniese sterkte
+dictionary/atomic-number	Atoomgetal
+dictionary/mass-number	Massagetal
+dictionary/atomic-mass	Atoommassa
+dictionary/valence-electrons	Valenselektrone
+dictionary/orbital	Orbitaal
+dictionary/oxidation-state	Oksidasietoestand | oksidasiegetal
+dictionary/oxide	Oksied
+dictionary/alkali-metal	Alkalimetaal
+dictionary/alkaline-earth-metal	Aardalkalimetaal
+dictionary/halogen	Halogeen
+dictionary/noble-gas	Edelgas
+dictionary/transition-metal	Oorgangsmetaal
+dictionary/lanthanide	Lantanied
+dictionary/actinide	Aktinied
+dictionary/metallic-character	Metaalkarakter
+dictionary/synthetic-element	Sintetiese element
+dictionary/aufbau-principle	Aufbau-beginsel
+dictionary/hund-s-rule	Hund se reël
+dictionary/pauli-exclusion-principle	Pauli se uitsluitingsbeginsel
+dictionary/anomalous-electron-configuration	Anomale elektronkonfigurasie
+dictionary/periodic-trend-atomic-radius	Periodieke tendens: atoomradius
+dictionary/periodic-trend-ionization-energy	Periodieke tendens: ionisasie-energie
+dictionary/periodic-trend-electronegativity	Periodieke tendens: elektronegatiwiteit
+dictionary/periodic-trend-reactivity	Periodieke tendens: reaktiwiteit
+equation/density	Digtheid
+equation/power-effect	Drywing
+equation/intensity	Intensiteit
+equation/efficiency	Doeltreffendheid | rendement
+equation/frequency	Frekwensie
+equation/angular-velocity	Hoeksnelheid
+equation/average-velocity	Gemiddelde snelheid
+equation/linear-motion	Reglynige beweging
+equation/average-acceleration	Gemiddelde versnelling
+equation/instantaneous-velocity-1	Oombliklike snelheid #1
+equation/instantaneous-velocity-2	Oombliklike snelheid #2
+equation/instantaneous-velocity-3	Oombliklike snelheid #3
+equation/instantaneous-velocity-4	Oombliklike snelheid #4
+equation/newtown-s-second-law-force-law	Newton se tweede wet (kragwet)
+equation/friction	Wrywing
+equation/hookes-law	Hooke se wet
+equation/law-of-gravity	Gravitasiewet
+equation/force-moment	Kragmoment | wringkrag
+equation/impulse	Impuls
+equation/law-of-impulse	Impulswet
+equation/momentum	Momentum
+equation/conservation-of-momentum	Behoud van momentum
+equation/work	Arbeid
+equation/potential-energy	Potensiële energie
+equation/kinetic-energy	Kinetiese energie
+equation/elastic-energy	Elastiese energie
+equation/centripetal-force	Sentripetale krag
+equation/centripetal-acceleration	Sentripetale versnelling
+equation/harmonic-oscillator-1	Harmoniese ossillator #1
+equation/harmonic-oscillator-2	Harmoniese ossillator #2
+equation/harmonic-oscillator-3	Harmoniese ossillator #3
+equation/harmonic-oscillator-4	Harmoniese ossillator #4
+equation/simple-pendulum	Eenvoudige slinger
+equation/mass-energy-equivalence	Massa-energie-ekwivalensie
+equation/thermal-energy	Termiese energie
+equation/latent-energy-fusion	Latente energie (smelt)
+equation/latent-energy-vaporization	Latente energie (verdamping)
+equation/ideal-gas-law	Ideale gaswet
+equation/pressure	Druk
+equation/pressure-in-liquids	Druk in vloeistowwe
+equation/lift-force	Hefkrag
+equation/velocity-factor-propagation-speed	Snelheidsfaktor (voortplantingspoed)
+equation/light-interference-double-slit	Liginterferensie (dubbelspleet)
+equation/law-of-refraction	Brekingswet
+equation/emittance	Emittansie
+equation/stefan-boltzmanns-law	Stefan-Boltzmann-wet
+equation/wiens-displacement-law	Wien se verplasingswet
+equation/coulombs-law	Coulomb se wet
+equation/current	Elektriese stroom
+equation/electrical-voltage	Elektriese spanning | potensiaalverskil
+equation/ohms-law	Ohm se wet
+equation/electrical-effect	Elektriese drywing
+equation/electrical-field-strength	Elektriese veldsterkte
+equation/force-charge-on-particle-in-electric-field	Krag op gelaaide deeltjie in elektriese veld
+equation/equivalent-resistance-series	Ekwivalente weerstand (serie)
+equation/equivalent-resistance-parallel	Ekwivalente weerstand (parallel)
+equation/magnetic-field-around-electrical-conduct	Magneetveld om 'n geleier
+equation/magnetic-field-in-flat-coil	Magneetveld in plat spoel
+equation/magnetic-field-in-solenoid	Magneetveld in solenoïde
+equation/power-effect-on-conductor-in-magnetic-field	Krag op geleier in magneetveld
+equation/power-effect-on-charged-particle-in-magnetic-field	Krag op gelaaide deeltjie in magneetveld
+equation/magnetic-flow	Magnetiese vloed
+equation/induced-voltage-moving-conductor	Geïnduseerde spanning (bewegende geleier)
+equation/induced-voltage-variable-magnetic-flow	Geïnduseerde spanning (veranderlike magnetiese vloed)
+equation/transformer	Transformator
+equation/photon-energy	Fotonenergie
+equation/photoelectric-effect	Foto-elektriese effek
+equation/photon-momentum	Fotonmomentum
+equation/matter-wavelength-de-broglie	Materiegolflengte (de Broglie)
+equation/hydrogen-s-energy-levels-bohrs	Waterstof se energievlakke (Bohr)
+equation/law-of-decay	Vervalwet
+equation/half-life	Halfleeftyd
+equation/activity-1	Aktiwiteit #1
+equation/activity-2	Aktiwiteit #2
+equation/absorbed-dose	Geabsorbeerde dosis
+equation/equivalent-dose	Ekwivalente dosis
+equation/energy-in-capacitor	Energie in kapasitor
+constant/pi	Pi (π)
+constant/tau	Tau (τ)
+constant/euler-s-number	Euler se getal | getal e
+constant/euler-s-constant	Euler-Mascheroni-konstante
+constant/golden-ratio	Guldesnede
+constant/catalan-constant	Catalan se konstante
+constant/square-root-of-2	Vierkantswortel van 2
+constant/square-root-of-10	Vierkantswortel van 10
+constant/speed-of-light	Ligspoed
+constant/planck-s-constant	Planck se konstante
+constant/gravitational-constant	Gravitasiekonstante
+constant/avogadro-s-number	Avogadro se getal
+constant/elementary-charge	Elementêre lading
+constant/electron-mass	Elektronmassa
+constant/proton-mass	Protonmassa
+constant/neutron-mass	Neutronmassa
+constant/atomic-mass-unit	Atoommassa-eenheid
+constant/boltzmann-constant	Boltzmann-konstante
+constant/faraday-constant	Faraday-konstante
+constant/bohr-magneton	Bohr-magneton
+constant/bohr-radius	Bohr-radius
+constant/acceleration-due-to-gravity	Swaartekragversnelling
+constant/vacuum-permittivity	Permittiwiteit van vakuum
+constant/vacuum-permeability	Permeabiliteit van vakuum
+constant/gas-constant	Gaskonstante
+constant/airport-passenger	Lughawe, passasier
+constant/apartment-bedroom	Woonstel, slaapkamer
+constant/automobile-service-station-vehicle	Vulstasie, voertuig
+constant/automobile-service-station-employee	Vulstasie, werknemer
+constant/bar-lounge-seat	Kroeg/sitkamer, sitplek
+constant/bar-lounge-employee	Kroeg/sitkamer, werknemer
+constant/boarding-house-person	Losieshuis, persoon
+constant/conference-center-person	Konferensiesentrum, persoon
+constant/department-store-restroom	Afdelingswinkel, toilet
+constant/department-store-employee	Afdelingswinkel, werknemer
+constant/hotel-guest	Hotel, gas
+constant/hotel-employee	Hotel, werknemer
+constant/industrial-building-employee	Industriële gebou, werknemer
+constant/laundry-self-service-machine	Wassery (selfdiens), masjien
+constant/laundry-self-service-customer	Wassery (selfdiens), kliënt
+constant/mobile-home-park-mobile-home	Woonwapark, woonwa
+constant/motel-with-kitchen-guest	Motel met kombuis, gas
+constant/motel-without-kitchen-guest	Motel sonder kombuis, gas
+constant/office-employee	Kantoor, werknemer
+constant/public-restroom-user	Openbare toilet, gebruiker
+constant/restaurant-without-bar-customer	Restaurant sonder kroeg, kliënt
+constant/restaurant-with-bar-customer	Restaurant met kroeg, kliënt
+constant/shopping-center-employee	Winkelsentrum, werknemer
+constant/shopping-center-parking-space	Winkelsentrum, parkeerplek
+constant/theater-seat	Teater, sitplek
+constant/ks	Ks
+constant/kd	kd
+constant/um	um
+constant/y	Y
+constant/trash-racks	Afvalroosters
+constant/bar-racks-coarse-screens-fine-screens	Staafroosters, growwe skerms, fyn skerms
+constant/very-fine-screens	Baie fyn skerms
+constant/micro-screens	Mikroskerms
+poisson/andesite	Andesiet
+poisson/basalt	Basalt
+poisson/claystone	Kleisteen
+poisson/conglomerate	Konglomeraat
+poisson/diabase	Diabaas
+poisson/diorite	Dioriet
+poisson/dolerite	Doleriet
+poisson/dolomite	Dolomiet
+poisson/gneiss	Gneis
+poisson/basalt#2	Basalt
+poisson/granodiorite	Granodioriet
+poisson/greywacke	Grouwacke
+poisson/linestone	Kalksteen
+poisson/marble	Marmer
+poisson/marl	Mergel
+poisson/norite	Noriet
+poisson/quartzite	Kwartsiet
+poisson/rock-salt	Klipsout
+poisson/sandstone	Sandsteen
+poisson/shale	Skalie
+poisson/silstone	Sliksteen
+poisson/tuff	Tuf
+poisson/loose-sand	Los sand
+poisson/medium-dense-sand	Medium digte sand
+poisson/dense-sand	Digte sand
+poisson/silty-sand	Slikerige sand
+poisson/sand-and-gravel	Sand en gruis
+poisson/saturated-cohesive-soil	Versadigde kohesiewe grond
+poisson/cristobalite-sio2	α-Kristobaliet (SiO2)
+poisson/diamond-c	Diamant (C)
+poisson/quartz-sio2	α-Kwarts (SiO2)
+poisson/periclase-mgo	Periklaas (MgO)
+poisson/topaz-al2-f-oh-2sio4	Topaas (Al2(F,OH)2SiO4)
+poisson/graphite-c	Grafiet (C)
+poisson/sapphire-al2o3	Saffier (Al2O3)
+poisson/magnesite-mgco3	Magnesiet (MgCO3)
+poisson/halite-nacl	Haliet (NaCl)
+poisson/magnetite-fe3o4	Magnetiet (Fe3O4)
+poisson/galena-pbs	Galena (PbS)
+poisson/anhydrite-caso4	Anhidriet (CaSO4)
+poisson/rutile-tio2	Rutiel (TiO2)
+poisson/chromite-feocr2o3	Chromiet (FeOCr2O3)
+poisson/albite-naalsi3o8	Albiet (NaAlSi3O8)
+poisson/fluorite-caf2	Fluoriet (CaF2)
+poisson/dolomite-camg-co3-2	Dolomiet (CaMg(CO3)2)
+poisson/calcite-caco3	Kalsiet (CaCO3)
+poisson/sphalerite-zns	Sfaleriet (ZnS)
+poisson/uraninite-uo2	Uraniniet (UO2)
+poisson/gypsum-caso4-2h2o	Gips (CaSO4 2H2O)
+poisson/zincite-zno	Sinkiet (ZnO)
+poisson/bunsenite-nio	Bunseniet (NiO)
+poisson/celestite-srso4	Selestien (SrSO4)
+geology/plagioclase	Plagioklaas
+geology/graphite	Grafiet
+geology/quartz	Kwarts
+geology/olivine	Olivien
+geology/pyrite	Piriet
+geology/mica	Mika
+geology/biotite	Biotiet
+geology/chlorite	Chloriet
+geology/talc	Talk
+geology/magnetite	Magnetiet
+geology/fluorite	Fluoriet
+geology/diopside	Diopsied
+geology/chalcopyrite	Chalkopiriet
+geology/beryl	Beril
+geology/garnet	Granaat
+geology/potassium-feldspar	Kaliumveldspaat
+geology/hornblende	Horingblende
+geology/epidote	Epidoot
+geology/hematite	Hematiet
+geology/galena	Galena
+geology/gypsum	Gips
+geology/goethite	Goethiet
+geology/apatite	Apatiet
+geology/barite	Bariet
+geology/dolomite	Dolomiet
+indicator/bromothymol-blue	Broomtimolblou
+indicator/methyl-orange	Metieloranje
+indicator/congo-red	Kongorooi
+indicator/phenolphthalein	Fenolftaleïen
+alloy/steel	Staal
+alloy/stainless-steel	Vlekvrye staal
+alloy/cast-iron	Gietyster
+alloy/brass	Geelkoper | messing
+alloy/bronze	Brons
+alloy/solder	Soldeersel
+alloy/pewter	Piouter | tinallooi
+alloy/duralumin	Duralumin
+alloy/ti-6al-4v	Ti-6Al-4V
+alloy/nichrome	Nichroom
+alloy/sterling-silver	Sterlingsilwer
+alloy/white-gold	Witgoud
+alloy/amalgam	Amalgaam
+alloy/magnalium	Magnalium
+alloy/inconel	Inconel
+unit/length-meter	Meter
+unit/length-kilometer	Kilometer
+unit/length-centimeter	Sentimeter
+unit/length-millimeter	Millimeter
+unit/length-inch	Duim
+unit/length-foot	Voet
+unit/length-yard	Jaart
+unit/length-mile	Myl
+unit/mass-kilogram	Kilogram
+unit/mass-gram	Gram
+unit/mass-milligram	Milligram
+unit/mass-pound	Pond
+unit/mass-ounce	Ons
+unit/volume-liter	Liter
+unit/volume-milliliter	Milliliter
+unit/volume-cubic-meter	Kubieke meter
+unit/volume-gallon	Gelling
+unit/volume-pint	Pint
+unit/area-square-meter	Vierkante meter
+unit/area-square-kilometer	Vierkante kilometer
+unit/area-square-centimeter	Vierkante sentimeter
+unit/area-square-mile	Vierkante myl
+unit/area-acre	Akker
+unit/velocity-meter-second	Meter/sekonde
+unit/velocity-kilometer-hour	Kilometer/uur
+unit/velocity-mile-hour	Myl/uur
+unit/velocity-foot-second	Voet/sekonde
+unit/energy-joule	Joule
+unit/energy-kilojoule	Kilojoule
+unit/energy-calorie	Kalorie
+unit/energy-kilocalorie	Kilokalorie
+unit/energy-watt-hour	Wattuur
+unit/frequency-hertz	Hertz
+unit/frequency-kilohertz	Kilohertz
+unit/frequency-megahertz	Megahertz
+unit/frequency-gigahertz	Gigahertz
+unit/temperature-celsius	Celsius
+unit/temperature-fahrenheit	Fahrenheit
+unit/temperature-kelvin	Kelvin
+unit/time-second	Sekonde
+unit/time-millisecond	Millisekonde
+unit/time-minute	Minuut
+unit/time-hour	Uur
+unit/time-day	Dag
+unit/force-newton	Newton
+unit/force-kilonewton	Kilonewton
+unit/force-dyne	Dyne
+unit/force-pound-force	Pondkrag
+unit/force-kilogram-force	Kilogramkrag
+unit/power-watt	Watt
+unit/power-kilowatt	Kilowatt
+unit/power-megawatt	Megawatt
+unit/power-horsepower	Perdekrag
+unit/voltage-volt	Volt
+unit/voltage-millivolt	Millivolt
+unit/voltage-kilovolt	Kilovolt
+unit/resistance-ohm	Ohm
+unit/resistance-milliohm	Milliohm
+unit/resistance-kiloohm	Kiloohm
+unit/resistance-megaohm	Megaohm
+unit/pressure-pascal	Pascal
+unit/pressure-kilopascal	Kilopascal
+unit/pressure-bar	Bar
+unit/pressure-atmosphere	Atmosfeer
+unit/pressure-psi	PSI

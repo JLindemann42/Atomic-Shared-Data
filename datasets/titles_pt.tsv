@@ -1,0 +1,462 @@
+# Reference-table titles in Portuguese (roadmap 1.3), by canonical key from golden/dataset_keys.tsv.
+# A title may list other wordings after "|": the first is shown, all are searched.
+# Machine-translated; "reviewed" is y once a native speaker has checked the row.
+# Check with: python tools/dataset_titles.py --check
+key	title	reviewed
+dataset/alloy	Liga | ligas
+dataset/constant	Constante | constantes
+dataset/dictionary	Glossário | termo
+dataset/electrode	Potencial de elétrodo | potencial de eletrodo | potencial padrão | série eletroquímica
+dataset/equation	Fórmula | equação | fórmulas
+dataset/geology	Mineral | minerais
+dataset/indicator	Indicador de pH | indicador | cor | viragem
+dataset/ion	Energia de ionização | íon | ião
+dataset/poisson	Coeficiente de Poisson
+dataset/solubility	Solubilidade | solúvel | insolúvel
+dataset/unit	Unidade | unidades | conversão
+dictionary/density	Densidade | massa volúmica
+dictionary/standard-atomic-weight	Peso atômico padrão | massa atómica padrão
+dictionary/atomic-radius	Raio atômico | raio atómico
+dictionary/electronegativity	Eletronegatividade | electronegatividade
+dictionary/ionization-energy	Energia de ionização
+dictionary/electron-configuration	Configuração eletrônica | configuração eletrónica
+dictionary/enthalpy-of-fusion	Entalpia de fusão | calor de fusão
+dictionary/specific-heat-capacity	Capacidade térmica específica | calor específico
+dictionary/enthalpy-of-vaporization	Entalpia de vaporização | calor de vaporização
+dictionary/solubility-chart	Tabela de solubilidade
+dictionary/superconductivity	Supercondutividade
+dictionary/electrical-resistivity	Resistividade elétrica
+dictionary/electrical-conductivity	Condutividade elétrica
+dictionary/thermodynamic-temperature	Temperatura termodinâmica
+dictionary/absolute-zero	Zero absoluto
+dictionary/acid	Ácido
+dictionary/activation-energy	Energia de ativação
+dictionary/chemical-element	Elemento químico
+dictionary/electron	Elétron | eletrão
+dictionary/proton	Próton | protão
+dictionary/neutron	Nêutron | neutrão
+dictionary/block-periodic-table	Bloco (tabela periódica)
+dictionary/period-periodic-table	Período (tabela periódica)
+dictionary/covalent-radius	Raio covalente
+dictionary/van-der-waals-radius	Raio de van der Waals
+dictionary/dark-matter	Matéria escura
+dictionary/elementary-particle	Partícula elementar
+dictionary/fats	Gorduras | lipídios
+dictionary/functional-group	Grupo funcional
+dictionary/hydrophile	Hidrófilo | hidrofílico
+dictionary/hydrophobe	Hidrófobo | hidrofóbico
+dictionary/isotope	Isótopo
+dictionary/liquid	Líquido
+dictionary/macromolecule	Macromolécula
+dictionary/magnetic-field	Campo magnético
+dictionary/gas	Gás
+dictionary/molar-mass	Massa molar
+dictionary/nuclear-matter	Matéria nuclear
+dictionary/pressure	Pressão
+dictionary/rust	Ferrugem
+dictionary/semiconductors	Semicondutores
+dictionary/solubility	Solubilidade
+dictionary/spectrometer	Espectrômetro | espectrómetro
+dictionary/vacuum	Vácuo
+dictionary/wavelength	Comprimento de onda
+dictionary/weight	Peso
+dictionary/white-noise	Ruído branco
+dictionary/frequency	Frequência
+dictionary/friction	Atrito
+dictionary/efficiency	Rendimento | eficiência
+dictionary/impulse	Impulso
+dictionary/intensity	Intensidade
+dictionary/centripetal-force	Força centrípeta
+dictionary/momentum	Momento linear | quantidade de movimento
+dictionary/spectrum	Espectro
+dictionary/electromagnetic-spectrum	Espectro eletromagnético
+dictionary/electric-charge	Carga elétrica
+dictionary/matter	Matéria
+dictionary/photon	Fóton | fotão
+dictionary/boson	Bóson | bosão
+dictionary/fermion	Férmion | fermião
+dictionary/quark	Quark
+dictionary/lepton	Lépton | leptão
+dictionary/particle-accelerator	Acelerador de partículas
+dictionary/electric-field	Campo elétrico
+dictionary/molecule	Molécula
+dictionary/hydrogen-bond	Ligação de hidrogênio | ponte de hidrogénio
+dictionary/van-der-waals-force	Força de van der Waals
+dictionary/ionic-bonding	Ligação iônica | ligação iónica
+dictionary/ion	Íon | ião
+dictionary/cation	Cátion | catião
+dictionary/anion	Ânion | anião
+dictionary/energy	Energia
+dictionary/elastic-energy	Energia elástica
+dictionary/kinetic-energy	Energia cinética
+dictionary/potential-energy	Energia potencial
+dictionary/mass	Massa
+dictionary/measure	Medida
+dictionary/function	Função
+dictionary/differentiable-function	Função diferenciável
+dictionary/calculus	Cálculo
+dictionary/solid-water-distribution-coefficient	Coeficiente de distribuição sólido-água
+dictionary/avogadro-constant	Constante de Avogadro
+dictionary/planck-constant	Constante de Planck
+dictionary/boltzmann-constant	Constante de Boltzmann
+dictionary/ideal-gas-law	Lei dos gases ideais
+dictionary/entropy	Entropia
+dictionary/gibbs-free-energy	Energia livre de Gibbs
+dictionary/ph	pH
+dictionary/equilibrium-constant	Constante de equilíbrio
+dictionary/catalyst	Catalisador
+dictionary/reaction-rate	Velocidade de reação | taxa de reação
+dictionary/arrhenius-equation	Equação de Arrhenius
+dictionary/half-life-radioactive-decay	Meia-vida (decaimento radioativo)
+dictionary/fermi-energy	Energia de Fermi
+dictionary/redox-reaction	Reação redox | oxirredução
+dictionary/stoichiometry	Estequiometria
+dictionary/mole-amount-of-substance	Mol (quantidade de substância)
+dictionary/thermodynamic-equilibrium	Equilíbrio termodinâmico
+dictionary/first-law-of-thermodynamics	Primeira lei da termodinâmica
+dictionary/second-law-of-thermodynamics	Segunda lei da termodinâmica
+dictionary/solvent	Solvente
+dictionary/solvation	Solvatação
+dictionary/oxidation	Oxidação
+dictionary/reduction	Redução
+dictionary/buffer-solution	Solução tampão
+dictionary/compressibility	Compressibilidade
+dictionary/viscosity	Viscosidade
+dictionary/refractive-index	Índice de refração
+dictionary/dielectric-constant	Constante dielétrica
+dictionary/specific-gravity	Densidade relativa | gravidade específica
+dictionary/surface-tension	Tensão superficial
+dictionary/phase-diagram	Diagrama de fases
+dictionary/latent-heat	Calor latente
+dictionary/partition-coefficient	Coeficiente de partição
+dictionary/van-t-hoff-factor	Fator de van 't Hoff
+dictionary/le-chatelier-s-principle	Princípio de Le Chatelier
+dictionary/born-haber-cycle	Ciclo de Born-Haber
+dictionary/molarity	Molaridade | concentração molar
+dictionary/molality	Molalidade
+dictionary/partial-pressure	Pressão parcial
+dictionary/raoult-s-law	Lei de Raoult
+dictionary/debye-huckel-theory	Teoria de Debye-Hückel
+dictionary/diffusion	Difusão
+dictionary/brownian-motion	Movimento browniano
+dictionary/ionic-strength	Força iônica | força iónica
+dictionary/atomic-number	Número atômico | número atómico
+dictionary/mass-number	Número de massa
+dictionary/atomic-mass	Massa atômica | massa atómica
+dictionary/valence-electrons	Elétrons de valência | eletrões de valência
+dictionary/orbital	Orbital
+dictionary/oxidation-state	Estado de oxidação | número de oxidação
+dictionary/oxide	Óxido
+dictionary/alkali-metal	Metal alcalino
+dictionary/alkaline-earth-metal	Metal alcalino-terroso
+dictionary/halogen	Halogênio | halogéneo
+dictionary/noble-gas	Gás nobre
+dictionary/transition-metal	Metal de transição
+dictionary/lanthanide	Lantanídeo
+dictionary/actinide	Actinídeo
+dictionary/metallic-character	Caráter metálico
+dictionary/synthetic-element	Elemento sintético
+dictionary/aufbau-principle	Princípio de Aufbau
+dictionary/hund-s-rule	Regra de Hund
+dictionary/pauli-exclusion-principle	Princípio de exclusão de Pauli
+dictionary/anomalous-electron-configuration	Configuração eletrônica anômala
+dictionary/periodic-trend-atomic-radius	Tendência periódica: raio atômico
+dictionary/periodic-trend-ionization-energy	Tendência periódica: energia de ionização
+dictionary/periodic-trend-electronegativity	Tendência periódica: eletronegatividade
+dictionary/periodic-trend-reactivity	Tendência periódica: reatividade
+equation/density	Densidade | massa volúmica
+equation/power-effect	Potência
+equation/intensity	Intensidade
+equation/efficiency	Rendimento | eficiência
+equation/frequency	Frequência
+equation/angular-velocity	Velocidade angular
+equation/average-velocity	Velocidade média
+equation/linear-motion	Movimento retilíneo
+equation/average-acceleration	Aceleração média
+equation/instantaneous-velocity-1	Velocidade instantânea #1
+equation/instantaneous-velocity-2	Velocidade instantânea #2
+equation/instantaneous-velocity-3	Velocidade instantânea #3
+equation/instantaneous-velocity-4	Velocidade instantânea #4
+equation/newtown-s-second-law-force-law	Segunda lei de Newton (lei fundamental da dinâmica)
+equation/friction	Atrito
+equation/hookes-law	Lei de Hooke
+equation/law-of-gravity	Lei da gravitação universal
+equation/force-moment	Momento de uma força | torque
+equation/impulse	Impulso
+equation/law-of-impulse	Teorema do impulso
+equation/momentum	Momento linear | quantidade de movimento
+equation/conservation-of-momentum	Conservação do momento linear
+equation/work	Trabalho
+equation/potential-energy	Energia potencial
+equation/kinetic-energy	Energia cinética
+equation/elastic-energy	Energia elástica
+equation/centripetal-force	Força centrípeta
+equation/centripetal-acceleration	Aceleração centrípeta
+equation/harmonic-oscillator-1	Oscilador harmônico #1
+equation/harmonic-oscillator-2	Oscilador harmônico #2
+equation/harmonic-oscillator-3	Oscilador harmônico #3
+equation/harmonic-oscillator-4	Oscilador harmônico #4
+equation/simple-pendulum	Pêndulo simples
+equation/mass-energy-equivalence	Equivalência massa-energia
+equation/thermal-energy	Energia térmica
+equation/latent-energy-fusion	Energia latente (fusão)
+equation/latent-energy-vaporization	Energia latente (vaporização)
+equation/ideal-gas-law	Lei dos gases ideais
+equation/pressure	Pressão
+equation/pressure-in-liquids	Pressão em líquidos
+equation/lift-force	Força de sustentação
+equation/velocity-factor-propagation-speed	Fator de velocidade (velocidade de propagação)
+equation/light-interference-double-slit	Interferência da luz (fenda dupla)
+equation/law-of-refraction	Lei da refração
+equation/emittance	Emitância | exitância
+equation/stefan-boltzmanns-law	Lei de Stefan-Boltzmann
+equation/wiens-displacement-law	Lei do deslocamento de Wien
+equation/coulombs-law	Lei de Coulomb
+equation/current	Corrente elétrica
+equation/electrical-voltage	Tensão elétrica | diferença de potencial
+equation/ohms-law	Lei de Ohm
+equation/electrical-effect	Potência elétrica
+equation/electrical-field-strength	Intensidade do campo elétrico
+equation/force-charge-on-particle-in-electric-field	Força sobre uma partícula carregada num campo elétrico
+equation/equivalent-resistance-series	Resistência equivalente (série)
+equation/equivalent-resistance-parallel	Resistência equivalente (paralelo)
+equation/magnetic-field-around-electrical-conduct	Campo magnético em torno de um condutor
+equation/magnetic-field-in-flat-coil	Campo magnético numa bobina plana
+equation/magnetic-field-in-solenoid	Campo magnético num solenoide
+equation/power-effect-on-conductor-in-magnetic-field	Força sobre um condutor num campo magnético
+equation/power-effect-on-charged-particle-in-magnetic-field	Força sobre uma partícula carregada num campo magnético
+equation/magnetic-flow	Fluxo magnético
+equation/induced-voltage-moving-conductor	Tensão induzida (condutor em movimento)
+equation/induced-voltage-variable-magnetic-flow	Tensão induzida (fluxo magnético variável)
+equation/transformer	Transformador
+equation/photon-energy	Energia do fóton
+equation/photoelectric-effect	Efeito fotoelétrico
+equation/photon-momentum	Momento do fóton
+equation/matter-wavelength-de-broglie	Comprimento de onda da matéria (de Broglie)
+equation/hydrogen-s-energy-levels-bohrs	Níveis de energia do hidrogênio (Bohr)
+equation/law-of-decay	Lei do decaimento radioativo
+equation/half-life	Meia-vida
+equation/activity-1	Atividade #1
+equation/activity-2	Atividade #2
+equation/absorbed-dose	Dose absorvida
+equation/equivalent-dose	Dose equivalente
+equation/energy-in-capacitor	Energia num capacitor | energia num condensador
+constant/pi	Pi (π)
+constant/tau	Tau (τ)
+constant/euler-s-number	Número de Euler | número e
+constant/euler-s-constant	Constante de Euler-Mascheroni
+constant/golden-ratio	Proporção áurea | número de ouro
+constant/catalan-constant	Constante de Catalan
+constant/square-root-of-2	Raiz quadrada de 2
+constant/square-root-of-10	Raiz quadrada de 10
+constant/speed-of-light	Velocidade da luz
+constant/planck-s-constant	Constante de Planck
+constant/gravitational-constant	Constante gravitacional
+constant/avogadro-s-number	Número de Avogadro
+constant/elementary-charge	Carga elementar
+constant/electron-mass	Massa do elétron
+constant/proton-mass	Massa do próton
+constant/neutron-mass	Massa do nêutron
+constant/atomic-mass-unit	Unidade de massa atômica
+constant/boltzmann-constant	Constante de Boltzmann
+constant/faraday-constant	Constante de Faraday
+constant/bohr-magneton	Magnéton de Bohr
+constant/bohr-radius	Raio de Bohr
+constant/acceleration-due-to-gravity	Aceleração da gravidade
+constant/vacuum-permittivity	Permissividade do vácuo
+constant/vacuum-permeability	Permeabilidade do vácuo
+constant/gas-constant	Constante dos gases
+constant/airport-passenger	Aeroporto, passageiro
+constant/apartment-bedroom	Apartamento, quarto
+constant/automobile-service-station-vehicle	Posto de combustível, veículo
+constant/automobile-service-station-employee	Posto de combustível, funcionário
+constant/bar-lounge-seat	Bar/lounge, lugar
+constant/bar-lounge-employee	Bar/lounge, funcionário
+constant/boarding-house-person	Pensão, pessoa
+constant/conference-center-person	Centro de conferências, pessoa
+constant/department-store-restroom	Loja de departamentos, banheiro
+constant/department-store-employee	Loja de departamentos, funcionário
+constant/hotel-guest	Hotel, hóspede
+constant/hotel-employee	Hotel, funcionário
+constant/industrial-building-employee	Edifício industrial, funcionário
+constant/laundry-self-service-machine	Lavandaria (self-service), máquina
+constant/laundry-self-service-customer	Lavandaria (self-service), cliente
+constant/mobile-home-park-mobile-home	Parque de casas móveis, casa móvel
+constant/motel-with-kitchen-guest	Motel com cozinha, hóspede
+constant/motel-without-kitchen-guest	Motel sem cozinha, hóspede
+constant/office-employee	Escritório, funcionário
+constant/public-restroom-user	Banheiro público, usuário
+constant/restaurant-without-bar-customer	Restaurante sem bar, cliente
+constant/restaurant-with-bar-customer	Restaurante com bar, cliente
+constant/shopping-center-employee	Centro comercial, funcionário
+constant/shopping-center-parking-space	Centro comercial, vaga de estacionamento
+constant/theater-seat	Teatro, assento
+constant/ks	Ks
+constant/kd	kd
+constant/um	um
+constant/y	Y
+constant/trash-racks	Grades de retenção de detritos
+constant/bar-racks-coarse-screens-fine-screens	Grades de barras, grades grossas, grades finas
+constant/very-fine-screens	Peneiras muito finas
+constant/micro-screens	Micropeneiras
+poisson/andesite	Andesito
+poisson/basalt	Basalto
+poisson/claystone	Argilito
+poisson/conglomerate	Conglomerado
+poisson/diabase	Diabásio
+poisson/diorite	Diorito
+poisson/dolerite	Dolerito
+poisson/dolomite	Dolomito
+poisson/gneiss	Gnaisse
+poisson/basalt#2	Basalto
+poisson/granodiorite	Granodiorito
+poisson/greywacke	Grauvaque
+poisson/linestone	Calcário
+poisson/marble	Mármore
+poisson/marl	Marga
+poisson/norite	Norito
+poisson/quartzite	Quartzito
+poisson/rock-salt	Sal-gema
+poisson/sandstone	Arenito
+poisson/shale	Folhelho | xisto argiloso
+poisson/silstone	Siltito
+poisson/tuff	Tufo
+poisson/loose-sand	Areia solta
+poisson/medium-dense-sand	Areia medianamente densa
+poisson/dense-sand	Areia densa
+poisson/silty-sand	Areia siltosa
+poisson/sand-and-gravel	Areia e cascalho
+poisson/saturated-cohesive-soil	Solo coesivo saturado
+poisson/cristobalite-sio2	α-Cristobalita (SiO2)
+poisson/diamond-c	Diamante (C)
+poisson/quartz-sio2	α-Quartzo (SiO2)
+poisson/periclase-mgo	Periclásio (MgO)
+poisson/topaz-al2-f-oh-2sio4	Topázio (Al2(F,OH)2SiO4)
+poisson/graphite-c	Grafite (C)
+poisson/sapphire-al2o3	Safira (Al2O3)
+poisson/magnesite-mgco3	Magnesita (MgCO3)
+poisson/halite-nacl	Halita (NaCl)
+poisson/magnetite-fe3o4	Magnetita (Fe3O4)
+poisson/galena-pbs	Galena (PbS)
+poisson/anhydrite-caso4	Anidrita (CaSO4)
+poisson/rutile-tio2	Rutilo (TiO2)
+poisson/chromite-feocr2o3	Cromita (FeOCr2O3)
+poisson/albite-naalsi3o8	Albita (NaAlSi3O8)
+poisson/fluorite-caf2	Fluorita (CaF2)
+poisson/dolomite-camg-co3-2	Dolomita (CaMg(CO3)2)
+poisson/calcite-caco3	Calcita (CaCO3)
+poisson/sphalerite-zns	Esfalerita (ZnS) | blenda
+poisson/uraninite-uo2	Uraninita (UO2)
+poisson/gypsum-caso4-2h2o	Gesso (CaSO4 2H2O) | gipsita
+poisson/zincite-zno	Zincita (ZnO)
+poisson/bunsenite-nio	Bunsenita (NiO)
+poisson/celestite-srso4	Celestina (SrSO4)
+geology/plagioclase	Plagioclásio
+geology/graphite	Grafite
+geology/quartz	Quartzo
+geology/olivine	Olivina
+geology/pyrite	Pirita
+geology/mica	Mica
+geology/biotite	Biotita
+geology/chlorite	Clorita
+geology/talc	Talco
+geology/magnetite	Magnetita
+geology/fluorite	Fluorita
+geology/diopside	Diopsídio
+geology/chalcopyrite	Calcopirita
+geology/beryl	Berilo
+geology/garnet	Granada
+geology/potassium-feldspar	Feldspato potássico
+geology/hornblende	Hornblenda
+geology/epidote	Epídoto
+geology/hematite	Hematita
+geology/galena	Galena
+geology/gypsum	Gesso | gipsita
+geology/goethite	Goethita
+geology/apatite	Apatita
+geology/barite	Barita
+geology/dolomite	Dolomita
+indicator/bromothymol-blue	Azul de bromotimol
+indicator/methyl-orange	Alaranjado de metila | laranja de metilo
+indicator/congo-red	Vermelho Congo
+indicator/phenolphthalein	Fenolftaleína
+alloy/steel	Aço
+alloy/stainless-steel	Aço inoxidável | inox
+alloy/cast-iron	Ferro fundido
+alloy/brass	Latão
+alloy/bronze	Bronze
+alloy/solder	Solda | liga de solda
+alloy/pewter	Estanho | peltre
+alloy/duralumin	Duralumínio
+alloy/ti-6al-4v	Ti-6Al-4V
+alloy/nichrome	Nicromo
+alloy/sterling-silver	Prata de lei | prata esterlina
+alloy/white-gold	Ouro branco
+alloy/amalgam	Amálgama
+alloy/magnalium	Magnálio
+alloy/inconel	Inconel
+unit/length-meter	Metro
+unit/length-kilometer	Quilômetro | quilómetro
+unit/length-centimeter	Centímetro
+unit/length-millimeter	Milímetro
+unit/length-inch	Polegada
+unit/length-foot	Pé
+unit/length-yard	Jarda
+unit/length-mile	Milha
+unit/mass-kilogram	Quilograma
+unit/mass-gram	Grama
+unit/mass-milligram	Miligrama
+unit/mass-pound	Libra
+unit/mass-ounce	Onça
+unit/volume-liter	Litro
+unit/volume-milliliter	Mililitro
+unit/volume-cubic-meter	Metro cúbico
+unit/volume-gallon	Galão
+unit/volume-pint	Pinta
+unit/area-square-meter	Metro quadrado
+unit/area-square-kilometer	Quilômetro quadrado
+unit/area-square-centimeter	Centímetro quadrado
+unit/area-square-mile	Milha quadrada
+unit/area-acre	Acre
+unit/velocity-meter-second	Metro/segundo
+unit/velocity-kilometer-hour	Quilômetro/hora
+unit/velocity-mile-hour	Milha/hora
+unit/velocity-foot-second	Pé/segundo
+unit/energy-joule	Joule
+unit/energy-kilojoule	Quilojoule
+unit/energy-calorie	Caloria
+unit/energy-kilocalorie	Quilocaloria
+unit/energy-watt-hour	Watt-hora
+unit/frequency-hertz	Hertz
+unit/frequency-kilohertz	Quilohertz
+unit/frequency-megahertz	Megahertz
+unit/frequency-gigahertz	Gigahertz
+unit/temperature-celsius	Celsius
+unit/temperature-fahrenheit	Fahrenheit
+unit/temperature-kelvin	Kelvin
+unit/time-second	Segundo
+unit/time-millisecond	Milissegundo
+unit/time-minute	Minuto
+unit/time-hour	Hora
+unit/time-day	Dia
+unit/force-newton	Newton
+unit/force-kilonewton	Quilonewton
+unit/force-dyne	Dina
+unit/force-pound-force	Libra-força
+unit/force-kilogram-force	Quilograma-força
+unit/power-watt	Watt
+unit/power-kilowatt	Quilowatt
+unit/power-megawatt	Megawatt
+unit/power-horsepower	Cavalo-vapor
+unit/voltage-volt	Volt
+unit/voltage-millivolt	Milivolt
+unit/voltage-kilovolt	Quilovolt
+unit/resistance-ohm	Ohm
+unit/resistance-milliohm	Miliohm
+unit/resistance-kiloohm	Quiloohm
+unit/resistance-megaohm	Megaohm
+unit/pressure-pascal	Pascal
+unit/pressure-kilopascal	Quilopascal
+unit/pressure-bar	Bar
+unit/pressure-atmosphere	Atmosfera
+unit/pressure-psi	PSI

@@ -57,8 +57,28 @@ ds-const-it-1			it	qual è la costante di planck	DATASET_LOOKUP				constants tab
 ds-const-fr-1			fr	quelle est la constante de boltzmann	DATASET_LOOKUP				constants table, asked in French; the table holds the value, the glossary only defines it	constant/boltzmann-constant		
 ds-const-es-1			es	cuál es la constante de faraday	DATASET_LOOKUP				constants table, asked in Spanish	constant/faraday-constant		
 ds-const-sv-1			sv	vad är elektronens massa	DATASET_LOOKUP				constant table	constant/electron-mass	9.10938188e-31	
-ds-dict-sv-1			sv	vad är elektronegativitet	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		the concept path routes it to dictionary/periodic-trend-electronegativity, not retrieval; translated titles would let retrieval find it (roadmap 1.3)
+ds-dict-sv-1			sv	vad är elektronegativitet	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		
 ds-dict-sv-2			sv	vad är masstal	DATASET_LOOKUP				dictionary table	dictionary/mass-number		
 ds-dict-sv-3			sv	vad är en isotop	DATASET_LOOKUP				dictionary table	dictionary/isotope		
 ds-alloy-sv-1			sv	vad är stål gjort av	DATASET_LOOKUP				alloy table	alloy/steel		
-ds-dict-es-1			es	qué es la electronegatividad	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		the concept path routes it to dictionary/periodic-trend-electronegativity, not retrieval; translated titles would let retrieval find it (roadmap 1.3)
+ds-dict-es-1			es	qué es la electronegatividad	DATASET_LOOKUP				dictionary table	dictionary/electronegativity		
+ds-tr-sv-1			sv	vad är neutronens massa	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	constant/neutron-mass		
+ds-tr-sv-2			sv	vad är gravitationskonstanten	DATASET_LOOKUP				one Swedish word for the whole title	constant/gravitational-constant		
+ds-tr-sv-3			sv	berätta om kvarts	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	geology/quartz		
+ds-tr-sv-4			sv	formeln för kinetisk energi	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	equation/kinetic-energy		
+ds-tr-sv-5			sv	poissons tal för sandsten	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	poisson/sandstone		
+ds-tr-sv-6			sv	hur många joule är en kalori	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	unit/energy-calorie		
+ds-tr-sv-7			sv	vad är en katalysator	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	dictionary/catalyst		
+ds-tr-de-1			de	Formel für kinetische Energie	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	equation/kinetic-energy		
+ds-tr-de-2			de	was ist Elektronegativität	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	dictionary/electronegativity		
+ds-tr-de-3			de	Poissonzahl von Sandstein	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	poisson/sandstone		
+ds-tr-es-1			es	fórmula de la energía cinética	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	equation/kinetic-energy		
+ds-tr-es-2			es	cuál es la masa del neutrón	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	constant/neutron-mass		
+ds-tr-fr-1			fr	formule de l'énergie cinétique	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	equation/kinetic-energy		
+ds-tr-fr-2			fr	parle-moi du quartz	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	geology/quartz		
+ds-tr-it-1			it	formula dell'energia cinetica	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	equation/kinetic-energy		
+ds-tr-pt-1			pt	o que é eletronegatividade	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	dictionary/electronegativity		
+ds-tr-af-1			af	wat is elektronegatiwiteit	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	dictionary/electronegativity		
+ds-tr-zh-1			zh	什么是电负性	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	dictionary/electronegativity		
+ds-tr-zh-2			zh	动能的公式	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	equation/kinetic-energy		
+ds-tr-hi-1			hi	विद्युत ऋणात्मकता क्या है	DATASET_LOOKUP				asked in the language, about a table written in English (roadmap 1.3)	dictionary/electronegativity		
