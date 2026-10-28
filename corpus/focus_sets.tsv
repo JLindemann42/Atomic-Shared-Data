@@ -1,0 +1,58 @@
+# corpus-format: 2
+#
+# Sets read off an element (roadmap 1.7).
+#
+# "What else is in that group" must take its group from the element the conversation is about, and
+# "the same block as iron" from the element it names. Only the group and the period worked, and
+# only through a short list of whole phrases, so "in its period", "the rest of its family", any
+# block, and the same words in German or Spanish were answered with the element's own group or
+# period number; and an operator over the set - "the densest in that group", "the average density
+# of its period" - lost the set and ranged over the whole table. "Else" and "other" leave the
+# reference out: expect_value on the counts pins both the set and that.
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
+fs-1-1	fs-1	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-1-2	fs-1	2	en	what else is in that group	FILTER_LIST				worked through a phrase list; included iron itself			
+fs-2-1	fs-2	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-2-2	fs-2	2	en	how many other elements are in that group	AGGREGATE				ruthenium, osmium and hassium: the set without its reference		3	
+fs-3-1	fs-3	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-3-2	fs-3	2	en	how many elements are in its period	AGGREGATE				was iron's own period number		18	
+fs-4-1	fs-4	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-4-2	fs-4	2	en	what other elements are in its period	FILTER_LIST				was iron's own period number			
+fs-5-1	fs-5	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-5-2	fs-5	2	en	what is in the same block	FILTER_LIST				was iron's own block			
+fs-6-1	fs-6	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-6-2	fs-6	2	en	how many elements are in the same block	AGGREGATE				the d-block		40	
+fs-7-1	fs-7	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-7-2	fs-7	2	en	show me the rest of its family	FILTER_LIST				was iron's own series			
+fs-8-1	fs-8	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-8-2	fs-8	2	en	which has the lowest melting point in that group	SUPERLATIVE	melting_point			iron itself; over every element it was helium		1811	
+fs-9-1	fs-9	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-9-2	fs-9	2	en	what is the average density of its period	AGGREGATE	density			was iron's own density		5.38903	
+fs-10-1	fs-10	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-10-2	fs-10	2	en	and the rest of that group?	FILTER_LIST							
+fs-11-1	fs-11	1	en	what is the atomic number of sodium	PROPERTY_LOOKUP	atomic_number						
+fs-11-2	fs-11	2	en	how many other elements are in its group	AGGREGATE				hydrogen, lithium, potassium, rubidium, caesium, francium		6	
+fs-12-1	fs-12	1	sv	vad är densiteten för järn	PROPERTY_LOOKUP	density						
+fs-12-2	fs-12	2	sv	vad mer finns i samma period	FILTER_LIST				was järn's own period number			
+fs-13-1	fs-13	1	sv	vad är densiteten för järn	PROPERTY_LOOKUP	density						
+fs-13-2	fs-13	2	sv	vilket är tätast i den gruppen	SUPERLATIVE	density			osmium; was answered with helium		22.59	
+fs-14-1	fs-14	1	de	was ist die Dichte von Eisen	PROPERTY_LOOKUP	density						
+fs-14-2	fs-14	2	de	welche anderen Elemente sind in derselben Gruppe	FILTER_LIST							
+fs-15-1	fs-15	1	de	was ist die Dichte von Eisen	PROPERTY_LOOKUP	density						
+fs-15-2	fs-15	2	de	wie viele Elemente sind in dieser Periode	AGGREGATE						18	
+fs-16-1	fs-16	1	es	cuál es la densidad del hierro	PROPERTY_LOOKUP	density						
+fs-16-2	fs-16	2	es	qué otros elementos están en el mismo grupo	FILTER_LIST							
+fs-17-1	fs-17	1	es	cuál es la densidad del hierro	PROPERTY_LOOKUP	density						
+fs-17-2	fs-17	2	es	cuántos elementos hay en ese periodo	AGGREGATE						18	
+fs-18-1	fs-18	1	fr	quelle est la densité du fer	PROPERTY_LOOKUP	density						
+fs-18-2	fs-18	2	fr	quels autres éléments sont dans le même groupe	FILTER_LIST							
+fs-19			en	which elements are in the same block as iron	FILTER_LIST				was iron's own block			
+fs-20			en	how many elements are in the same series as cerium	AGGREGATE				the lanthanides		15	
+fs-21			en	what is the highest melting point in the same period as iron	SUPERLATIVE	melting_point			vanadium, in period 4		2183	
+# ---- guards ------------------------------------------------------------------------------------
+fs-g1-1	fs-g1	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-g1-2	fs-g1	2	en	what group is it in	PROPERTY_LOOKUP	group_number			guard: the property, not the set		8	
+fs-g2-1	fs-g2	1	en	what is the density of iron	PROPERTY_LOOKUP	density						
+fs-g2-2	fs-g2	2	en	what is its period	PROPERTY_LOOKUP	period			guard		4	
+fs-g3			en	which elements are in group 8	FILTER_LIST				guard: a numbered group			
+fs-g4			en	which elements are in the same group as gold	FILTER_LIST				guard: already worked			
