@@ -41,7 +41,7 @@ not know, so a misspelt column fails instead of being ignored.
 | Column | Meaning |
 |---|---|
 | `expect_row` | The canonical key of the reference-table row the answer must come from, e.g. `geology/quartz`. Keys are `dataset/slug-of-title`, `#2` for a repeated title; see `golden/dataset_keys.tsv`. |
-| `expect_value` | The number the answer must carry — a property's quantity, a row's value, an aggregate, the first element's value in a ranking (which pins a superlative's direction), or the largest value of the first property compared — to within 0.1%. |
+| `expect_value` | The number the answer must carry — a property's quantity, a row's value, an aggregate, the first element's value in a ranking (which pins a superlative's direction), the largest value of the first property compared, a molar mass, a mole count, or the sum of a balanced equation's coefficients (9 for 4Fe + 3O2 → 2Fe2O3; an equation that did not balance carries none) — to within 0.1%. |
 | `known_failure` | Why the row is expected to fail today. A failing known failure is reported but does not fail the build; one that passes fails it, so the mark comes off when the fix lands. |
 
 Routing alone let wrong answers pass: "what is the mass of an electron" was answered from the
