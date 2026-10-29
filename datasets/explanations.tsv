@@ -31,3 +31,43 @@ lanthanide-contraction			trend:atomic_radius:series=lanthanoid
 mercury-liquid			trend:melting_point:group=12
 noble-gas-boiling	boiling_point	group	trend:boiling_point:group=18
 electron-affinity-across-period	electron_affinity	period	trend:electron_affinity:period=3
+boiling-across-period	boiling_point	period	trend:boiling_point:period=3
+density-down-group	density	group	trend:density:group=1
+density-across-period	density	period	trend:density:period=4
+electron-affinity-down-group	electron_affinity	group	trend:electron_affinity:group=17
+thermal-conductivity-metals	thermal_conductivity	table	trend:thermal_conductivity:table
+specific-heat-down-group	specific_heat_capacity	group	trend:specific_heat_capacity:group=1
+work-function-down-group	work_function	group	trend:work_function:group=1
+halogen-states			trend:boiling_point:group=17
+chlorine-electron-affinity			trend:electron_affinity:group=17
+electron-affinity-zero			trend:electron_affinity:period=2
+transition-radius			trend:atomic_radius:period=4
+transition-ionization			trend:ionization_energy:period=4
+helium-ionization			trend:ionization_energy:table
+noble-to-alkali-drop			trend:ionization_energy:table
+ionization-jump-group			ionization:aluminium
+configuration-exceptions			trend:ionization_energy:period=4
+tungsten-melting			trend:melting_point:period=6
+gallium-melting			trend:melting_point:group=13
+transition-melting			trend:melting_point:period=4
+alkaline-earth-melting			trend:melting_point:group=2
+alkaline-earth-reactivity			trend:ionization_energy:group=2
+noble-metals			trend:ionization_energy:group=11
+inert-pair			trend:ionization_energy:group=14
+diagonal-relationship			trend:electronegativity:table
+hydrogen-placement			trend:electronegativity:group=1
+helium-placement			trend:ionization_energy:group=18
+xenon-compounds			trend:ionization_energy:group=18
+carbon-bonding			trend:electronegativity:period=2
+metalloids			trend:electronegativity:period=3
+lanthanide-similarity			trend:atomic_radius:series=lanthanoid
+shielding			trend:atomic_radius:period=2
+group-similarity			trend:ionization_energy:group=1
+periodicity			trend:atomic_radius:table
+noble-gas-electronegativity			trend:electronegativity:period=2
+bond-polarity			trend:electronegativity:period=2
+ionic-bonding			trend:electronegativity:period=3
+metal-cations			trend:ionization_energy:period=3
+metals-conduct-electricity			trend:thermal_conductivity:group=11
+atomic-mass-decimals			trend:atomic_mass:period=3
+radius-new-period			trend:atomic_radius:table

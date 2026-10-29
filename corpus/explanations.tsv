@@ -44,6 +44,72 @@ expl-it-1			it	perché il mercurio è liquido	EXPLANATION					explanation/mercur
 expl-pt-1			pt	por que os metais alcalinos são reativos	EXPLANATION					explanation/alkali-reactivity		
 expl-zh-1			zh	为什么汞是液体	EXPLANATION					explanation/mercury-liquid		
 expl-zh-2			zh	为什么稀有气体不活泼	EXPLANATION					explanation/noble-gas-inert		
+expl-en-23			en	why does boiling point increase across period 3 up to silicon	EXPLANATION					explanation/boiling-across-period		
+expl-en-24			en	why does density increase down a group	EXPLANATION					explanation/density-down-group		
+expl-en-25			en	why is potassium less dense than sodium	EXPLANATION				a topic: no direction named	explanation/density-down-group		
+expl-en-26			en	why does density rise and fall across period 4	EXPLANATION					explanation/density-across-period		
+expl-en-27			en	why does electron affinity decrease down a group	EXPLANATION				a PRO field; the text is free	explanation/electron-affinity-down-group		
+expl-en-28			en	why do metals conduct heat so well	EXPLANATION					explanation/thermal-conductivity-metals		
+expl-en-29			en	why does specific heat capacity decrease down a group	EXPLANATION					explanation/specific-heat-down-group		
+expl-en-30			en	why does hydrogen have such a high specific heat	EXPLANATION					explanation/specific-heat-down-group		
+expl-en-31			en	why does the photoelectric effect work best with caesium	EXPLANATION				"used in" or "good for" asks for uses, which the narrative answers	explanation/work-function-down-group		
+expl-en-32			en	why are chlorine a gas, bromine a liquid and iodine a solid	EXPLANATION					explanation/halogen-states		
+expl-en-33			en	why does chlorine have a higher electron affinity than fluorine	EXPLANATION					explanation/chlorine-electron-affinity		
+expl-en-34			en	why is the electron affinity of nitrogen almost zero	EXPLANATION					explanation/electron-affinity-zero		
+expl-en-35			en	why do transition metals have similar radii	EXPLANATION					explanation/transition-radius		
+expl-en-36			en	why does ionization energy change so little across the transition metals	EXPLANATION					explanation/transition-ionization		
+expl-en-37			en	why does helium have the highest ionization energy	EXPLANATION				a superlative with a why	explanation/helium-ionization		
+expl-en-38			en	why does ionization energy drop from neon to sodium	EXPLANATION				"drop" alone would be the dips	explanation/noble-to-alkali-drop		
+expl-en-39			en	why does the jump in successive ionization energies show the group	EXPLANATION				longer than the plain jumps trigger	explanation/ionization-jump-group		
+expl-en-40			en	why is chromium's electron configuration unusual	EXPLANATION				was a dictionary topic	explanation/configuration-exceptions		
+expl-en-41			en	why does tungsten have the highest melting point of any metal	EXPLANATION					explanation/tungsten-melting		
+expl-en-42			en	why does gallium melt in your hand	EXPLANATION					explanation/gallium-melting		
+expl-en-43			en	why do transition metals have high melting points	EXPLANATION					explanation/transition-melting		
+expl-en-44			en	why do group 2 metals have higher melting points than group 1	EXPLANATION					explanation/alkaline-earth-melting		
+expl-en-45			en	why are alkaline earth metals less reactive than alkali metals	EXPLANATION				the longer alkaline earth trigger wins over alkali metal	explanation/alkaline-earth-reactivity		
+expl-en-46			en	why is gold so unreactive	EXPLANATION					explanation/noble-metals		
+expl-en-47			en	why does lead prefer the plus two oxidation state	EXPLANATION					explanation/inert-pair		
+expl-en-48			en	what causes the inert pair effect	EXPLANATION				a mechanism frame	explanation/inert-pair		
+expl-en-49			en	why is there a diagonal relationship between lithium and magnesium	EXPLANATION					explanation/diagonal-relationship		
+expl-en-50			en	why is hydrogen in group 1	EXPLANATION					explanation/hydrogen-placement		
+expl-en-51			en	why is helium in group 18 and not group 2	EXPLANATION					explanation/helium-placement		
+expl-en-52			en	why can xenon form compounds	EXPLANATION					explanation/xenon-compounds		
+expl-en-53			en	why does carbon form so many compounds	EXPLANATION					explanation/carbon-bonding		
+expl-en-54			en	why are metalloids semiconductors	EXPLANATION					explanation/metalloids		
+expl-en-55			en	why are the lanthanides so similar	EXPLANATION					explanation/lanthanide-similarity		
+expl-en-56			en	how does shielding work	EXPLANATION				a mechanism frame	explanation/shielding		
+expl-en-57			en	why do elements in the same group have similar properties	EXPLANATION					explanation/group-similarity		
+expl-en-58			en	why do properties repeat in the periodic table	EXPLANATION					explanation/periodicity		
+expl-en-59			en	why don't noble gases have an electronegativity	EXPLANATION					explanation/noble-gas-electronegativity		
+expl-en-60			en	why is the bond in water polar	EXPLANATION					explanation/bond-polarity		
+expl-en-61			en	why do metals and nonmetals form ionic bonds	EXPLANATION					explanation/ionic-bonding		
+expl-en-62			en	why do metals form positive ions	EXPLANATION					explanation/metal-cations		
+expl-en-63			en	why do metals conduct electricity	EXPLANATION					explanation/metals-conduct-electricity		
+expl-en-64			en	why are atomic masses not whole numbers	EXPLANATION					explanation/atomic-mass-decimals		
+expl-en-65			en	why does atomic radius jump from neon to sodium	EXPLANATION					explanation/radius-new-period		
+expl-sv-4			sv	varför leder metaller ström	EXPLANATION					explanation/metals-conduct-electricity		
+expl-sv-5			sv	varför är guld så lite reaktivt	EXPLANATION					explanation/noble-metals		
+expl-de-3			de	warum ist Gallium in der Hand flüssig	EXPLANATION					explanation/gallium-melting		
+expl-de-4			de	warum bilden Metalle positive Ionen	EXPLANATION					explanation/metal-cations		
+expl-fr-3			fr	pourquoi le tungstène a-t-il le point de fusion le plus élevé	EXPLANATION				a superlative with a why	explanation/tungsten-melting		
+expl-fr-4			fr	pourquoi l'or est-il si peu réactif	EXPLANATION				"or" alone is inside "chlore"; the trigger is "l or est"	explanation/noble-metals		
+expl-es-3			es	por qué los metales alcalinotérreos son menos reactivos	EXPLANATION					explanation/alkaline-earth-reactivity		
+expl-es-4			es	por qué el carbono forma tantos compuestos	EXPLANATION					explanation/carbon-bonding		
+expl-it-2			it	perché l'effetto fotoelettrico funziona meglio con il cesio	EXPLANATION					explanation/work-function-down-group		
+expl-it-3			it	perché i lantanidi sono così simili	EXPLANATION					explanation/lanthanide-similarity		
+expl-pt-2			pt	por que o hélio está no grupo 18	EXPLANATION					explanation/helium-placement		
+expl-pt-3			pt	por que a ligação na água é polar	EXPLANATION					explanation/bond-polarity		
+expl-af-1			af	hoekom vorm metale positiewe ione	EXPLANATION					explanation/metal-cations		
+expl-af-2			af	hoekom is broom vloeibaar	EXPLANATION					explanation/halogen-states		
+expl-fil-1			fil	bakit naghahatid ng kuryente ang metal	EXPLANATION					explanation/metals-conduct-electricity		
+expl-fil-2			fil	bakit natutunaw ang galyo sa kamay	EXPLANATION					explanation/gallium-melting		
+expl-hi-1			hi	हीलियम समूह 18 में क्यों है	EXPLANATION					explanation/helium-placement		
+expl-hi-2			hi	धातुएँ बिजली का चालन क्यों करती हैं	EXPLANATION					explanation/metals-conduct-electricity		
+expl-ur-1			ur	زینون مرکبات کیوں بنا سکتا ہے	EXPLANATION					explanation/xenon-compounds		
+expl-ur-2			ur	پانی کا بانڈ قطبی کیوں ہے	EXPLANATION					explanation/bond-polarity		
+expl-zh-3			zh	为什么镓在手里会熔化	EXPLANATION					explanation/gallium-melting		
+expl-zh-4			zh	为什么碳能形成这么多化合物	EXPLANATION					explanation/carbon-bonding		
+expl-zh-5			zh	为什么金属能导电	EXPLANATION				"金" alone is inside "金属"; the gold triggers say 黄金	explanation/metals-conduct-electricity		
 expl-neg-1			en	what is electronegativity	DATASET_LOOKUP				a definition is not a why	dictionary/electronegativity		
 expl-neg-2			en	which element has the highest electronegativity	SUPERLATIVE	electronegativity			no why: a ranking		3.98	
 expl-neg-3			en	why is gold yellow				y	a why with no explanation to give still defers			
