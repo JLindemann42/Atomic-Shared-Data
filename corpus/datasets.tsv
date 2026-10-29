@@ -17,7 +17,7 @@ ds-dict-4			en	what is an isotope	DATASET_LOOKUP				dictionary table	dictionary/
 ds-dict-5			en	what is a covalent bond				y	dictionary table — no row answers this, so it must decline			"Hydrogen bond" and "Covalent radius" each hold both words; only phrase evidence could reject them (roadmap 1.1, open)
 ds-dict-6			en	what does oxidation mean	DATASET_LOOKUP				dictionary table	dictionary/oxidation		
 ds-dict-7			en	define molar mass	DATASET_LOOKUP				dictionary table	dictionary/molar-mass		
-ds-why-2			en	why are noble gases unreactive	DATASET_LOOKUP				dictionary table	dictionary/noble-gas		
+ds-why-2			en	why are noble gases unreactive	EXPLANATION				dictionary table; an explanation since roadmap 2.4	explanation/noble-gas-inert		
 ds-eq-1			en	what is the ideal gas law	DATASET_LOOKUP				equation table			
 ds-eq-3			en	what is the nernst equation				y	equation table — no row answers this, so it must decline			
 ds-poisson-2			en	poisson ratio of sandstone	DATASET_LOOKUP				poisson table	poisson/sandstone	0.225	

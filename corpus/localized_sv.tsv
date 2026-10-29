@@ -100,7 +100,7 @@ sv-cat-3			sv	vilka mekaniska egenskaper har volfram	CATEGORY_LOOKUP
 sv-nei-1			sv	vilket grundämne kommer efter guld	NEIGHBOUR				
 sv-dict-2			sv	vad är en isotop	DATASET_LOOKUP				dictionary table
 sv-dict-3			sv	vad är masstal	DATASET_LOOKUP				dictionary table
-sv-dict-4			sv	varför ökar atomradien nedåt i en grupp	DATASET_LOOKUP				dictionary explanation
+sv-dict-4			sv	varför ökar atomradien nedåt i en grupp	EXPLANATION				dictionary explanation; an explanation since roadmap 2.4
 sv-elem-1			sv	vad är väte för grundämne	PROPERTY_LOOKUP	series			short element name, 4 characters
 sv-elem-2			sv	vad är syrets densitet	PROPERTY_LOOKUP	density			short name plus genitive
 sv-elem-3			sv	vad är kvävets atommassa	PROPERTY_LOOKUP	atomic_mass			

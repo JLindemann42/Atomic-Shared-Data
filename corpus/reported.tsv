@@ -7,7 +7,7 @@
 id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes
 # ---- Mechanism questions must never be answered from a property ---------------------------------
 rep-mech-1	rep-radius	1	en	compare the atomic radius of potassium and calcium	COMPARISON	atomic_radius			
-rep-mech-2	rep-radius	2	en	why does radius decrease left to right, despite adding electrons				y	answered "Potassium's Electrons is 19"
+rep-mech-2	rep-radius	2	en	why does radius decrease left to right, despite adding electrons	EXPLANATION				answered "Potassium's Electrons is 19"; an explanation since roadmap 2.4
 rep-mech-3	rep-eneg	1	en	which is more electronegative, oxygen or nitrogen	COMPARATIVE	electronegativity			
 rep-mech-4	rep-eneg	2	en	why does that trend hold going across period 2				y	answered "Helium's Period is 1"
 rep-mech-5	rep-mag	1	en	magnetic properties of iron	CATEGORY_LOOKUP				
@@ -18,7 +18,7 @@ rep-mech-9	rep-vdw	2	en	how does that relate to van der waals forces scaling wit
 rep-mech-10			en	what happens when you inhale chlorine gas				y	listed all eleven gaseous elements
 rep-mech-11			en	what happens when sodium is dropped in water				y	
 rep-mech-12			en	is it safe to mix bleach and ammonia				y	answered with the brass alloy entry
-rep-mech-13			sv	varför minskar atomradien från vänster till höger	DATASET_LOOKUP				a why-question whose topic is genuinely its subject gets the dictionary entry
+rep-mech-13			sv	varför minskar atomradien från vänster till höger	EXPLANATION				a why-question whose topic is genuinely its subject gets the dictionary entry; an explanation since roadmap 2.4
 rep-mech-14			de	wie ändert sich das oberhalb der curie-temperatur				y	
 # ---- A comparison cue keeps its grounded answer, and must not be swept up by the above -----------
 rep-mech-15			en	what is the density of gold and how does it compare to lead	COMPOUND				

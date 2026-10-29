@@ -21,7 +21,7 @@ cx-build-3	cx-build	3	en	and osmium	PROPERTY_LOOKUP	melting_point
 cx-build-4	cx-build	4	en	which element has the highest melting point	SUPERLATIVE	melting_point			the payoff after three manual lookups
 cx-build-5	cx-build	5	en	how does that compare to iron	COMPARATIVE	melting_point			
 cx-interrupt-1	cx-int	1	en	what is the atomic radius of sodium	PROPERTY_LOOKUP	atomic_radius			
-cx-interrupt-2	cx-int	2	en	why does atomic radius increase down a group	DATASET_LOOKUP				a concept question mid-thread, answered from the dictionary
+cx-interrupt-2	cx-int	2	en	why does atomic radius increase down a group	EXPLANATION				a concept question mid-thread, answered from the dictionary; an explanation since roadmap 2.4
 cx-interrupt-3	cx-int	3	en	and potassium	PROPERTY_LOOKUP	atomic_radius			the thread survives the detour
 cx-interrupt-4	cx-int	4	en	which is bigger	COMPARATIVE	atomic_radius			
 cx-interrupt-8	cx-int3	1	en	what is the electronegativity of fluorine	PROPERTY_LOOKUP	electronegativity			

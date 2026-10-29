@@ -1,0 +1,33 @@
+# Explanations for "why" questions (roadmap 2.4): what each one explains, and the live card it is
+# shown with. The text, in each language, is in explanations_<lang>.tsv.
+#
+# field and scope say which trend question an explanation answers: "why does atomic radius increase
+# down a group" resolves atomic_radius and a down-the-group phrase, and finds radius-down-group. A
+# blank field means the explanation is reached by its trigger phrases alone. scope is group, period
+# or table.
+#
+# card is drawn from the app's own data when the explanation is shown:
+#   trend:<field>:group=<n> | period=<n> | series=<series>   a line across that set (2.3); the series as SeriesId names it
+#   trend:<field>:table                                      a heat map of the whole table (2.3)
+#   ionization:<element>                                     that element's successive ionizations
+key	field	scope	card
+radius-down-group	atomic_radius	group	trend:atomic_radius:group=1
+radius-across-period	atomic_radius	period	trend:atomic_radius:period=3
+ionization-across-period	ionization_energy	period	trend:ionization_energy:period=3
+ionization-down-group	ionization_energy	group	trend:ionization_energy:group=1
+ionization-dips			trend:ionization_energy:period=2
+ionization-jumps			ionization:sodium
+electronegativity-across-period	electronegativity	period	trend:electronegativity:period=3
+electronegativity-down-group	electronegativity	group	trend:electronegativity:group=17
+fluorine-electronegativity			trend:electronegativity:period=2
+noble-gas-inert			trend:ionization_energy:group=18
+alkali-reactivity			trend:ionization_energy:group=1
+halogen-reactivity			trend:electronegativity:group=17
+metallic-character			trend:electronegativity:table
+melting-across-period	melting_point	period	trend:melting_point:period=3
+alkali-melting	melting_point	group	trend:melting_point:group=1
+density-table	density	table	trend:density:table
+lanthanide-contraction			trend:atomic_radius:series=lanthanoid
+mercury-liquid			trend:melting_point:group=12
+noble-gas-boiling	boiling_point	group	trend:boiling_point:group=18
+electron-affinity-across-period	electron_affinity	period	trend:electron_affinity:period=3

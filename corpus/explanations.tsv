@@ -1,0 +1,49 @@
+# Why-questions answered with a written explanation and the trend or ionization card that shows it
+# (roadmap 2.4). Before 2.4 the planner declined every one of these as a mechanism it could not
+# explain. expect_row is explanation/<key> from datasets/explanations.tsv; the key pins both which
+# explanation was chosen and, through the spec, which card goes with it.
+#
+# The trend rows name a field and a direction ("down a group", "across a period"); the concept rows
+# name a topic ("lanthanide contraction", "why is mercury liquid"). The negatives keep what is not a
+# why: a definition stays a definition, a ranking a ranking, and a why without an explanation still
+# defers.
+# corpus-format: 2
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
+expl-en-1			en	why does atomic radius increase down a group	EXPLANATION					explanation/radius-down-group		
+expl-en-2			en	why do atoms get smaller across a period	EXPLANATION				no field named; "smaller" is the radius	explanation/radius-across-period		
+expl-en-3			en	why does ionization energy increase across a period	EXPLANATION					explanation/ionization-across-period		
+expl-en-4			en	why does ionization energy decrease down a group	EXPLANATION					explanation/ionization-down-group		
+expl-en-5			en	why is the ionization energy of boron lower than beryllium	EXPLANATION				a topic, not the field's trend	explanation/ionization-dips		
+expl-en-6			en	why is there a big jump in successive ionization energies	EXPLANATION					explanation/ionization-jumps		
+expl-en-7			en	why does electronegativity increase across a period	EXPLANATION					explanation/electronegativity-across-period		
+expl-en-8			en	why does electronegativity decrease down a group	EXPLANATION					explanation/electronegativity-down-group		
+expl-en-9			en	why is fluorine the most electronegative element	EXPLANATION				a superlative with a why: the why wins	explanation/fluorine-electronegativity		
+expl-en-10			en	why are noble gases unreactive	EXPLANATION					explanation/noble-gas-inert		
+expl-en-11			en	why are alkali metals so reactive	EXPLANATION					explanation/alkali-reactivity		
+expl-en-12			en	why is fluorine the most reactive halogen	EXPLANATION					explanation/halogen-reactivity		
+expl-en-13			en	why does metallic character increase down a group	EXPLANATION					explanation/metallic-character		
+expl-en-14			en	why does the melting point peak at silicon in period 3	EXPLANATION					explanation/melting-across-period		
+expl-en-15			en	why do alkali metals have low melting points	EXPLANATION					explanation/alkali-melting		
+expl-en-16			en	why is osmium so dense	EXPLANATION					explanation/density-table		
+expl-en-17			en	why does the lanthanide contraction happen	EXPLANATION				a named effect, not a field	explanation/lanthanide-contraction		
+expl-en-18			en	why is mercury a liquid at room temperature	EXPLANATION					explanation/mercury-liquid		
+expl-en-19			en	why does helium have such a low boiling point	EXPLANATION					explanation/noble-gas-boiling		
+expl-en-20			en	why does electron affinity increase across a period	EXPLANATION					explanation/electron-affinity-across-period		
+expl-en-21			en	explain why atomic radius decreases across a period	EXPLANATION					explanation/radius-across-period		
+expl-en-22			en	how come electronegativity goes down a group	EXPLANATION					explanation/electronegativity-down-group		
+expl-sv-1			sv	varför ökar atomradien nedåt i en grupp	EXPLANATION					explanation/radius-down-group		
+expl-sv-2			sv	varför är ädelgaserna så stabila	EXPLANATION					explanation/noble-gas-inert		
+expl-sv-3			sv	varför är kvicksilver flytande	EXPLANATION					explanation/mercury-liquid		
+expl-de-1			de	warum nimmt die Elektronegativität in einer Periode zu	EXPLANATION					explanation/electronegativity-across-period		
+expl-de-2			de	warum sind Alkalimetalle so reaktiv	EXPLANATION					explanation/alkali-reactivity		
+expl-fr-1			fr	pourquoi le rayon atomique diminue-t-il le long d'une période	EXPLANATION					explanation/radius-across-period		
+expl-fr-2			fr	pourquoi le mercure est-il liquide	EXPLANATION					explanation/mercury-liquid		
+expl-es-1			es	por qué aumenta la energía de ionización a lo largo de un periodo	EXPLANATION					explanation/ionization-across-period		
+expl-es-2			es	por qué los gases nobles son inertes	EXPLANATION					explanation/noble-gas-inert		
+expl-it-1			it	perché il mercurio è liquido	EXPLANATION					explanation/mercury-liquid		
+expl-pt-1			pt	por que os metais alcalinos são reativos	EXPLANATION					explanation/alkali-reactivity		
+expl-zh-1			zh	为什么汞是液体	EXPLANATION					explanation/mercury-liquid		
+expl-zh-2			zh	为什么稀有气体不活泼	EXPLANATION					explanation/noble-gas-inert		
+expl-neg-1			en	what is electronegativity	DATASET_LOOKUP				a definition is not a why	dictionary/electronegativity		
+expl-neg-2			en	which element has the highest electronegativity	SUPERLATIVE	electronegativity			no why: a ranking		3.98	
+expl-neg-3			en	why is gold yellow				y	a why with no explanation to give still defers			
