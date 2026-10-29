@@ -1,0 +1,32 @@
+# The calculators added in roadmap 2.8, stage 1: the ideal gas law, the pH of a strong acid or base,
+# and an ion's electron configuration. All three are PRO+, like the calculators before them.
+#
+# expect_value is the solved quantity for the gas law (atm, L, mol or K, whichever was asked), the pH
+# for a pH question, and the ion's electron count for a configuration: Fe3+ has 23.
+#
+# Every row failed before: a gas-law question with a pressure was read as a unit conversion or a
+# solution, a pH question as a solution with nothing to solve, and "Fe3+" as iron, whose neutral
+# configuration was then given as the ion's.
+# corpus-format: 2
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
+gas-en-1			en	what is the volume of 1 mol of an ideal gas at STP	GAS_LAW				STP fills in 1 atm and 273.15 K		22.414	
+gas-en-2			en	pressure of 2 mol of gas in 10 L at 300 K	GAS_LAW				no gas-law word; the volume, amount and temperature are enough with a pressure asked		4.92344	
+gas-en-3			en	how many moles of gas are in 5 L at 2 atm and 298 K	GAS_LAW						0.40894	
+gas-en-4			en	temperature of 1 mol of ideal gas at 1 atm in 24.47 L	GAS_LAW						298.207	
+gas-en-5			en	volume of 16 g of O2 at STP	GAS_LAW				a mass and a formula make the amount		11.208	
+gas-sv-1			sv	volym av 2 mol gas vid 1 atm och 273 K	GAS_LAW						44.803	
+gas-de-1			de	Volumen von 1 mol idealem Gas bei 100 kPa und 25 °C	GAS_LAW				kPa and °C converted		24.789	
+ph-en-1			en	what is the pH of 0.01 M HCl	PH_CALC						2	
+ph-en-2			en	pH of 0.05 M H2SO4	PH_CALC				both protons		1	
+ph-en-3			en	pH of 0.01 M sodium hydroxide	PH_CALC				named, not written		12	
+ph-en-4			en	pH of 0.02 M Ba(OH)2	PH_CALC				two hydroxides		12.60206	
+ph-sv-1			sv	vad är pH för 0,1 M HCl	PH_CALC				a decimal comma		1	
+ion-en-1			en	electron configuration of Fe3+	ION_CONFIG				[Ar] 3d5: the 4s pair goes first		23	
+ion-en-2			en	what is the electron configuration of Cu+	ION_CONFIG						28	
+ion-en-3			en	electron configuration of Cl-	ION_CONFIG						18	
+ion-en-4			en	O2- electron configuration	ION_CONFIG						10	
+ion-en-5			en	electron configuration of Fe³⁺	ION_CONFIG				superscript charge		23	
+ion-sv-1			sv	elektronkonfiguration för Fe2+	ION_CONFIG						24	
+ion-de-1			de	Elektronenkonfiguration von Na+	ION_CONFIG						10	
+ion-zh-1			zh	Fe3+的电子排布	ION_CONFIG						23	
+ion-neg-1			en	electron configuration of iron	PROPERTY_LOOKUP	electron_configuration			no charge: the element's own configuration			
