@@ -25,18 +25,18 @@ mo-sv-5			sv	kokpunktsvärdet för kväve	PROPERTY_LOOKUP	boiling_point					77.3
 mo-sv-6			sv	vilket element har högst kokpunktstemperatur	SUPERLATIVE	boiling_point					6203	
 # ---- Swedish: the statistic first --------------------------------------------------------------
 mo-sv-7			sv	vad är mediandensiteten för alkalimetallerna	AGGREGATE	density			the median, 1.25, not the mean, 1.287: the Italian and Spanish "media" opened "median"		1.25	
-mo-sv-8			sv	medeltätheten för halogenerna	AGGREGATE	density			medel + täthet; täthet is too short for the compound-head rule, and was no alias at all		2.68187	
+mo-sv-8			sv	medeltätheten för halogenerna	AGGREGATE	density			medel + täthet; täthet is too short for the compound-head rule, and was no alias at all; the halogens include fluorine and chlorine and exclude radon since the data fix		2.0101775	
 mo-sv-g1			sv	medelsmältpunkten för alkalimetallerna	AGGREGATE	melting_point			guard: already worked		342.7407	
 mo-sv-g2			sv	vad är atommassan för guld	PROPERTY_LOOKUP	atomic_mass			guard: atommassa is known whole, never atom + massa		196.967	
 mo-sv-g3			sv	vilken metall har högst täthet	SUPERLATIVE	density			guard			
 # ---- German ------------------------------------------------------------------------------------
 mo-de-1			de	Durchschnittsdichte der Alkalimetalle	AGGREGATE	density			Durchschnitt + s + Dichte		1.28733	
-mo-de-2			de	Mediandichte der Halogene	AGGREGATE	density					3.1028	
+mo-de-2			de	Mediandichte der Halogene	AGGREGATE	density			the halogens include fluorine and chlorine and exclude radon since the data fix		1.553007	
 mo-de-3			de	Dichteunterschied zwischen Gold und Blei	COMPARISON	density					19.3	
 mo-de-4			de	Schmelzpunktunterschied zwischen Eisen und Kupfer	COMPARISON	melting_point					1811	
 mo-de-5			de	Schmelztemperatur von Eisen	PROPERTY_LOOKUP	melting_point			the standard term; schmelz is no word of its own, so this is vocabulary		1811	
 mo-de-6			de	welches Element hat die höchste Siedetemperatur	SUPERLATIVE	boiling_point					6203	
-mo-de-g1			de	Durchschnittsatommasse der Halogene	AGGREGATE	atomic_mass			guard: already worked		186.5617	
+mo-de-g1			de	Durchschnittsatommasse der Halogene	AGGREGATE	atomic_mass			guard: already worked; the halogens include fluorine and chlorine and exclude radon since the data fix		127.5428167	
 # ---- Afrikaans: -ste ---------------------------------------------------------------------------
 mo-af-1			af	watter element is die hardste	SUPERLATIVE	mohs_hardness			hard + ste		9.3	
 mo-af-2			af	watter metaal is die sagste	SUPERLATIVE	mohs_hardness			sag + ste, the least hard; metaal was no metal word either		0.2	
