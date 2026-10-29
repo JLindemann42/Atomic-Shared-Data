@@ -1,0 +1,23 @@
+# A field across a set of elements, in atomic-number order, or across the whole table (roadmap 2.3).
+# Every row here failed before: the planner read "electronegativity across period 3" as a dictionary
+# term, and declined "how does atomic radius change down group 1" as a mechanism it had no
+# explanation for. expect_value on a trend is the first element's value, which pins both the field
+# and the order: sodium's 0.93 opens period 3, fluorine's 3.98 the halogens, hydrogen's density
+# the table.
+#
+# The negatives keep what is not a trend: a why is a mechanism, and a ranking within a period is
+# a ranking.
+# corpus-format: 2
+id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
+trend-en-1			en	electronegativity across period 3	TREND	electronegativity					0.93	
+trend-en-2			en	how does atomic radius change down group 1	TREND	atomic_radius			a data question in a mechanism's words; the trend answers it			
+trend-en-3			en	show the electronegativity trend of group 17	TREND	electronegativity			group 17, not "the halogens": the data files fluorine and chlorine as reactive nonmetals		3.98	
+trend-en-4			en	heat map of density	TREND	density			the whole table		0.0000899	
+trend-en-5			en	melting point trend in period 4	TREND	melting_point					336.7	
+trend-en-6			en	how does density vary across the lanthanides	TREND	density						
+trend-sv-1			sv	hur förändras elektronegativiteten i period 3	TREND	electronegativity					0.93	
+trend-de-1			de	Verlauf der Elektronegativität in Periode 3	TREND	electronegativity					0.93	
+trend-fr-1			fr	tendance de l'électronégativité dans la période 3	TREND	electronegativity					0.93	
+trend-es-1			es	tendencia de la electronegatividad en el periodo 3	TREND	electronegativity					0.93	
+trend-zh-1			zh	第3周期电负性的变化趋势	TREND	electronegativity					0.93	
+trend-neg-1			en	which element in period 3 has the highest electronegativity	SUPERLATIVE	electronegativity			a ranking within the period, not its trend		3.16	
