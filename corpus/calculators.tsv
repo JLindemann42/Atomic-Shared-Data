@@ -1,4 +1,4 @@
-# The calculators added in roadmap 2.8, stage 1: the ideal gas law, the pH of a strong acid or base,
+# The calculators added in roadmap 2.8. Stage 1: the ideal gas law, the pH of a strong acid or base,
 # and an ion's electron configuration. All three are PRO+, like the calculators before them.
 #
 # expect_value is the solved quantity for the gas law (atm, L, mol or K, whichever was asked), the pH
@@ -7,6 +7,10 @@
 # Every row failed before: a gas-law question with a pressure was read as a unit conversion or a
 # solution, a pH question as a solution with nothing to solve, and "Fe3+" as iron, whose neutral
 # configuration was then given as the ion's.
+# Stage 2: one element's share of a compound, empirical and molecular formulas, and amounts through a
+# balanced equation with the limiting reagent. expect_value is the molar mass for a composition, the
+# empirical formula's mass (the molecular one's when a molar mass is given), and for stoichiometry the
+# grams of the species asked about, or of the first product.
 # corpus-format: 2
 id	session	turn	lang	query	expect_intent	expect_fields	expect_card	must_defer	notes	expect_row	expect_value	known_failure
 gas-en-1			en	what is the volume of 1 mol of an ideal gas at STP	GAS_LAW				STP fills in 1 atm and 273.15 K		22.414	
@@ -30,3 +34,22 @@ ion-sv-1			sv	elektronkonfiguration för Fe2+	ION_CONFIG						24
 ion-de-1			de	Elektronenkonfiguration von Na+	ION_CONFIG						10	
 ion-zh-1			zh	Fe3+的电子排布	ION_CONFIG						23	
 ion-neg-1			en	electron configuration of iron	PROPERTY_LOOKUP	electron_configuration			no charge: the element's own configuration			
+comp-en-1			en	what is the mass percent of oxygen in water	FORMULA_MASS				leads with oxygen's share		18.0147	
+comp-en-2			en	percentage of Fe in Fe2O3	FORMULA_MASS						159.687	
+comp-de-1			de	Massenanteil von Sauerstoff in Wasser	FORMULA_MASS				declined before		18.0147	
+emp-en-1			en	empirical formula of a compound with 40% C, 6.7% H and 53.3% O	EMPIRICAL_FORMULA				was a comparison of the three elements		30.0257	
+emp-en-2			en	empirical formula: 75% carbon 25% hydrogen	EMPIRICAL_FORMULA				names, not symbols		16.0424	
+emp-en-3			en	what is the empirical formula of C6H12O6	EMPIRICAL_FORMULA				a common factor of 6		30.0257	
+emp-en-4			en	empirical formula of 72.4% Fe and 27.6% O	EMPIRICAL_FORMULA				a ratio of 1.33, cleared by 3: Fe3O4		231.531	
+emp-en-5			en	empirical formula of 85.6% carbon and 14.4% hydrogen, molar mass 56 g/mol	EMPIRICAL_FORMULA				CH2, and C4H8 for the molar mass		56.1067	
+emp-en-6			en	molecular formula of a compound with empirical formula CH2O and molar mass 180 g/mol	EMPIRICAL_FORMULA						180.154	
+emp-sv-1			sv	empirisk formel för 40% C, 6,7% H och 53,3% O	EMPIRICAL_FORMULA				decimal commas		30.0257	
+emp-zh-1			zh	最简式 C6H12O6	EMPIRICAL_FORMULA						30.0257	
+sto-en-1			en	how many grams of water from 4 g of H2 in 2H2 + O2 -> 2H2O	STOICHIOMETRY				the balancer read "H2 2H2" as a species		35.7491	
+sto-en-2			en	CH4 + 2O2 -> CO2 + 2H2O: how many grams of CO2 from 16 g of methane	STOICHIOMETRY				a named species		43.8928	
+sto-en-3			en	N2 + 3H2 -> 2NH3, how many grams of H2 are needed for 34 g NH3	STOICHIOMETRY				from a product back to a reactant		6.0362	
+sto-en-4			en	how many moles of O2 react with 2 mol H2 in 2 H2 + O2 = 2 H2O	STOICHIOMETRY				moles given; coefficients written apart		31.998	
+sto-en-5			en	2H2 + O2 -> 2H2O with 4 g H2 and 40 g O2, which is the limiting reagent	STOICHIOMETRY				H2 limits; the value is the water made		35.7491	
+sto-de-1			de	Wie viel Gramm Wasser entstehen aus 4 g H2 in 2H2 + O2 -> 2H2O	STOICHIOMETRY						35.7491	
+sto-sv-1			sv	2H2 + O2 -> 2H2O med 4 g H2 och 40 g O2, vilket är det begränsande ämnet	STOICHIOMETRY						35.7491	
+sto-neg-1			en	balance H2 + O2 -> H2O	BALANCE_EQUATION				no amount: still a request to balance			
