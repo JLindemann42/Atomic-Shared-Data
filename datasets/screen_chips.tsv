@@ -1,0 +1,379 @@
+# The questions a chat opened from each screen offers first (roadmap 2.9). The ids are the apps'
+# Screens constants. Every chip must be one the assistant answers in its language: ScreenChipsTest on
+# both platforms asks each and fails on a decline. A language with no row for a screen gets the
+# general chips instead, never another language's.
+screen	lang	chip
+nuclides	en	How many neutrons are in carbon-14?
+nuclides	en	How much carbon-14 is left after 10000 years?
+nuclides	sv	Hur många neutroner har kol-14?
+nuclides	sv	Hur mycket kol-14 är kvar efter 10000 år?
+nuclides	de	Wie viele Neutronen hat Kohlenstoff-14?
+nuclides	de	Wie viel Kohlenstoff-14 ist nach 10000 Jahren übrig?
+nuclides	fr	Combien de neutrons a le carbone-14 ?
+nuclides	fr	Combien de carbone-14 reste-t-il après 10000 ans ?
+nuclides	es	¿Cuántos neutrones tiene el carbono-14?
+nuclides	es	¿Cuánto carbono-14 queda después de 10000 años?
+nuclides	it	Quanti neutroni ha il carbonio-14?
+nuclides	it	Quanto carbonio-14 rimane dopo 10000 anni?
+nuclides	pt	Quantos nêutrons tem o carbono-14?
+nuclides	pt	Quanto carbono-14 resta depois de 10000 anos?
+nuclides	af	Hoeveel neutrone het koolstof-14?
+nuclides	af	Hoeveel koolstof-14 bly oor na 10000 jaar?
+nuclides	fil	Ilang neutron mayroon ang carbon-14?
+nuclides	fil	Gaano karaming carbon-14 ang natitira pagkatapos ng 10000 taon?
+nuclides	hi	कार्बन-14 में कितने न्यूट्रॉन हैं?
+nuclides	hi	10000 साल बाद कितना कार्बन-14 बचता है?
+nuclides	ur	کاربن-14 میں کتنے نیوٹران ہیں؟
+nuclides	ur	10000 سال بعد کتنا کاربن-14 باقی رہتا ہے؟
+nuclides	zh	碳-14有多少个中子？
+nuclides	zh	10000年后还剩多少碳-14？
+emission	en	Emission spectrum of hydrogen
+emission	en	Emission spectrum of neon
+emission	sv	Emissionsspektrum för väte
+emission	sv	Emissionsspektrum för neon
+emission	de	Emissionsspektrum von Wasserstoff
+emission	de	Emissionsspektrum von Neon
+emission	fr	Spectre d'émission de l'hydrogène
+emission	fr	Spectre d'émission du néon
+emission	es	Espectro de emisión del hidrógeno
+emission	es	Espectro de emisión del neón
+emission	it	Spettro di emissione dell'idrogeno
+emission	it	Spettro di emissione del neon
+emission	pt	Espectro de emissão do hidrogênio
+emission	pt	Espectro de emissão do neônio
+emission	af	Emissiespektrum van waterstof
+emission	af	Emissiespektrum van neon
+emission	fil	Emission spectrum ng hydrogen
+emission	fil	Emission spectrum ng neon
+emission	hi	हाइड्रोजन का उत्सर्जन स्पेक्ट्रम
+emission	hi	नियॉन का उत्सर्जन स्पेक्ट्रम
+emission	ur	ہائیڈروجن کا اخراجی طیف
+emission	ur	نیون کا اخراجی طیف
+emission	zh	氢的发射光谱
+emission	zh	氖的发射光谱
+constants	en	What is Avogadro's constant?
+constants	en	Value of the speed of light
+constants	sv	Vad är Avogadros konstant?
+constants	sv	Vad är ljusets hastighet?
+constants	de	Was ist die Avogadro-Konstante?
+constants	de	Was ist die Lichtgeschwindigkeit?
+constants	fr	Quelle est la constante d'Avogadro ?
+constants	fr	Quelle est la vitesse de la lumière ?
+constants	es	¿Cuál es la constante de Avogadro?
+constants	es	¿Cuál es la velocidad de la luz?
+constants	it	Qual è la costante di Avogadro?
+constants	it	Qual è la velocità della luce?
+constants	pt	Qual é a constante de Avogadro?
+constants	pt	Qual é a velocidade da luz?
+constants	af	Wat is Avogadro se konstante?
+constants	af	Wat is die ligspoed?
+constants	fil	Ano ang Avogadro constant?
+constants	fil	Ano ang bilis ng liwanag?
+constants	hi	आवोगाद्रो स्थिरांक क्या है?
+constants	ur	روشنی کی رفتار کیا ہے؟
+dictionary	en	What is an isotope?
+dictionary	en	Define electronegativity
+dictionary	sv	Vad är en isotop?
+dictionary	sv	Vad är elektronegativitet?
+dictionary	de	Was ist ein Isotop?
+dictionary	de	Was ist Elektronegativität?
+dictionary	fr	Qu'est-ce qu'un isotope ?
+dictionary	fr	Qu'est-ce que l'électronégativité ?
+dictionary	es	¿Qué es un isótopo?
+dictionary	es	¿Qué es la electronegatividad?
+dictionary	pt	O que é um isótopo?
+dictionary	pt	O que é eletronegatividade?
+dictionary	af	Wat is 'n isotoop?
+dictionary	af	Wat is elektronegatiwiteit?
+dictionary	fil	Ano ang isotope?
+dictionary	fil	Ano ang electronegativity?
+dictionary	hi	समस्थानिक क्या है?
+dictionary	hi	विद्युत ऋणात्मकता क्या है?
+dictionary	ur	آئسوٹوپ کیا ہے؟
+dictionary	ur	برقی منفیت کیا ہے؟
+dictionary	zh	什么是同位素？
+dictionary	zh	什么是电负性？
+equations	en	What is the ideal gas law?
+equations	en	Formula for kinetic energy
+equations	sv	Vad är allmänna gaslagen?
+equations	sv	Formeln för kinetisk energi
+equations	de	Was ist das ideale Gasgesetz?
+equations	de	Formel für kinetische Energie
+equations	fr	Qu'est-ce que la loi des gaz parfaits ?
+equations	fr	Formule de l'énergie cinétique
+equations	es	¿Qué es la ley de los gases ideales?
+equations	es	Fórmula de la energía cinética
+equations	it	Legge dei gas ideali
+equations	it	Formula dell'energia cinetica
+equations	pt	O que é a lei dos gases ideais?
+equations	pt	Fórmula da energia cinética
+equations	af	Wat is die ideale gaswet?
+equations	af	Formule vir kinetiese energie
+equations	fil	Ano ang ideal gas law?
+equations	fil	Formula ng kinetic energy
+equations	hi	आदर्श गैस नियम क्या है?
+equations	hi	गतिज ऊर्जा का सूत्र
+equations	ur	مثالی گیس کا قانون کیا ہے؟
+equations	ur	حرکی توانائی کا فارمولا
+equations	zh	什么是理想气体定律？
+equations	zh	动能的公式
+poisson	en	Poisson's ratio of gold
+poisson	en	Which element has the highest Poisson's ratio?
+poisson	sv	Poissons tal för guld
+poisson	sv	Vilket grundämne har högst Poissons tal?
+poisson	de	Poissonzahl von Gold
+poisson	de	Welches Element hat die höchste Poissonzahl?
+poisson	fr	Coefficient de Poisson de l'or
+poisson	fr	Quel élément a le plus grand coefficient de Poisson ?
+poisson	es	Coeficiente de Poisson del oro
+poisson	es	¿Qué elemento tiene el mayor coeficiente de Poisson?
+poisson	it	Rapporto di Poisson dell'oro
+poisson	it	Quale elemento ha il rapporto di Poisson più alto?
+poisson	pt	Coeficiente de Poisson do ouro
+poisson	pt	Qual elemento tem o maior coeficiente de Poisson?
+poisson	af	Poisson-verhouding van goud
+poisson	af	Watter element het die hoogste Poisson-verhouding?
+poisson	fil	Poisson ratio ng ginto
+poisson	fil	Aling elemento ang may pinakamataas na Poisson ratio?
+poisson	hi	सोने का प्वासों अनुपात
+poisson	hi	किस तत्व का प्वासों अनुपात सबसे अधिक है?
+poisson	zh	金的泊松比
+poisson	zh	哪种元素的泊松比最高？
+geology	en	What is quartz made of?
+geology	en	Which element is most abundant in the Earth's crust?
+geology	sv	Berätta om kvarts
+geology	sv	Vilket grundämne är vanligast i jordskorpan?
+geology	de	Erzähl mir von Quarz
+geology	fr	Parle-moi du quartz
+geology	fr	Quel élément est le plus abondant dans la croûte terrestre ?
+geology	es	Háblame del cuarzo
+geology	es	¿Qué elemento es el más abundante en la corteza terrestre?
+geology	it	Parlami del quarzo
+geology	it	Qual è l'elemento più abbondante nella crosta terrestre?
+geology	pt	Fale-me sobre o quartzo
+geology	af	Vertel my van kwarts
+geology	fil	Sabihin sa akin ang tungkol sa quartz
+geology	fil	Aling elemento ang pinakamarami sa crust ng Earth?
+geology	hi	क्वार्ट्ज़ के बारे में बताओ
+geology	ur	کوارٹز کے بارے میں بتائیں
+geology	zh	地壳中含量最多的元素是什么？
+solubility	en	Is silver chloride soluble in water?
+solubility	en	Solubility of calcium carbonate
+solubility	sv	Är silverklorid löslig i vatten?
+solubility	sv	Löslighet för kalciumkarbonat
+solubility	de	Ist Silberchlorid in Wasser löslich?
+solubility	de	Löslichkeit von Calciumcarbonat
+solubility	fr	Le chlorure d'argent est-il soluble dans l'eau ?
+solubility	fr	Solubilité du carbonate de calcium
+solubility	es	¿Es soluble en agua el cloruro de plata?
+solubility	es	Solubilidad del carbonato de calcio
+solubility	it	Il cloruro d'argento è solubile in acqua?
+solubility	it	Solubilità del carbonato di calcio
+solubility	pt	O cloreto de prata é solúvel em água?
+solubility	pt	Solubilidade do carbonato de cálcio
+solubility	af	Is silwerchloried oplosbaar in water?
+solubility	af	Oplosbaarheid van kalsiumkarbonaat
+solubility	fil	Natutunaw ba sa tubig ang silver chloride?
+solubility	fil	Solubility ng calcium carbonate
+solubility	hi	कैल्शियम कार्बोनेट की घुलनशीलता
+solubility	ur	کیلشیم کاربونیٹ کی حل پذیری
+solubility	zh	碳酸钙的溶解度
+ions	en	Electron configuration of Fe3+
+ions	en	Electron configuration of Cl-
+ions	sv	Elektronkonfiguration för Fe3+
+ions	sv	Elektronkonfiguration för Cl-
+ions	de	Elektronenkonfiguration von Fe3+
+ions	de	Elektronenkonfiguration von Cl-
+ions	fr	Configuration électronique de Fe3+
+ions	fr	Configuration électronique de Cl-
+ions	es	Configuración electrónica de Fe3+
+ions	es	Configuración electrónica de Cl-
+ions	it	Configurazione elettronica di Fe3+
+ions	it	Configurazione elettronica di Cl-
+ions	pt	Configuração eletrônica de Fe3+
+ions	pt	Configuração eletrônica de Cl-
+ions	af	Elektronkonfigurasie van Fe3+
+ions	af	Elektronkonfigurasie van Cl-
+ions	fil	Electron configuration ng Fe3+
+ions	fil	Electron configuration ng Cl-
+ions	hi	Fe3+ का इलेक्ट्रॉनिक विन्यास
+ions	hi	Cl- का इलेक्ट्रॉनिक विन्यास
+ions	ur	Fe3+ کی الیکٹرانی ترتیب
+ions	ur	Cl- کی الیکٹرانی ترتیب
+ions	zh	Fe3+的电子排布
+ions	zh	Cl-的电子排布
+electrode	en	Standard electrode potential of zinc
+electrode	en	Electrode potential of copper
+electrode	sv	Elektrodpotential för zink
+electrode	sv	Elektrodpotential för koppar
+electrode	de	Elektrodenpotential von Zink
+electrode	de	Elektrodenpotential von Kupfer
+electrode	fr	Potentiel standard d'électrode du zinc
+electrode	fr	Potentiel d'électrode du cuivre
+electrode	es	Potencial de electrodo del zinc
+electrode	es	Potencial de electrodo del cobre
+electrode	it	Potenziale di elettrodo del rame
+electrode	pt	Potencial de eletrodo do zinco
+electrode	pt	Potencial de eletrodo do cobre
+electrode	af	Elektrodepotensiaal van sink
+electrode	af	Elektrodepotensiaal van koper
+electrode	fil	Standard electrode potential ng zinc
+electrode	fil	Electrode potential ng tanso
+electrode	zh	锌的标准电极电势
+ph	en	pH of 0.01 M HCl
+ph	en	pH of 0.05 M NaOH
+ph	sv	pH för 0,01 M HCl
+ph	sv	pH för 0,05 M NaOH
+ph	de	pH-Wert von 0,01 M HCl
+ph	de	pH-Wert von 0,05 M NaOH
+ph	fr	pH de HCl 0,01 M
+ph	fr	pH de NaOH 0,05 M
+ph	es	pH de HCl 0,01 M
+ph	es	pH de NaOH 0,05 M
+ph	it	pH di HCl 0,01 M
+ph	it	pH di NaOH 0,05 M
+ph	pt	pH de HCl 0,01 M
+ph	pt	pH de NaOH 0,05 M
+ph	af	pH van 0,01 M HCl
+ph	af	pH van 0,05 M NaOH
+ph	fil	pH ng 0.01 M HCl
+ph	fil	pH ng 0.05 M NaOH
+ph	hi	0.01 M HCl का pH
+ph	hi	0.05 M NaOH का pH
+ph	ur	0.01 M HCl کا pH
+ph	ur	0.05 M NaOH کا pH
+alloys	en	What is brass made of?
+alloys	en	What is steel made of?
+alloys	sv	Vad är mässing gjort av?
+alloys	sv	Vad är stål gjort av?
+alloys	de	Woraus besteht Messing?
+alloys	de	Woraus besteht Stahl?
+alloys	fr	De quoi est fait le laiton ?
+alloys	fr	De quoi est fait l'acier ?
+alloys	es	¿De qué está hecho el latón?
+alloys	es	¿De qué está hecho el acero?
+alloys	it	Di cosa è fatto l'ottone?
+alloys	it	Di cosa è fatto l'acciaio?
+alloys	pt	De que é feito o latão?
+alloys	pt	De que é feito o aço?
+alloys	af	Waarvan is staal gemaak?
+alloys	fil	Saan gawa ang brass?
+alloys	fil	Saan gawa ang bakal na steel?
+alloys	zh	黄铜是由什么制成的？
+alloys	zh	钢是由什么制成的？
+molar_mass	en	Molar mass of H2SO4
+molar_mass	en	Empirical formula of 40% C, 6.7% H and 53.3% O
+molar_mass	sv	Molmassa för H2SO4
+molar_mass	sv	Empirisk formel för 40% C, 6,7% H och 53,3% O
+molar_mass	de	Molare Masse von H2SO4
+molar_mass	de	Empirische Formel von 40% C, 6,7% H und 53,3% O
+molar_mass	fr	Masse molaire de H2SO4
+molar_mass	fr	Formule empirique de 40% C, 6,7% H et 53,3% O
+molar_mass	es	Masa molar de H2SO4
+molar_mass	es	Fórmula empírica de 40% C, 6,7% H y 53,3% O
+molar_mass	it	Massa molare di H2SO4
+molar_mass	it	Formula empirica di 40% C, 6,7% H e 53,3% O
+molar_mass	pt	Massa molar de H2SO4
+molar_mass	pt	Fórmula mínima de 40% C, 6,7% H e 53,3% O
+molar_mass	af	Molêre massa van H2SO4
+molar_mass	af	Empiriese formule van 40% C, 6,7% H en 53,3% O
+molar_mass	fil	Molar mass ng H2SO4
+molar_mass	fil	Empirical formula ng 40% C, 6.7% H at 53.3% O
+molar_mass	hi	H2SO4 का मोलर द्रव्यमान
+molar_mass	hi	40% C, 6.7% H और 53.3% O का मूलानुपाती सूत्र
+molar_mass	ur	H2SO4 کا مولر ماس
+molar_mass	ur	40% C، 6.7% H اور 53.3% O کا تجربی فارمولا
+molar_mass	zh	H2SO4的摩尔质量
+unit_converter	en	Convert 100 kPa to atm
+unit_converter	en	Convert 25 °C to K
+unit_converter	sv	Omvandla 100 kPa till atm
+unit_converter	sv	Omvandla 25 °C till K
+unit_converter	de	Rechne 100 kPa in atm um
+unit_converter	de	Rechne 25 °C in K um
+unit_converter	fr	Convertir 100 kPa en atm
+unit_converter	fr	Convertir 25 °C en K
+unit_converter	es	Convierte 100 kPa a atm
+unit_converter	es	Convierte 25 °C a K
+unit_converter	it	Converti 100 kPa in atm
+unit_converter	it	Converti 25 °C in K
+unit_converter	pt	Converter 100 kPa para atm
+unit_converter	pt	Converter 25 °C para K
+unit_converter	af	Skakel 100 kPa om na atm
+unit_converter	af	Skakel 25 °C om na K
+unit_converter	fil	I-convert ang 100 kPa sa atm
+unit_converter	fil	I-convert ang 25 °C sa K
+unit_converter	hi	100 kPa को atm में बदलें
+unit_converter	hi	25 °C को K में बदलें
+unit_converter	ur	100 kPa کو atm میں تبدیل کریں
+unit_converter	ur	25 °C کو K میں تبدیل کریں
+ideal_gas	en	Volume of 1 mol of gas at STP
+ideal_gas	en	Pressure of 2 mol of gas in 10 L at 300 K
+ideal_gas	sv	Volym av 1 mol gas vid STP
+ideal_gas	sv	Tryck för 2 mol gas i 10 L vid 300 K
+ideal_gas	de	Volumen von 1 mol Gas bei Normbedingungen
+ideal_gas	de	Druck von 2 mol Gas in 10 L bei 300 K
+ideal_gas	fr	Volume de 1 mol de gaz aux CNTP
+ideal_gas	fr	Pression de 2 mol de gaz dans 10 L à 300 K
+ideal_gas	es	Volumen de 1 mol de gas en CNPT
+ideal_gas	es	Presión de 2 mol de gas en 10 L a 300 K
+ideal_gas	it	Volume di 1 mol di gas in condizioni standard
+ideal_gas	it	Pressione di 2 mol di gas in 10 L a 300 K
+ideal_gas	pt	Volume de 1 mol de gás nas CNTP
+ideal_gas	pt	Pressão de 2 mol de gás em 10 L a 300 K
+ideal_gas	af	Volume van 1 mol gas by STD
+ideal_gas	af	Druk van 2 mol gas in 10 L by 300 K
+ideal_gas	fil	Volume ng 1 mol na gas sa STP
+ideal_gas	fil	Presyon ng 2 mol na gas sa 10 L sa 300 K
+ideal_gas	hi	STP पर 1 mol गैस का आयतन
+ideal_gas	hi	300 K पर 10 L में 2 mol गैस का दाब
+ideal_gas	ur	STP پر 1 mol گیس کا حجم
+ideal_gas	ur	300 K پر 10 L میں 2 mol گیس کا دباؤ
+ideal_gas	zh	标准状况下1 mol气体的体积
+balancer	en	Balance Fe + O2 -> Fe2O3
+balancer	en	How many grams of H2O from 4 g of H2 in 2H2 + O2 -> 2H2O
+balancer	sv	Balansera Fe + O2 -> Fe2O3
+balancer	sv	Hur många gram H2O av 4 g H2 i 2H2 + O2 -> 2H2O
+balancer	de	Gleiche Fe + O2 -> Fe2O3 aus
+balancer	de	Wie viel Gramm H2O aus 4 g H2 in 2H2 + O2 -> 2H2O
+balancer	fr	Équilibre Fe + O2 -> Fe2O3
+balancer	fr	Combien de grammes de H2O avec 4 g de H2 dans 2H2 + O2 -> 2H2O
+balancer	es	Balancea Fe + O2 -> Fe2O3
+balancer	es	Cuántos gramos de H2O con 4 g de H2 en 2H2 + O2 -> 2H2O
+balancer	it	Bilancia Fe + O2 -> Fe2O3
+balancer	it	Quanti grammi di H2O da 4 g di H2 in 2H2 + O2 -> 2H2O
+balancer	pt	Balanceie Fe + O2 -> Fe2O3
+balancer	pt	Quantos gramas de H2O com 4 g de H2 em 2H2 + O2 -> 2H2O
+balancer	af	Balanseer Fe + O2 -> Fe2O3
+balancer	af	Hoeveel gram H2O uit 4 g H2 in 2H2 + O2 -> 2H2O
+balancer	fil	I-balance ang Fe + O2 -> Fe2O3
+balancer	fil	Ilang gramo ng H2O mula sa 4 g H2 sa 2H2 + O2 -> 2H2O
+balancer	hi	Fe + O2 -> Fe2O3 को संतुलित करें
+balancer	hi	2H2 + O2 -> 2H2O में 4 g H2 से कितने ग्राम H2O
+balancer	ur	Fe + O2 -> Fe2O3 کو متوازن کریں
+balancer	ur	2H2 + O2 -> 2H2O میں 4 g H2 سے کتنے گرام H2O
+balancer	zh	配平 Fe + O2 -> Fe2O3
+balancer	zh	在 2H2 + O2 -> 2H2O 中4 g H2生成多少克H2O
+games	en	Quiz me on the halogens
+games	en	What should I study?
+games	sv	Förhör mig på halogenerna
+games	sv	Vad ska jag plugga?
+games	de	Frag mich über die Halogene ab
+games	de	Was soll ich lernen?
+games	fr	Interroge-moi sur les halogènes
+games	fr	Que dois-je réviser ?
+games	es	Hazme un quiz sobre los halógenos
+games	es	¿Qué debo estudiar?
+games	it	Fammi un quiz sugli alogeni
+games	it	Cosa devo studiare?
+games	pt	Faça um quiz sobre os halogênios
+games	pt	O que devo estudar?
+games	af	Toets my oor die halogene
+games	af	Wat moet ek leer?
+games	fil	Bigyan mo ako ng quiz tungkol sa halogens
+games	fil	Balik aral tayo
+games	hi	हैलोजन पर मेरा क्विज़ लो
+games	hi	मैं क्या पढ़ूँ?
+games	ur	ہیلوجنز پر میرا کوئز لیں
+games	ur	میں کیا پڑھوں؟
+games	zh	考考我卤素
+games	zh	我应该复习什么？
